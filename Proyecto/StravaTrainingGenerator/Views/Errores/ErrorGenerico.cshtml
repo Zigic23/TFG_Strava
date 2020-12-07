@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Errores";
+    Layout = "~/Views/Shared/Master_Error.cshtml";
+}
+
+<div class="error offline">
+    <section class="center">
+        <img src="~/Content/images/errors/error_img.png" alt="" title="" />
+        <p class="name_error txt_center"><span class="type">404</span><span class="name">Página no encontrada</span></p>
+        <h2>Disculpa, la página que has solicitado no está disponible. Puede que no exista o haber cambiado la dirección (URL). Compruebe que ha escrito la dirección correcta o intente localizar el contenido buscado desde uno de estos enlaces:</h2>
+        <div class="botonera">
+            <a href="javascript:history.back()" class="btn btn_red" title="Volver Atrás">Volver Atrás</a>
+            <a href="~/Home/Index" class="btn ml10" title="Ir a la página de Inicio">Ir a la página de Inicio</a>
+        </div>
+    </section>
+</div>

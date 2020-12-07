@@ -1,0 +1,11 @@
+﻿<div class="slider">
+    <input type="range" min="0" max="10" class="w100" step="1" value="0" onmousemove="updateTextInput(this.value);" />
+    <div id="mask_slider" class="mask_slider"></div>
+    <input class="input_value" type="text" id="textInput" value="0" disabled>
+    <script>
+        function updateTextInput(val) {
+            document.getElementById('textInput').value = val;
+            document.getElementById('mask_slider').style.width = val * 9.9 + "%";
+        }
+    </script>
+</div>

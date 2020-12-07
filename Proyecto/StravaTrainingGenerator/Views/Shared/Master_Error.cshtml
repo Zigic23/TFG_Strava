@@ -1,0 +1,60 @@
+﻿@* MasterError Samples *@
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    @* Favicon *@
+    <link rel="icon" type="image/png" href="~/Content/images/favicon.png" />
+
+    @* Font Awesome *@
+    <link href="~/Content/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
+
+    @* jQuery *@
+    <script src="~/Content/jquery/jquery-3.3.1.min.js"></script>
+    <script src="~/Content/jquery/jquery-ui.min.js"></script>
+    <link href="~/Content/jquery/jquery-ui.min.css" rel="stylesheet" />
+    <link href="~/Content/jquery/jquery-ui.structure.min.css" rel="stylesheet" />
+    <link href="~/Content/jquery/jquery-ui.theme.min.css" rel="stylesheet" />
+
+    @* Main stylesheet *@
+    <link href="~/Content/css/main.min.css" rel="stylesheet" />
+    @* Theme selection *@
+    <link href="~/Content/css/main-theme-light.min.css" rel="stylesheet" />
+    @RenderSection("css", false)
+
+    @* Main JS functionality *@
+    <script src="~/Content/js/main.js"></script>
+    @RenderSection("js", false)
+
+</head>
+<body>
+    @* Aviso de Cookies *@
+    @await Html.PartialAsync("~/Views/Shared/Content/Cookies.cshtml")
+
+
+    @RenderSection("popup", false)
+
+
+    <section class="wrapper">
+        
+        <section class="content">
+            @RenderSection("left", false)
+            <div class="col_center">
+                @RenderBody()
+            </div>
+            @RenderSection("right", false)
+        </section>
+    </section>
+
+    @*<footer class="foo">
+        @{ await Html.RenderPartialAsync("~/Views/Shared/Footer/Footer.cshtml"); }
+    </footer>*@
+    <a href="#" class="scroll_up"><i class="fas fa-arrow-up"></i></a>
+</body>
+</html>

@@ -1,0 +1,14 @@
+﻿[
+  {
+    "outputFile": "Content/css/main-theme-dashboard.css",
+    "inputFile": "Content/css/main-theme-dashboard.less"
+  },
+  {
+    "outputFile": "wwwroot/Content/css/main-theme-dashboard.css",
+    "inputFile": "wwwroot/Content/css/main-theme-dashboard.less"
+  },
+  {
+    "outputFile": "wwwroot/Content/css/main.css",
+    "inputFile": "wwwroot/Content/css/main.less"
+  }
+]

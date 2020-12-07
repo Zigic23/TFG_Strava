@@ -1,0 +1,281 @@
+﻿@using Kendo.Mvc.UI
+
+@* Kendo *@
+<div class="row mb-4">
+    @* Kendo select *@
+    <div class="col">
+        @(Html.Kendo().DropDownList()
+          .Name("color")
+          .DataTextField("Text")
+          .DataValueField("Value")
+          .BindTo(new List<SelectListItem>() {
+              new SelectListItem() {
+                  Text = "Black",
+                  Value = "1"
+              },
+              new SelectListItem() {
+                  Text = "Orange",
+                  Value = "2"
+              },
+              new SelectListItem() {
+                  Text = "Grey",
+                  Value = "3"
+              }
+          })
+          .HtmlAttributes(new { style = "width: 100%", placeholder = "Seleccionar..." })
+    )
+    </div>
+    @* Kendo calendario *@
+    <div class="col">
+        @(Html.Kendo().DatePicker()
+          .Name("datepicker")
+          //.Value("10/10/2011")
+          .HtmlAttributes(new { style = "width: 100%", title = "datepicker", placeholder = "Desde..." })
+        )
+    </div>
+    <div class="col">
+
+    </div>
+    <div class="col">
+
+    </div>
+</div>
+
+@* Inputs *@
+<div class="row mb-4">
+    @* Input simple *@
+    <div class="col">
+        <div class="labelinput">
+            <label class="label">Usuario:</label>
+            <input class="input" type="text" placeholder="Nombre...">
+        </div>
+    </div>
+    @* Input simple tipo email *@
+    <div class="col">
+        <div class="labelinput">
+            <label class="label">Mail:</label>
+            <input class="input" type="email" placeholder="Nombre...">
+            <span class="txt-error">Mensaje de error</span>
+        </div>
+    </div>
+    @* Input simple tipo contraseña *@
+    <div class="col">
+        <div class="labelinput">
+            <label class="label">Contraseña:</label>
+            <input class="input" type="password" placeholder="Nombre...">
+        </div>
+    </div>
+    @* Input simple deshabilitado *@
+    <div class="col">
+        <div class="labelinput">
+            <label class="label">Usuario:</label>
+            <input class="input" type="text" placeholder="Nombre..." disabled>
+        </div>
+    </div>
+</div>
+<div class="row mb-4">
+    @* textarea simple *@
+    <div class="col">
+        <div class="labelinput">
+            <label class="label">Usuario:</label>
+            <textarea class="textarea" placeholder="Nombre..."></textarea>
+        </div>
+    </div>
+    @* textarea deshabilitado *@
+    <div class="col">
+        <div class="labelinput">
+            <label class="label">Usuario:</label>
+            <textarea class="textarea" placeholder="Nombre..."></textarea>
+        </div>
+    </div>
+</div>
+
+
+@* Selects *@
+<div class="row mb-4">
+    @* Select simple *@
+    <div class="col">
+        <div class="labelinput labelselect">
+            <label class="label">Usuario:</label>
+            <div class="box-input">
+                <select class="select">
+                    <option value="">Seleccionar...</option>
+                    <option value="1">Alabama</option>
+                    <option value="2">Boston</option>
+                    <option value="3">Ohaio</option>
+                    <option value="4">New York</option>
+                    <option value="5">Washington</option>
+                </select>
+                <i class="fas fa-chevron-down arrow-select"></i>
+            </div>
+        </div>
+    </div>
+    @* Select simple deshabilitado *@
+    <div class="col">
+        <div class="labelinput labelselect">
+            <label class="label">Usuario:</label>
+            <div class="box-input">
+                <select class="select" disabled>
+                    <option value="" selected>Seleccionar...</option>
+                    <option value="1">Alabama</option>
+                    <option value="2">Boston</option>
+                    <option value="3">Ohaio</option>
+                    <option value="4">New York</option>
+                    <option value="5">Washington</option>
+                </select>
+                <i class="fas fa-chevron-down arrow-select"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@* Inputs *@
+<div class="row mb-4">
+    @* Input especial *@
+    <div class="col">
+        <label for="inp" class="box-labelinput">
+            <input type="text" id="inp" placeholder="&nbsp;">
+            <span class="label-move">Usuario</span>
+            <span class="focus-bg"></span>
+        </label>
+    </div>
+    @* Input especial tipo email *@
+    <div class="col">
+        <label for="inp" class="box-labelinput">
+            <input type="email" id="inp" placeholder="&nbsp;">
+            <span class="label-move">Usuario</span>
+            <span class="focus-bg"></span>
+        </label>
+    </div>
+    @* Input especial deshabilitado *@
+    <div class="col">
+        <label for="inp" class="box-labelinput">
+            <input type="text" id="inp" placeholder="&nbsp;" disabled>
+            <span class="label-move">Usuario</span>
+            <span class="focus-bg"></span>
+        </label>
+    </div>
+</div>
+<div class="row mb-4">
+    @* textarea especial *@
+    <div class="col">
+        <label for="inp" class="box-labelinput">
+            <textarea type="text" id="inp" placeholder="&nbsp;"></textarea>
+            <span class="label-move">Mensaje</span>
+            <span class="focus-bg"></span>
+        </label>
+    </div>
+    @* textarea especial deshabilitado *@
+    <div class="col">
+        <label for="inp" class="box-labelinput">
+            <textarea type="text" id="inp" placeholder="&nbsp;" disabled></textarea>
+            <span class="label-move">Mensaje</span>
+            <span class="focus-bg"></span>
+        </label>
+    </div>
+</div>
+@* Selects *@
+<div class="row mb-4">
+    @* Select especial *@
+    <div class="col">
+        <div class="box-labelselect">
+            <div class="highlight"></div>
+            <select class="select" onclick="this.setAttribute('value', this.value);" value="">
+                <option value=""></option>
+                <option value="1">Alabama</option>
+                <option value="2">Boston</option>
+                <option value="3">Ohaio</option>
+                <option value="4">New York</option>
+                <option value="5">Washington</option>
+            </select>
+            <label class="label-select">Select</label>
+            <i class="fas fa-chevron-down arrow-select"></i>
+        </div>
+    </div>
+    @* Select especial deshabilitado *@
+    <div class="col">
+        <div class="box-labelselect">
+            <select disabled class="select" onclick="this.setAttribute('value', this.value);" value="">
+                <option value=""></option>
+                <option value="1">Alabama</option>
+                <option value="2">Boston</option>
+                <option value="3">Ohaio</option>
+                <option value="4">New York</option>
+                <option value="5">Washington</option>
+            </select>
+            <span class="highlight"></span>
+            <label class="label-select">Select</label>
+            <i class="fas fa-chevron-down arrow-select"></i>
+        </div>
+    </div>
+</div>
+<div class="row mb-4">
+    @* Checks *@
+    <div class="col">
+        <div class="cb-item">
+            <input type="checkbox" name="checkbox" id="check_1" />
+            <label class="label" for="check_1"><span class="txt">Option Checkbox</span></label>
+        </div>
+        <div class="cb-item">
+            <input type="checkbox" name="checkbox" id="check_2" checked />
+            <label class="label" for="check_2"><span class="txt">Option Checkbox</span></label>
+        </div>
+        <div class="cb-item">
+            <input type="checkbox" name="checkbox" id="check_3" disabled />
+            <label class="label" for="check_3"><span class="txt">Option Checkbox</span></label>
+        </div>
+    </div>
+    @* Radios *@
+    <div class="col">
+        <div class="cb-item">
+            <input type="radio" name="radio" id="radio_1" />
+            <label class="label" for="radio_1"><span class="txt">Option Radio</span></label>
+        </div>
+        <div class="cb-item">
+            <input type="radio" name="radio" id="radio_2" checked />
+            <label class="label" for="radio_2"><span class="txt">Option Radio</span></label>
+        </div>
+        <div class="cb-item">
+            <input type="radio" name="radio" id="radio_3" disabled />
+            <label class="label" for="radio_3"><span class="txt">Option Radio</span></label>
+        </div>
+    </div>
+    <div class="col">
+        <label class="switch">
+            <input type="checkbox" name="slider" id="slider_1">
+            <span class="slider round" for="slider_1"></span>
+        </label>
+    </div>
+    <div class="col">
+
+    </div>
+</div>
+<div class="row">
+    @* Selector de ficheros simple *@
+    <div class="col">
+        <div class=" labelinput">
+            <label class="label">Usuario:</label>
+            <div class="box-inputfile">
+                <input type="file" name="file" id="file_select" class="inputfile" />
+                <label for="file_select" class="input d-flex align-items-center"><span class="col p-0">Seleccionar archivo...</span><button class="col-auto p-0 btn btn-2 btn-s btn-icon"><i class="fas fa-paperclip" aria-hidden="true"></i></button></label>
+            </div>
+        </div>
+    </div>
+    @* Selector de ficheros especial *@
+    <div class="col">
+        <div class="box-group-inputfile">
+            <label class="label-move">Fichero</label>
+            <input type="file" multiple name="file" id="file_select2" class="inputfile" />
+            <label for="file_select2" class="file d-flex align-items-center"><span class="col p-0">Seleccionar archivo...</span><button class="col-auto p-0 btn btn-2 btn-m btn-icon"><i class="fas fa-paperclip" aria-hidden="true"></i></button></label>
+        </div>
+    </div>
+    <div class="col">
+    </div>
+    <div class="col">
+
+    </div>
+</div>
+@* Codigo para selector de ficheros *@
+<script src="~/Content/js/jquery.custom-file-input.js"></script>

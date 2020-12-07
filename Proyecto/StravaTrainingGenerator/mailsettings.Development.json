@@ -1,0 +1,10 @@
+{
+  "MailSettings": {
+    "From": "info@solusoft.es",
+    "Protocol": "stmp",
+    "Server": "smtp.1and1.es",
+    "Port": 465,
+    "Username": "info@distineo.com",
+    "Password": "s0lus0ft-10"
+  }
+}

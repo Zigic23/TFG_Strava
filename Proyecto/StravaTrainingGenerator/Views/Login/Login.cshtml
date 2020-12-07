@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    ViewData["wrapper_login"] = "wrapper-login";
+    Layout = "~/Views/Shared/Master.cshtml";
+}
+
+@* Pantalla de login *@
+<div class="row h-100 d-flex align-items-center justify-content-center">
+    <div class="col-3 card card-login">
+        <figure class="logo d-flex justify-content-center mb-5">
+            <img src="~/Content/images/logos/logo.svg" />
+        </figure>
+        <label for="inp" class="box-labelinput mb-4">
+            <input type="text" id="inp" placeholder="&nbsp;">
+            <span class="label-move">Usuario</span>
+            <span class="focus-bg"></span>
+        </label>
+        <label for="inp" class="box-labelinput mb-3">
+            <input type="password" id="inp" placeholder="&nbsp;">
+            <span class="label-move">Contraseña</span>
+            <span class="focus-bg"></span>
+        </label>
+        <div class="forget-pass d-flex justify-content-end mb-5">
+            <a href="~/Login/RememberPassword" class="link d-flex align-items-center">¿Has olvidado la contraseña?<i class="fas fa-chevron-right ml-3"></i></a>
+        </div>
+        <div class="buttons d-flex justify-content-center">
+            <a href="/Home" class="btn btn-2 btn-xl">Iniciar Sesión</a>
+        </div>
+    </div>
+</div>
+
+
+
+

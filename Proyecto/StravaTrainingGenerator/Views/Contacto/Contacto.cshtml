@@ -1,0 +1,81 @@
+﻿
+@{
+    ViewBag.Title = "Contacto";
+    Layout = "~/Views/Shared/Master.cshtml";
+}
+
+<div class="two_col contact">
+    <div class="two_col_left">
+        <h1>Contacto</h1>
+        <div class="form">
+            <div class="row_form row">
+                <div class="column_form column">
+                    <div class="item_form item_select">
+                        <label for="name" class="label">*Nombre:</label>
+                        <input type="text" id="name" name="formulario" class="input_text input" placeholder="..." required />
+                        <span class="txt_error" style="visibility:hidden;">Introducir Nombre.</span>
+                    </div>
+                </div>                
+            </div>
+            <div class="row_form">
+                <div class="column_form">
+                    <div class="item_form item_select">
+                        <label for="surname" class="label">*Apellidos:</label>
+                        <input type="text" id="surname" name="formulario" class="input_text input_error input" placeholder="..." required />
+                        <span class="txt_error">Introducir Apellido.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row_form">
+                <div class="column_form">
+                    <div class="item_form item_select">
+                        <label for="mail" class="label">*Email:</label>
+                        <input type="email" id="mail" name="formulario" class="input_text input" placeholder="..." required />
+                        <span class="txt_error" style="visibility:hidden;">Introducir Correo Electrónico.</span>
+                    </div>
+                </div>                
+            </div>
+            <div class="row_form">               
+                <div class="column_form">
+                    <div class="box_form_item">
+                        <label for="message" class="label">Mensaje:</label>
+                        <textarea id="message" type="text" class="textarea" placeholder="..."></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="captcha mb10">
+
+            </div>
+            <div class="flex flex_jcc buttons_group">
+                <button class="btn btn_width" type="button">Enviar Formulario</button>
+            </div>
+        </div>
+    </div>
+    <div class="two_col_right">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3040.4200366076475!2d-3.745739184438246!3d40.35520986730227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4189df2fed5a69%3A0x489e872fc4fa25b4!2sAv.+Juan+Caramuel%2C+28919+Legan%C3%A9s%2C+Madrid!5e0!3m2!1ses!2ses!4v1527583033150" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="element_contact">
+            <i class="fas fa-road"></i>
+            <p>
+                Avenida Juan Caramuel,27, Leganés(Madrid), 28919.
+            </p>
+        </div>
+        <div class="element_contact">
+            <i class="fas fa-phone"></i>
+            <p>
+                <a href="tel:916886644">91 688 66 44</a>
+
+            </p>
+        </div>
+        <div class="element_contact">
+            <i class="far fa-envelope-open"></i>
+            <p>
+                <a href="mailto:mail@mail.es">mail@mail.es</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+

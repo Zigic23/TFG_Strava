@@ -1,0 +1,10 @@
+{
+  "MailSettings": {
+    "From": "info@solusoft.es",
+    "Protocol": "stmp",
+    "Server": "smtp.myserver.com",
+    "Port": 465,
+    "Username": "smtpusername",
+    "Password": "smtppassword"
+  }
+}

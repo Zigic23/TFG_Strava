@@ -1,0 +1,205 @@
+﻿
+@{
+    ViewBag.Title = "Controles";
+    Layout = "~/Views/Shared/Master.cshtml";
+}
+
+@section left{
+    @{ await Html.RenderPartialAsync("~/Views/Controles/LeftColumn.cshtml"); }
+}
+
+@section popup{
+    @{ await Html.RenderPartialAsync("~/Views/Controles/Partial_Popup.cshtml"); }
+}
+
+@section popup2{
+    @{ await Html.RenderPartialAsync("~/Views/Controles/Partial_Popup2.cshtml"); }
+}
+
+@section popup_Carga{
+    @{ await Html.RenderPartialAsync("~/Views/Controles/Partial_Popup_Carga.cshtml"); }
+}
+
+
+<h1 class="title_page">Controles</h1>
+
+@* Controles *@
+<section class="components">
+    @* Migas de Pan *@
+    <article class="component" id="breadcrumb">
+        <h2 class="title_component">Migas de Pan</h2>
+        @await Html.PartialAsync("~/Views/Controles/Partial_MigasDePan.cshtml")
+    </article>
+
+    @* Botones *@
+    <article class="component" id="buttons">
+        <h2 class="title_component">Botones</h2>
+        <div class="list_buttons flex flex_aic">
+            @await Html.PartialAsync("~/Views/Controles/Partial_Botones.cshtml")
+        </div>
+    </article>
+
+    @* Checkbox *@
+    <article class="component" id="checkbox">
+        <h2 class="title_component">Checkbox</h2>
+        <div class="flex flex_h">
+            @await Html.PartialAsync("~/Views/Controles/Partial_Checkbox.cshtml")
+
+        </div>
+    </article>
+
+    @* Tablas *@
+    <article class="component" id="data_table">
+        <h2 class="title_component">Tablas</h2>
+        @await Html.PartialAsync("~/Views/Controles/Partial_Tablas.cshtml")
+    </article>
+
+    @* Enlaces *@
+    <article class="component" id="link">
+        <h2 class="title_component">Enlaces</h2>
+        @await Html.PartialAsync("~/Views/Controles/Partial_Enlaces.cshtml")
+    </article>
+
+    @* PopUp *@
+    <article class="component" id="modal">
+        <h2 class="title_component">PopUp</h2>
+        <a href="javascript:void()" class="btn modal_func" data-popup="popup">Lanzar PopUp 1</a>
+        <a href="javascript:void()" class="btn modal_func ml" data-popup="popup2">Lanzar PopUp 2</a>
+        <a href="javascript:void()" class="btn modal_func ml popUpCarga-button" data-popup="popup_Carga">Lanzar PopUp de Carga</a>
+    </article>
+
+    @* Input *@
+    <article class="component" id="text_input">
+        <h2 class="title_component">Cajas de Texto</h2>
+        @await Html.PartialAsync("~/Views/Controles/Partial_Inputs.cshtml")
+    </article>
+
+    @* RadioButtons *@
+    <article class="component" id="radio">
+        <h2 class="title_component">Radio Button</h2>
+        <div class="flex flex_h">
+            @await Html.PartialAsync("~/Views/Controles/Partial_Radios.cshtml")
+        </div>
+    </article>
+
+    @* Selects *@
+    <article class="component" id="select">
+        <h2 class="title_component">Cajas de Selección</h2>
+        @await Html.PartialAsync("~/Views/Controles/Partial_Selects.cshtml")
+    </article>
+
+    @* Pasos *@
+    <article class="component" id="steps">
+        <h2 class="title_component">Pasos</h2>
+        @await Html.PartialAsync("~/Views/Controles/Partial_Pasos.cshtml")
+    </article>
+
+    @* Etiquetas *@
+    <article class="component" id="tags">
+        <h2 class="title_component">Etiquetas</h2>
+        @await Html.PartialAsync("~/Views/Controles/Partial_Etiquetas.cshtml")
+    </article>
+
+    @* Enlace a Iconografia *@
+    <article class="component" id="icono">
+        <h2 class="title_component">Iconografía</h2>
+        @await Html.PartialAsync("~/Views/Controles/Partial_Iconos.cshtml")
+    </article>
+
+    @* Seleccionar ficheros Personalizados *@
+    <article class="component" id="file">
+        <h2 class="title_component">Selección de ficheros</h2>
+        @await Html.PartialAsync("~/Views/Controles/Partial_Ficheros.cshtml")
+    </article>
+
+    @* Switch - Interruptor *@
+    <article class="component" id="switch">
+        <h2 class="title_component">Interruptores / Switch</h2>
+        @await Html.PartialAsync("~/Views/Controles/Partial_Switch.cshtml")
+    </article>
+
+    @* Tabs *@
+    <article class="component" id="tabs">
+        <h2 class="title_component">Tabs</h2>
+        @await Html.PartialAsync("~/Views/Controles/Partial_Tabs.cshtml")
+    </article>
+
+
+    @* Listas con tarjetas *@
+    <article class="component" id="lists">
+        <h2 class="title_component">Listados</h2>
+        @await Html.PartialAsync("~/Views/Controles/Partial_Listados.cshtml")
+    </article>
+
+    @* Rangos *@
+    <article class="component" id="ranges">
+        <h2 class="title_component">Rangos</h2>
+        @await Html.PartialAsync("~/Views/Controles/Partial_Rangos.cshtml")
+    </article>
+
+    @* Barras de progreso *@
+    <article class="component" id="progress">
+        <h2 class="title_component">Barras de progreso</h2>
+        @await Html.PartialAsync("~/Views/Controles/Partial_Progresos.cshtml")
+    </article>
+
+    @* Valoracion *@
+    <article class="component" id="stars">
+        <h2 class="title_component">Valoración</h2>
+        @await Html.PartialAsync("~/Views/Controles/Partial_Valoracion.cshtml")
+    </article>
+
+    @* Tooltip *@
+    <article class="component" id="tooltip">
+        <h2 class="title_component">Tooltip</h2>
+        @await Html.PartialAsync("~/Views/Controles/Partial_Tooltip.cshtml")
+    </article>
+
+    @* ValueNotification *@
+    <article class="component" id="ValueNotification">
+        <h2 class="title_component">Value Notification</h2>
+        @await Html.PartialAsync("~/Views/Controles/Partial_Notificaciones_Valor.cshtml")
+    </article>
+
+    @* Acordeon *@
+    <article class="component" id="Acordeon">
+        <h2 class="title_component">Acordeón</h2>
+        @await Html.PartialAsync("~/Views/Controles/Partial_Acordeon.cshtml")
+    </article>
+
+    @* Alertas Notificaciones *@
+    <article class="component" id="NotificationAlerts">
+        <h2 class="title_component">Alertas Notificaciones</h2>
+        @await Html.PartialAsync("~/Views/Controles/Partial_Alertas_Notificaciones.cshtml")
+    </article>
+
+    @* Tarjetas con efecto flip *@
+    <article class="component" id="flipCards">
+        <h2 class="title_component">Tarjetas con efecto Flip</h2>
+        @await Html.PartialAsync("~/Views/Controles/Partial_Tarjetas_Flip.cshtml")
+    </article>
+
+    @* Avatares *@
+    <article class="component" id="avatars">
+        <h2 class="title_component">Avatares</h2>
+        @await Html.PartialAsync("~/Views/Controles/Partial_Avatar.cshtml")
+    </article>
+
+    @* Paginadores *@
+    <article class="component" id="paginators">
+        <h2 class="title_component">Paginadores</h2>
+        @await Html.PartialAsync("~/Views/Controles/Partial_Paginadores.cshtml")
+    </article>
+
+    @* Revelador *@
+    <article class="component" id="reveal">
+        <h2 class="title_component">Revelador</h2>
+        @await Html.PartialAsync("~/Views/Controles/Partial_Revelador.cshtml")
+    </article>
+
+    @* Seleccion multiple tags *@
+    <article class="component" id="selectTags">
+        <h2 class="title_component">Selección de etiquetas multiples</h2>
+        @await Html.PartialAsync("~/Views/Controles/Partial_seleccionEtiquetas.cshtml")
+    </article>
+</section>

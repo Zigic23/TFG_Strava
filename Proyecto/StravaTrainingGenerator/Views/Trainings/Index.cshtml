@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Planes de entrenamiento";
+    Layout = "~/Views/Shared/Master.cshtml";
+}
+
+@section js {
+    <script src="~/Content/Viewsjs/TrainingPlans.js"></script>
+    <script type="text/javascript">
+        var detailUrl = "@(Html.Raw(Url.Action("Detail", "Trainings", new { code = "-1" })))";
+    </script>
+}
+
+<section class="components training_plans">
+    <div class="top_row flex flex_h flex_aic">
+        <h2 class="title f1">Planes de Entrenamiento</h2>
+        <button class="btn">
+            Actualizar desde
+            <img class="strava_icon" src="~/Content/images/logos/Strava_Orange.png" />
+        </button>
+    </div>
+    <div class="grid_div">
+        <div class="grid" id="training_grid">
+
+        </div>
+    </div>
+</section>

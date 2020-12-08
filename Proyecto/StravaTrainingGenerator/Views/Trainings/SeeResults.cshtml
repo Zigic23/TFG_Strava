@@ -1,0 +1,101 @@
+﻿@model int;
+@{
+    ViewBag.Title = "Detalle del entrenamiento";
+    Layout = "~/Views/Shared/Master.cshtml";
+}
+
+@section js {
+    <script src="~/Content/Viewsjs/ResultsTraining.js"></script>
+    <script type="text/javascript">
+
+    </script>
+}
+
+<section class="components training_detail">
+    <div class="back_button">
+        <a href="@Url.Action("Detail", "Trainings", new { code = Model })">Volver</a>
+    </div>
+    <div class="top_result_training">
+        <h2 class="basic_text f1">Tipo de entrenamiento</h2>
+        <h2 class="basic_text">Fecha de la sesión: 08/12/2020</h2>
+    </div>
+    <div class="columns">
+        <div class="left">
+            <div class="top_details_training">
+                <h2 class="title">Entreno</h2>
+                <div class="training_details">
+                    @* Aqui vendrán un resumen del tipo de entrenamiento *@
+                    <p class="warmup">Calentamiento</p>
+                    <p class="main_training">
+                        <span class="separated">8 Repeticiones</span>
+                        <span class="separated">400 metros</span>
+                        <span class="separated">Tiempo: 1 min. 31 seg.</span>
+                        <span class="separated">Recuperación: 400m</span>
+                    </p>
+                    @* Si es Carrera Larga o Carrera Corta vendrán aqui los valores sustituidos en ritmo real y diferencia*@
+                    <p class="main_training">
+                        <span class="separated">Distancia: 3 kilómetros</span>
+                        <span class="separated">Ritmo: 4 min. 22 seg.</span>
+                        <span class="separated">Ritmo real: 1 min. 31 seg.</span>
+                        <span class="separated">Diferencia: 2 min. 51 seg.</span>
+                    </p>
+                    <p class="main_training">
+                        <span class="separated">Distancia: 10 kilómetros</span>
+                        <span class="separated">Ritmo: 4 min. 42 seg.</span>
+                        <span class="separated">Ritmo real: 1 min. 51 seg.</span>
+                        <span class="separated">Diferencia: 2 min. 51 seg.</span>
+                    </p>
+                    <p class="cooling">Enfriamiento</p>
+                </div>
+            </div>
+
+            <div class="grid_div">
+                <div class="grid" id="detail_grid">
+
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="training_summary">
+                <h2 class="title">Resumen de la sesión</h2>
+                <div class="summary_elements">
+                    <p class="heart_frequency">Frecuencia Cardiaca Media: 133 ppm</p>
+                    <p class="separated">Frecuencia Cardiaca Máxima: 154 ppm</p>
+                    <p class="distance">Distancia recorrida: 10 km</p>
+                    <div class="done">
+                        <div class="item_select_next">
+                            <label for="select_id" class="label">Realizado:</label>
+                            <div class="box_select">
+                                <select id="done" class="select">
+                                    <option class="box_select_option box_select_option_disabled" disabled selected hidden>Elige una opción ...</option>
+                                    <option class="box_select_option">Si</option>
+                                    <option class="box_select_option">No</option>
+                                </select>
+                                <i class="fa fa-caret-down select_arrow" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sensations">
+                        <div class="item_select_next">
+                            <label for="select_id" class="label">Sensaciones:</label>
+                            <div class="box_select">
+                                <select id="done" class="select">
+                                    <option class="box_select_option box_select_option_disabled" disabled selected hidden>Elige una opción ...</option>
+                                    <option class="box_select_option">Muy mala</option>
+                                    <option class="box_select_option">Mala</option>
+                                    <option class="box_select_option">Regular</option>
+                                    <option class="box_select_option">Buena</option>
+                                    <option class="box_select_option">Muy buena</option>
+                                </select>
+                                <i class="fa fa-caret-down select_arrow" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="btn btn_small">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

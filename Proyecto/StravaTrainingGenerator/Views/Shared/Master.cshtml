@@ -13,7 +13,7 @@
     <link rel="icon" type="image/png" href="~/Content/images/favicon.png" />
 
     @* Font Awesome *@
-    <link href="~/Content/font-awesome/css/all.min.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
 
     @* jQuery *@
     <script src="~/Content/jquery/jquery-3.3.1.min.js"></script>
@@ -23,29 +23,19 @@
     <link href="~/Content/jquery/jquery-ui.theme.min.css" rel="stylesheet" />
     @*<link href="~/Content/js/Clipboard.js" rel="stylesheet" />*@
 
-    @* Fuente *@
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
-    @* Bootstrap *@
-    <link href="~/Content/bootstrap/css/bootstrap.css" rel="stylesheet" />
-
     @* Main stylesheet *@
     <link href="~/Content/css/main.min.css" rel="stylesheet" />
+    @* Theme selection *@
+    <link href="~/Content/css/main-theme-dashboard.min.css" rel="stylesheet" />
+    @RenderSection("css", false)
+
+    @* JsGrid *@
+    <script src="~/Content/jsgrid/jsgrid.js"></script>
+    <link href="~/Content/jsgrid/jsgrid.min.css" rel="stylesheet" />
+    <link href="~/Content/jsgrid/jsgrid-theme.min.css" rel="stylesheet" />
 
     @* Main JS functionality *@
     @*<link href="~/Content/js/Clipboard.js" rel="stylesheet" />*@
-    <script src="~/Content/bootstrap/js/popper.js"></script>
-    <script src="~/Content/bootstrap/js/bootstrap.js"></script>
-
-    <!-- Estilos especificos del control de rejilla a utilizar -->
-    <link href="~/Content/kendo/css/kendo.common-bootstrap.min.css" rel="stylesheet" />
-    <link href="~/Content/kendo/css/kendo.bootstrap.min.css" rel="stylesheet" />
-    <script src="~/Content/kendo/scripts/kendo.all.min.js"></script>
-    <script src="~/Content/kendo/scripts/kendo.timezones.min.js"></script>
-    <script src="~/Content/kendo/scripts/kendo.aspnetmvc.min.js"></script>
-
-
     <script src="~/Content/js/main.js"></script>
     @RenderSection("js", false)
 
@@ -60,25 +50,16 @@
     @RenderSection("popup_Carga", false)
 
 
-    <section class="container-fluid pt-3 pb-3 wrapper @ViewData["wrapper_login"]">
-        @* Clases d-flex, overflow-hidden y h-100 añadidas para menú lateral*@
-
-        @{ await Html.RenderPartialAsync("~/Views/Shared/Header/HeaderB.cshtml"); }
-
+    <section class="wrapper">
         <section class="content">
-            @*Clase col y overflow-auto añadida para menú lateral*@
-            @RenderSection("left", false)
-            <div class="col-center">
+            @{ await Html.RenderPartialAsync("~/Views/Shared/Columns/LeftColumn.cshtml"); }
+            @*@RenderSection("left", false)*@
+            <div class="col_center">
                 @RenderBody()
             </div>
-            @RenderSection("right", false)
         </section>
     </section>
 
-    <footer class="foo">
-        @{ await Html.RenderPartialAsync("~/Views/Shared/Footer/Footer.cshtml"); }
-    </footer>
-    @*<a href="#" class="scroll_up"><i class="fas fa-arrow-up"></i></a>*@
-   
+    <a href="#" class="scroll_up"><i class="fas fa-arrow-up"></i></a>
 </body>
 </html>

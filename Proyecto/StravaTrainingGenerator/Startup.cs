@@ -36,7 +36,6 @@ namespace StoneMVCCore
 
 
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
-            services.AddKendo();
 
             services.AddSingleton(Configuration);
         }

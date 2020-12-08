@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Crear plan de Entrenamiento";
+    Layout = "~/Views/Shared/Master.cshtml";
+}
+
+<section class="components">
+    @using (Html.BeginForm("PostTraining", "CreateTraining", new { }, FormMethod.Post, null, new { @class = "form create_training" }))
+    {
+        <div class="row_form row">
+            <div class="column_form column">
+                <div class="item_form item_select">
+                    <label for="start_plan" class="label">Fecha de inicio del plan:</label>
+                    <input type="date" id="start_plan" name="start_plan" class="input_text input" placeholder="...">
+                </div>
+            </div>
+            <div class="column_form column">
+                <div class="item_form item_select">
+                    <label for="mins" class="label">Marca actual 5km:</label>
+                    <div class="item_time input input_text">
+                        <input class="item_time_mins" name="mins" id="mins" type="number" min="0" placeholder="0..." />
+                        <span class="item_time_label">Mins. </span>
+                        <input class="item_time_secs" name="secs" id="secs" type="number" min="0" max="59" placeholder="0..." />
+                        <span class="item_time_label">Secs. </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row_form row">
+            <div class="column_form column">
+
+            </div>
+            <div class="column_form column">
+                <button class="btn btn_width" type="submit">Crear plan de entrenamiento</button>
+            </div>
+        </div>
+    }
+</section>

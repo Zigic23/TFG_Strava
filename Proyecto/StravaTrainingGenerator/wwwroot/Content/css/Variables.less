@@ -1,20 +1,142 @@
-﻿// Colores
-:root {
-    --acciones-principal-1: #2d9cdb;
-    --white: #ffffff;
-    --red: #eb5757;
-    --red-rgba: 235,87,87;
-    --green: #6fcf97;
-    --yellow: #f2c94c;
-    --acciones-principal-2: #d8e6ff;
-    --gris-01: #F2F2F2;
-    --gris-02: #e0e0e0;
-    --gris-03: #bdbdbd;
-    --gris-03-rgba: 224,224,224;
-    --gris-04: #4f4f4f;
-    --color-light-description: #2C2C2C;
-}
+﻿// Variables
 
-// Fuentes
-@font_family: 'Red Hat Display', sans-serif;
+// Variables - Valores Pagina
+@width_max_zone: 990px;
 
+// Variables - Fuentes
+@font_family: 'OpenSans', sans-serif;
+
+// Variables - Columnas
+@width_col_left: 300px;
+@width_col_right: 230px;
+
+// Variables - Formularios
+@num_col_form: 4;
+@margin_form: 2;
+@margin_form_value: ~"@{margin_form}%";
+@width_form: (((100 - (@margin_form * (@num_col_form - 1))) / @num_col_form));
+@width_form_value: ~"@{width_form}%";
+
+
+// Variables - Listados
+@num_col_card: 3;
+@margin_card: 2;
+@margin_card_value: ~"@{margin_card}%";
+@width_card: (((100 - (@margin_card * (@num_col_card - 1))) / @num_col_card));
+@width_card_value: ~"@{width_card}%";
+
+// Variables - Tooltip
+@width_tooltip: 150px;
+@half_width_tooltip: @width_tooltip / 2;
+
+
+
+// Variables - Colores
+@color_main: #FFFFFF;
+@color_primary: #a38d65;
+@color_secondary: #343e5c;
+@color_transparent: transparent;
+@color_light: #DDDDDD;
+@bk_ultra_light: #F6F6F6;
+
+@color_border: #e3e8f0;
+@color_border_light: #f0f2f7;
+@color_border_dark: #CCCCCC;
+@color_border_valid: #0096db;
+@color_border_invalid: #b03535;
+@color_border_shadow_valid: #41c3ff;
+@color_border_shadow_invalid: #d45252;
+@color_title: #333333;
+@color_text: #555555;
+@color_link: #3d70b2;
+@color_link_actions: #5596e6;
+@color_error: #ff6949;
+@color_correct: #00b06c;
+@color_notice: #ef974b;
+@color_cancel: #808080;
+@color_placeholder: #CCCCCC;
+@bk_popup: rgba(240, 243, 246, 0.5);
+@color_shadow_pop: rgba(0, 0, 0, 0.1);
+@color_footer_pop: #f0f3f6;
+
+@color_bk_link_social: #9cb1bc;
+
+@bk_tag_1: #3498ff;
+@bk_tag_2: #686868;
+@bk_tag_3: #ffc341;
+@bk_tag_4: #9cb1bc;
+
+
+
+// Variables - Botones
+@color_btn: @color_primary;
+@color_btn_cancel: @color_cancel;
+@color_btn_error: @color_error;
+@color_btn_correct: @color_correct;
+
+
+// Variables - Cookies
+@bk_cookies: @color_secondary;
+@color_txt_cookies: @color_main;
+
+// Variables - Header
+@bk_hea: @color_main;
+@border_hea: 2px solid @color_border_light;
+@border_top_foo: 7px solid @color_border_dark;
+
+@border_btn_hea: 2px solid @color_border;
+
+@bk_row_odd: #f0f2f7;
+@bk_row_even: #d9e5e8;
+@bk_disabled: #EEEEEE;
+
+// Variables - Cajas de Texto
+@bk_input: rgba(61, 112, 178, 0.1);
+
+// Variables - Pasos
+@step_border_color: #CCCCCC;
+@step_text_color: rgba(0,0,0,.87);
+@step_label_color: #9cb1bc;
+@step_valor_border_color: @color_primary;
+@step_active_color: #d9e5e8;
+@step_active_bk_color: @color_primary;
+@step_circle_color: @color_primary;
+@step_hover_color: #CCCCCC;
+
+
+//Fondos Colores
+@background_color_1: #888888;
+@background_color_2: #CCCCCC;
+@background_color_3: #666666;
+@background_color_4: #FFFFFF;
+
+// Tarjetas Flip
+@color_bk_flip_1_f: #2aa9e0;
+@color_bk_flip_2_f: #f39c12;
+
+@color_bk_flip_1_b: #03446A;
+@color_bk_flip_2_b: #f39c12;
+
+@color_txt_flip_1_f: #FFFFFF;
+@color_txt_flip_2_b: #FFFFFF;
+
+@color_grey_light: #9cb1bc;
+
+
+// Variables - Capsulas
+@num_col_capsule: 6;
+@margin_capsule: 2;
+@margin_capsule_value: ~"@{margin_capsule}%";
+@width_capsule: (((100 - (@margin_capsule * (@num_col_capsule - 1))) / @num_col_capsule));
+@width_capsule_value: ~"@{width_capsule}%";
+
+// Varables - tabs
+@color_1: #8190A5;
+@color_2: #999;
+@color_tab_4: #EE6534;
+@color_tab_5: #1790D2;
+@color_tab_6: #EEC63B;
+@border_tab_color_1: #999;
+@border_tab_color_3: #EE6534;
+@border_tab_color_4: #1790D2;
+@border_tab_color_5: #EEC63B;

@@ -1,35 +1,22 @@
 ﻿
 @{
     ViewBag.Title = "Login";
-    ViewData["wrapper_login"] = "wrapper-login";
-    Layout = "~/Views/Shared/Master.cshtml";
+    Layout = "~/Views/Shared/Master_Login.cshtml";
 }
 
-@* Pantalla de login *@
-<div class="row h-100 d-flex align-items-center justify-content-center">
-    <div class="col-3 card card-login">
-        <figure class="logo d-flex justify-content-center mb-5">
-            <img src="~/Content/images/logos/logo.svg" />
+<div class="login f1">
+    @*<div class="errors">
+        <p class="type_error">Usuario no encontrado.</p>
+    </div>*@
+    <div class="group_login">
+        <figure class="logo flex flex_jcc mb-5">
+            <img src="~/Content/images/logos/Logo Training generator.png" />
         </figure>
-        <label for="inp" class="box-labelinput mb-4">
-            <input type="text" id="inp" placeholder="&nbsp;">
-            <span class="label-move">Usuario</span>
-            <span class="focus-bg"></span>
-        </label>
-        <label for="inp" class="box-labelinput mb-3">
-            <input type="password" id="inp" placeholder="&nbsp;">
-            <span class="label-move">Contraseña</span>
-            <span class="focus-bg"></span>
-        </label>
-        <div class="forget-pass d-flex justify-content-end mb-5">
-            <a href="~/Login/RememberPassword" class="link d-flex align-items-center">¿Has olvidado la contraseña?<i class="fas fa-chevron-right ml-3"></i></a>
-        </div>
-        <div class="buttons d-flex justify-content-center">
-            <a href="/Home" class="btn btn-2 btn-xl">Iniciar Sesión</a>
+
+        <div class="buttons flex flex_jcc">
+            <a class="img_connect" href="@Url.Action("Login", "Login")">
+                <img src="~/Content/images/logos/btn_strava_connectwith_orange.svg" />
+            </a>
         </div>
     </div>
 </div>
-
-
-
-

@@ -4,5 +4,22 @@
 }
 
 <div class="col_left" id="col_left">
-    @RenderBody()
+    <div class="f1">
+        <div class="logo_left flex flex_aic flex_jcc">
+            <img src="~/Content/images/logos/Logo Training generator.png" />
+        </div>
+        <ul class="accordion">
+            <li>
+                <a href="@Url.Action("Index", "CreateTraining")" class="opt_main" title="">Nuevo plan de entrenamiento</a>
+            </li>
+            <li>
+                <a href="@Url.Action("Index", "Trainings")" class="opt_main" title="">Planes de entrenamiento</a>
+            </li>
+        </ul>
+    </div>
+    <div class="bottom">
+        <div class="info_user">
+            <img src="~/Content/images/icons/ico_profile.png" /><a href="#r" class="name_user">jcomendador@gmail.com</a><a href="@Url.Action("Logout", "Login")" title="Desconectar" class="disconnect ml5"><img src="~/Content/images/icons/ico_logout.png" /></a>
+        </div>
+    </div>
 </div>

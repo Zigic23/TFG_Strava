@@ -43,4 +43,10 @@
     <ProjectReference Include="..\BussinessLogicLayer\BussinessLogicLayer.csproj" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="wwwroot\Content\jsgrid\" />
+  </ItemGroup>
+
 </Project>

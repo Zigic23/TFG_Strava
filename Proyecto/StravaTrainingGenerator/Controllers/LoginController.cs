@@ -13,18 +13,20 @@ namespace StoneMVCCore.Controllers
         {
         }
 
+        public ActionResult Login()
+        {
+            return RedirectToAction("Index", "Main");
+        }
+
         // GET: Login
         public ActionResult Index()
         {
             return View("~/Views/Login/Login.cshtml");
         }
-        public ActionResult RestorePassword()
+
+        public ActionResult Logout()
         {
-            return View("~/Views/Login/RestorePassword.cshtml");
-        }
-        public ActionResult RememberPassword()
-        {
-            return View("~/Views/Login/RememberPassword.cshtml");
+            return RedirectToAction("Index");
         }
     }
 }

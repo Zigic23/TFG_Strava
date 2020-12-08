@@ -34,14 +34,9 @@
     @RenderSection("js", false)
 </head>
 <body>
-    <section class="wrapper">
-        <header class="hea">
-            <figure class="logo flex flex_jcc w100">
-                <a href="@Url.Action("Index", "Samples")" title=""><img src="/Content/images/logos/logo_stone.png" alt="" title="" /></a>
-            </figure>
-        </header>
+    <section class="wrapper wrapper_login">
         <section class="content">
-            <div class="col_center">
+            <div class="col_center flex flex_aic flex_jcc">
                 @RenderBody()
             </div>
         </section>

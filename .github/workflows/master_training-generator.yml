@@ -30,9 +30,8 @@ jobs:
       # Run dotnet build and publish
       - name: dotnet build and publish
         run: |
-          cd '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}'
-          dotnet restore 'StravaTrainingGenerator/StravaTrainingGenerator.csproj'
-          dotnet build "StravaTrainingGenerator/StravaTrainingGenerator.csproj" -c Release
+          dotnet restore 'Proyecto/StravaTrainingGenerator/StravaTrainingGenerator.csproj'
+          dotnet build "Proyecto/StravaTrainingGenerator/StravaTrainingGenerator.csproj" -c Release
           dotnet publish -c Release -o '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/StravaTrainingGenerator' 
           
       # Deploy to Azure Web apps

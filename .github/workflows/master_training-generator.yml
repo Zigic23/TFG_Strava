@@ -18,8 +18,6 @@ jobs:
     - uses: azure/docker-login@v1
       with:
         login-server: https://docker.pkg.github.com/
-        username: ${{ secrets.AzureAppService_ContainerUsername_e8b13a8026894b9bb148ebf5835ec037 }}
-        password: ${{ secrets.AzureAppService_ContainerPassword_8e9adf890ec141999de8f0fcaa98e550 }}
 
     - run: |
         docker build . -t docker.pkg.github.com/${{ secrets.AzureAppService_ContainerUsername_e8b13a8026894b9bb148ebf5835ec037 }}/tfg_strava/strava-tfg:${{ github.sha }}

@@ -29,6 +29,6 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: 'training-generator'
-        slot-name: 'production' 
+        slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_b541be66f82a42e89d759878496a5b2f }}
         images: 'docker.pkg.github.com/${{ secrets.AzureAppService_ContainerUsername_e8b13a8026894b9bb148ebf5835ec037 }}/tfg_strava/strava-tfg:${{ github.sha }}'

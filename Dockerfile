@@ -7,9 +7,9 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
 WORKDIR /src
-COPY ["Proyecto/StravaTrainingGenerator/StravaTrainingGenerator.csproj", "SIP/"]
-COPY ["Proyecto/BussinessLogicLayer/BussinessLogicLayer.csproj", "BLL/"]
-COPY ["Proyecto/DatabaseAccessLayer/DatabaseAccessLayer.csproj", "DAL/"]
+COPY ["Proyecto/StravaTrainingGenerator/StravaTrainingGenerator.csproj", "StravaTrainingGenerator/"]
+COPY ["Proyecto/BussinessLogicLayer/BussinessLogicLayer.csproj", "BussinessLogicLayer/"]
+COPY ["Proyecto/DatabaseAccessLayer/DatabaseAccessLayer.csproj", "DatabaseAccessLayer/"]
 RUN dotnet restore "StravaTrainingGenerator/StravaTrainingGenerator.csproj"
 COPY src .
 WORKDIR "/Proyecto/StravaTrainingGenerator"

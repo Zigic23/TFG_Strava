@@ -24,7 +24,7 @@ jobs:
     - run: |
         docker build . -t docker.pkg.github.com/${{ secrets.AzureAppService_ContainerUsername_e8b13a8026894b9bb148ebf5835ec037 }}/tfg_strava/strava-tfg:${{ github.sha }}
         docker push docker.pkg.github.com/${{ secrets.AzureAppService_ContainerUsername_e8b13a8026894b9bb148ebf5835ec037 }}/tfg_strava/strava-tfg:${{ github.sha }}
-
+ 
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v2
       with:

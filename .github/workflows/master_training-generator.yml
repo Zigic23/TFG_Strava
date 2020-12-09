@@ -7,28 +7,37 @@ on:
   push:
     branches:
       - master
+      
+env:
+  AZURE_WEBAPP_NAME: strava-tfg    # set this to your application's name
+  AZURE_WEBAPP_PACKAGE_PATH: 'Proyecto'      # set this to the path to your web app project, defaults to the repository root
+  DOTNET_VERSION: '3.1'           # set this to the dot net version to use
 
 jobs:
-  build-and-deploy:
-    runs-on: 'ubuntu-latest'
+  build:
+    runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@master
-
-    - uses: azure/docker-login@v1
-      with:
-        login-server: https://docker.pkg.github.com/
-        username: ${{ secrets.AzureAppService_ContainerUsername_c5d07dbc89f84e90bf555bbfc951348a }}
-        password: ${{ secrets.AzureAppService_ContainerPassword_a0622e8901a0449f90242ce3a6905747 }}
-
-    - run: |
-        docker build . -t docker.pkg.github.com/${{ secrets.AzureAppService_ContainerUsername_c5d07dbc89f84e90bf555bbfc951348a }}/tfg_strava/strava-tfg:${{ github.sha }}
-        docker push docker.pkg.github.com/${{ secrets.AzureAppService_ContainerUsername_c5d07dbc89f84e90bf555bbfc951348a }}/tfg_strava/strava-tfg:${{ github.sha }}
-
-    - name: Deploy to Azure Web App
-      uses: azure/webapps-deploy@v2
-      with:
-        app-name: 'training-generator'
-        slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_bac80c946b354f4bb1111d9aa57762bc }}
-        images: 'docker.pkg.github.com/${{ secrets.AzureAppService_ContainerUsername_c5d07dbc89f84e90bf555bbfc951348a }}/tfg_strava/strava-tfg:${{ github.sha }}'
+      # Checkout the repo
+      - uses: actions/checkout@master
+      
+      # Setup .NET Core SDK
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }} 
+      
+      # Run dotnet build and publish
+      - name: dotnet build and publish
+        run: |
+          dotnet restore
+          dotnet build --configuration Release
+          dotnet publish -c Release -o '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/myapp' 
+          
+      # Deploy to Azure Web apps
+      - name: 'Run Azure webapp deploy action using publish profile credentials'
+        uses: azure/webapps-deploy@v2
+        with: 
+          app-name: ${{ env.AZURE_WEBAPP_NAME }} # Replace with your app name
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BAC80C946B354F4BB1111D9AA57762BC }} # Define secret variable in repository settings as per action documentation
+          package: '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/myapp'

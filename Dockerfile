@@ -6,12 +6,12 @@ WORKDIR /app
 EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
-WORKDIR /src
+WORKDIR /Proyecto
 COPY ["Proyecto/StravaTrainingGenerator/StravaTrainingGenerator.csproj", "StravaTrainingGenerator/"]
 COPY ["Proyecto/BussinessLogicLayer/BussinessLogicLayer.csproj", "BussinessLogicLayer/"]
 COPY ["Proyecto/DatabaseAccessLayer/DatabaseAccessLayer.csproj", "DatabaseAccessLayer/"]
 RUN dotnet restore "StravaTrainingGenerator/StravaTrainingGenerator.csproj"
-COPY src .
+COPY Proyecto .
 WORKDIR "/Proyecto/StravaTrainingGenerator"
 RUN dotnet build "StravaTrainingGenerator.csproj" -c Release -o /app/build
 

@@ -1,0 +1,34 @@
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+name: Build and deploy container app to Azure Web App - training-generator
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: 'ubuntu-latest'
+
+    steps:
+    - uses: actions/checkout@master
+
+    - uses: azure/docker-login@v1
+      with:
+        login-server: https://docker.pkg.github.com/
+        username: ${{ secrets.AzureAppService_ContainerUsername_c5d07dbc89f84e90bf555bbfc951348a }}
+        password: ${{ secrets.AzureAppService_ContainerPassword_a0622e8901a0449f90242ce3a6905747 }}
+
+    - run: |
+        docker build . -t docker.pkg.github.com/${{ secrets.AzureAppService_ContainerUsername_c5d07dbc89f84e90bf555bbfc951348a }}/tfg_strava/strava-tfg:${{ github.sha }}
+        docker push docker.pkg.github.com/${{ secrets.AzureAppService_ContainerUsername_c5d07dbc89f84e90bf555bbfc951348a }}/tfg_strava/strava-tfg:${{ github.sha }}
+
+    - name: Deploy to Azure Web App
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: 'training-generator'
+        slot-name: 'production'
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_bac80c946b354f4bb1111d9aa57762bc }}
+        images: 'docker.pkg.github.com/${{ secrets.AzureAppService_ContainerUsername_c5d07dbc89f84e90bf555bbfc951348a }}/tfg_strava/strava-tfg:${{ github.sha }}'

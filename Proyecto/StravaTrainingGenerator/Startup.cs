@@ -5,6 +5,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using StoneMVCCore.Models.Configuration.Settings;
 using Microsoft.Extensions.Hosting;
+using StravaTrainingGenerator.Models.Configuration.Settings;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using StravaTrainingGenerator.Models.Configuration.OAuth;
 
 namespace StoneMVCCore
 {
@@ -34,10 +37,71 @@ namespace StoneMVCCore
             //Configuración de claves de aplicación
             services.Configure<KeysSettings>(options => Configuration.GetSection("KeysSettings").Bind(options));
 
+            //Configuraciones de claves de Strava
+            StravaSettings stravaSettings = new StravaSettings();
+            Configuration.GetSection("StravaSettings").Bind(stravaSettings);
+            services.Configure<StravaSettings>(options => Configuration.GetSection("StravaSettings").Bind(options));
+
 
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
             services.AddSingleton(Configuration);
+
+            services.AddAuthentication(options =>
+            {
+                //Indicamos que vamos a utilizar cookies para autenticar y logar
+                options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+
+                //Clave de configuración de flujo OAUTH
+                options.DefaultChallengeScheme = "StravaSettings";
+            })
+                .AddCookie()
+                .AddOAuth<StravaOAuthOptions, StravaOAuthHandler>("StravaSettings", options =>
+                {
+
+                    options.StravaSettings = stravaSettings;
+                    options.ClientId = stravaSettings.client_id;
+                    options.ClientSecret = stravaSettings.client_secret;
+
+                    //Ruta a la que llamara el proveedor de identidad tras autenticar al usuario
+                    options.CallbackPath = new PathString(sipSettings.CallbackPath);
+
+                    options.AuthorizationEndpoint = $"{sipSettings.URL}{sipSettings.AuthorizationEndpoint}";
+                    options.TokenEndpoint = $"{sipSettings.URL}{sipSettings.TokenEndpoint}";
+
+                    //Endpoint del proveedor de identidad del que obtener información del usuario autenticado
+                    options.UserInformationEndpoint = $"{sipSettings.URL}{sipSettings.UserInformationEndpoint}";
+                    options.ClaimActions.Clear();
+                    /*
+                        //Match de los atributos del objeto de usuario para la respuesta del UserInformationEndpoint
+                        foreach (var elem in sipSettings.ClaimActions)
+                        {
+                            options.ClaimActions.MapJsonKey(elem.Key, elem.Value);
+                        }
+                    */
+                    options.SaveTokens = true;
+                    options.Events = new OAuthEvents
+                    {
+                        //Definición de la funcionalidad de la identificación del usuario a través de su token de acceso 
+                        OnCreatingTicket = async context =>
+                        {
+                            //Petición
+                            var request = new HttpRequestMessage(HttpMethod.Get, context.Options.UserInformationEndpoint);
+                            request.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                            request.Headers.Authorization = new AuthenticationHeaderValue("X-Key", context.AccessToken);
+
+                            //Respuesta
+                            var response = await context.Backchannel.SendAsync(request, HttpCompletionOption.ResponseHeadersRead, context.HttpContext.RequestAborted);
+                            response.EnsureSuccessStatusCode();
+
+                            //Parseo de respuesta
+                            var user = JObject.Parse(await response.Content.ReadAsStringAsync());
+
+                            context.RunClaimActions(user);
+                        }
+                    };
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

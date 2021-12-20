@@ -7,29 +7,51 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch:
 
 jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
+  build:
+    runs-on: windows-latest
 
     steps:
-    - uses: actions/checkout@master
+      - uses: actions/checkout@v2
 
-    - name: Set up .NET Core
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: '3.1.102'
+      - name: Set up .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '3.1.301'
+          include-prerelease: true
 
-    - name: Build with dotnet
-      run: dotnet build 'Proyecto/StravaTrainingGenerator/StravaTrainingGenerator.csproj' --configuration Release
+      - name: Build with dotnet
+        run: dotnet build --configuration Release
 
-    - name: dotnet publish
-      run: dotnet publish 'Proyecto/StravaTrainingGenerator/StravaTrainingGenerator.csproj' -c Release -o ${{env.DOTNET_ROOT}}/myapp
+      - name: dotnet publish
+        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
-    - name: Deploy to Azure Web App
-      uses: azure/webapps-deploy@v2
-      with:
-        app-name: 'training-generator'
-        slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_7cab22a4fc5d4903ba689b8fabe0c6a9 }}
-        package: ${{env.DOTNET_ROOT}}/myapp 
+      - name: Upload artifact for deployment job
+        uses: actions/upload-artifact@v2
+        with:
+          name: .net-app
+          path: ${{env.DOTNET_ROOT}}/myapp
+
+  deploy:
+    runs-on: windows-latest
+    needs: build
+    environment:
+      name: 'Production'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+
+    steps:
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v2
+        with:
+          name: .net-app
+
+      - name: Deploy to Azure Web App
+        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: 'training-generator'
+          slot-name: 'Production'
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_51BC6C153D454C39B491383C5897E9E7 }}
+          package: .

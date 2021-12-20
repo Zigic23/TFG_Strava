@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 
 namespace StravaTrainingGenerator.Models.Configuration.Session
 {
-    public class SessionKeys
+    public static class SessionKeys
     {
-
+        public static string UserKey = "UserKey";
+        public static string ErrorMessageKey = "ErrorMessageKey";
     }
 }

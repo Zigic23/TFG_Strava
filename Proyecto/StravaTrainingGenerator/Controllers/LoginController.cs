@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
@@ -13,15 +14,22 @@ namespace StoneMVCCore.Controllers
         {
         }
 
-        public ActionResult Login()
-        {
-            return RedirectToAction("Index", "Main");
-        }
-
-        // GET: Login
         public ActionResult Index()
         {
-            return View("~/Views/Login/Login.cshtml");
+            if (HttpContext.User.Identity.IsAuthenticated)
+                return Authorized();
+            else 
+                return View("Login");
+        }
+
+        public ActionResult DoLogin(string returnUrl = "/")
+        {
+            return Challenge(new AuthenticationProperties() { RedirectUri = returnUrl });
+        }
+
+        public ActionResult Authorized()
+        {
+            return RedirectToAction("Index", "Trainings");
         }
 
         public ActionResult Logout()

@@ -13,10 +13,11 @@
             <img src="~/Content/images/logos/Logo Training generator.png" />
         </figure>
 
-        <div class="buttons flex flex_jcc">
-            <a class="img_connect" href="@Url.Action("Login", "Login")">
+        @using (Html.BeginForm("DoLogin", "Login", FormMethod.Post, new { @class = "buttons flex flex_jcc", id = "dologin" }))
+        {
+            <a class="img_connect" href="#r" onclick="$('#dologin').submit()">
                 <img src="~/Content/images/logos/btn_strava_connectwith_orange.svg" />
             </a>
-        </div>
+        }
     </div>
 </div>

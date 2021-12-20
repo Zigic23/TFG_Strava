@@ -8,6 +8,14 @@ using Microsoft.Extensions.Hosting;
 using StravaTrainingGenerator.Models.Configuration.Settings;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using StravaTrainingGenerator.Models.Configuration.OAuth;
+using Microsoft.AspNetCore.Authentication.OAuth;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using Newtonsoft.Json.Linq;
+using System.Text.Json;
+using System.Collections.Generic;
+using System.Linq;
+using System;
 
 namespace StoneMVCCore
 {
@@ -28,6 +36,7 @@ namespace StoneMVCCore
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
+                options.Secure = CookieSecurePolicy.Always;
             });
             
             //Credenciales de acceso a base de datos
@@ -46,7 +55,7 @@ namespace StoneMVCCore
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
             services.AddSingleton(Configuration);
-
+           
             services.AddAuthentication(options =>
             {
                 //Indicamos que vamos a utilizar cookies para autenticar y logar
@@ -65,13 +74,15 @@ namespace StoneMVCCore
                     options.ClientSecret = stravaSettings.client_secret;
 
                     //Ruta a la que llamara el proveedor de identidad tras autenticar al usuario
-                    options.CallbackPath = new PathString(sipSettings.CallbackPath);
+                    options.CallbackPath = new PathString(stravaSettings.redirect_uri);
 
-                    options.AuthorizationEndpoint = $"{sipSettings.URL}{sipSettings.AuthorizationEndpoint}";
-                    options.TokenEndpoint = $"{sipSettings.URL}{sipSettings.TokenEndpoint}";
+                    options.AuthorizationEndpoint = $"{stravaSettings.authorize_url}";
+                    options.TokenEndpoint = $"{stravaSettings.strava_url}";
+
+                    options.Scope.Add(stravaSettings.scopes);
 
                     //Endpoint del proveedor de identidad del que obtener información del usuario autenticado
-                    options.UserInformationEndpoint = $"{sipSettings.URL}{sipSettings.UserInformationEndpoint}";
+                    //options.UserInformationEndpoint = $"{sipSettings.URL}{sipSettings.UserInformationEndpoint}";
                     options.ClaimActions.Clear();
                     /*
                         //Match de los atributos del objeto de usuario para la respuesta del UserInformationEndpoint
@@ -96,12 +107,17 @@ namespace StoneMVCCore
                             response.EnsureSuccessStatusCode();
 
                             //Parseo de respuesta
-                            var user = JObject.Parse(await response.Content.ReadAsStringAsync());
+                            JsonDocument user = JsonDocument.Parse(await response.Content.ReadAsStringAsync());
 
-                            context.RunClaimActions(user);
+                            context.RunClaimActions(user.RootElement);
                         }
                     };
                 });
+
+            services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(10);
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -123,6 +139,11 @@ namespace StoneMVCCore
             app.UseCookiePolicy();
 
             app.UseRouting();
+
+            app.UseSession();
+
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             // Add MVC to the request pipeline.
             app.UseEndpoints(endpoints =>

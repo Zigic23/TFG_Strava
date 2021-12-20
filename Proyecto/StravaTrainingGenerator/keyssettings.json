@@ -11,8 +11,8 @@
     "client_id": "57741",
     "client_secret": "216b4f487ee38a779830e58d5b501f816c6c969e",
     "grant_type": "authorization_code",
-    "authorize_url": "/oauth/authorize",
-    "redirect_uri": "http://localhost:47853/authorized",
+    "authorize_url": "https://www.strava.com/oauth/authorize",
+    "redirect_uri": "/login/authorized",
     "scopes": "activity:read,activity:read_all,read_all,read"
   }
 }

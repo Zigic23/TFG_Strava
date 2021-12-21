@@ -42,6 +42,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BussinessLogicLayer\BussinessLogicLayer.csproj" />
+    <ProjectReference Include="..\StravaConnector\StravaConnector.csproj" />
   </ItemGroup>
 
 

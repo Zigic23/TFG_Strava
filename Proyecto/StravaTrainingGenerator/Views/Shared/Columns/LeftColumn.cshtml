@@ -1,6 +1,8 @@
-﻿
+﻿@using StravaConnector.Objects
+@using StravaTrainingGenerator.Models.Configuration.Session
 @{
     Layout = null;
+    Athlete athlete = Context.Session.Get<Athlete>(SessionKeys.UserKey);
 }
 
 <div class="col_left" id="col_left">
@@ -19,7 +21,7 @@
     </div>
     <div class="bottom">
         <div class="info_user">
-            <img src="~/Content/images/icons/ico_profile.png" /><a href="#r" class="name_user">jcomendador@gmail.com</a><a href="@Url.Action("Logout", "Login")" title="Desconectar" class="disconnect ml5"><img src="~/Content/images/icons/ico_logout.png" /></a>
+            <img src="~/Content/images/icons/ico_profile.png" /><a href="#r" class="name_user">@athlete.firstname @athlete.lastname</a><a href="@Url.Action("Logout", "Login")" title="Desconectar" class="disconnect ml5"><img src="~/Content/images/icons/ico_logout.png" /></a>
         </div>
     </div>
 </div>

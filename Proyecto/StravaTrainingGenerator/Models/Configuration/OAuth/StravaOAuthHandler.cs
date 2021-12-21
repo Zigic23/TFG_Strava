@@ -30,7 +30,7 @@ namespace StravaTrainingGenerator.Models.Configuration.OAuth
         public override async Task<bool> HandleRequestAsync()
         {
             bool ajaxRequest = Request.Headers.ContainsKey("X-Requested-With") && Request.Headers["X-Requested-With"] == "XMLHttpRequest";
-            string authorization_code = Request.Query.ContainsKey("code") ? Request.Query["code"].ToString() : null;
+            string authorization_code = Request.Path.Value.ToLower().StartsWith("/login/authorized") && Request.Query.ContainsKey("code") ? Request.Query["code"].ToString() : null;
             if (authorization_code != null)
             {
                 //Con la autorización, federamos al usuario
@@ -39,7 +39,7 @@ namespace StravaTrainingGenerator.Models.Configuration.OAuth
                 {
                     CookieOptions cookieOptions = new CookieOptions();
                     //Asignamos un tiempo de expiración a la cookie
-                    cookieOptions.Expires = DateTimeOffset.Now.AddMilliseconds(response.expires_in);
+                    cookieOptions.Expires = DateTimeOffset.Now.AddSeconds(response.expires_in);
                     //Le decimos que la cookie es esencial
                     cookieOptions.IsEssential = true;
                     cookieOptions.HttpOnly = true;

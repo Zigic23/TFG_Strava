@@ -34,6 +34,8 @@ namespace StoneMVCCore.Controllers
 
         public ActionResult Logout()
         {
+            HttpContext.Session.Clear();
+            Response.Cookies.Delete("t");
             return RedirectToAction("Index");
         }
     }

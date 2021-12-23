@@ -1,31 +1,181 @@
-﻿@{
+﻿@model StravaTrainingGenerator.Models.ViewModels.CreateTrainingModelView
+@using BussinessLogicLayer.Objects
+@{
     ViewBag.Title = "Crear plan de Entrenamiento";
     Layout = "~/Views/Shared/Master.cshtml";
 }
+@section js {
+    <script src="~/Content/Viewsjs/CreateTraining.js"></script>
+}
 
 <section class="components">
-    @using (Html.BeginForm("PostTraining", "CreateTraining", new { }, FormMethod.Post, null, new { @class = "form create_training" }))
+    @using (Html.BeginForm("PostTraining", "CreateTraining", new { }, FormMethod.Post, null, new { onsubmit = "onCreateSubmit(event)", @class = "form create_training" }))
     {
         <div class="row_form row">
             <div class="column_form column">
                 <div class="item_form item_select">
                     <label for="start_plan" class="label">Fecha de inicio del plan:</label>
-                    <input type="date" id="start_plan" name="start_plan" class="input_text input" placeholder="...">
+                    <input type="date" id="start_plan" name="start_plan" class="input_text input" placeholder="..." required />
                 </div>
             </div>
             <div class="column_form column">
                 <div class="item_form item_select">
                     <label for="mins" class="label">Marca actual 5km:</label>
                     <div class="item_time input input_text">
-                        <input class="item_time_mins" name="mins" id="mins" type="number" min="0" placeholder="0..." />
+                        <input class="item_time_mins" name="mins" id="mins" type="number" min="0" placeholder="0..." required />
                         <span class="item_time_label">Mins. </span>
-                        <input class="item_time_secs" name="secs" id="secs" type="number" min="0" max="59" placeholder="0..." />
+                        <input class="item_time_secs" name="secs" id="secs" type="number" min="0" max="59" placeholder="0..." required />
                         <span class="item_time_label">Secs. </span>
+                    </div>
+                </div>
+            </div>
+            <div class="column_form column">
+                <div class="item_form item_select">
+                    <label for="planType" class="label">Plan de entrenamiento:</label>
+                    <div class="box_select">
+                        <select id="planType" name="planType" class="select" required>
+                            <option class="box_select_option box_select_option_disabled" disabled selected hidden>Elige una opción ...</option>
+                            @foreach (PlanTypeObject plan in Model.planTypes)
+                            {
+                                <option value="@plan.PlanTypeCode" class="box_select_option">@plan.PlanTypeName</option>
+                            }
+                        </select>
+                        <i class="fa fa-caret-down select_arrow" aria-hidden="true"></i>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row_form row">
+            <div class="column_form column_2 column">
+                <h3 class="subtitle">Distribución semanal de entrenamientos</h3>
+                <div class="form">
+                    <div class="row_form row">
+                        <div class="day_select">
+                            <label class="label" for="lunes">Lunes:</label>
+                            <div class="box_select">
+                                <select id="lunes" name="lunes" class="select">
+                                    <option class="box_select_option box_select_option_disabled" disabled selected hidden>Elige una opción ...</option>
+                                    @foreach (TrainingTypeObject trainingType in Model.trainingTypes)
+                                    {
+                                        <option value="@trainingType.TrainingTypeCode" class="box_select_option">@trainingType.TrainingTypeName</option>
+                                    }
+                                </select>
+                                <i class="fa fa-caret-down select_arrow" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row_form row">
+                        <div class="day_select">
+                            <label class="label" for="martes">Martes:</label>
+                            <div class="box_select">
+                                <select id="martes" name="martes" class="select">
+                                    <option class="box_select_option box_select_option_disabled" disabled selected hidden>Elige una opción ...</option>
+                                    @foreach (TrainingTypeObject trainingType in Model.trainingTypes)
+                                    {
+                                        <option value="@trainingType.TrainingTypeCode" class="box_select_option">@trainingType.TrainingTypeName</option>
+                                    }
+                                </select>
+                                <i class="fa fa-caret-down select_arrow" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row_form row">
+                        <div class="day_select">
+                            <label class="label" for="miercoles">Miércoles:</label>
+                            <div class="box_select">
+                                <select id="miercoles" name="miercoles" class="select">
+                                    <option class="box_select_option box_select_option_disabled" disabled selected hidden>Elige una opción ...</option>
+                                    @foreach (TrainingTypeObject trainingType in Model.trainingTypes)
+                                    {
+                                        <option value="@trainingType.TrainingTypeCode" class="box_select_option">@trainingType.TrainingTypeName</option>
+                                    }
+                                </select>
+                                <i class="fa fa-caret-down select_arrow" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row_form row">
+                        <div class="day_select">
+                            <label class="label" for="jueves">Jueves:</label>
+                            <div class="box_select">
+                                <select id="jueves" name="jueves" class="select">
+                                    <option class="box_select_option box_select_option_disabled" disabled selected hidden>Elige una opción ...</option>
+                                    @foreach (TrainingTypeObject trainingType in Model.trainingTypes)
+                                    {
+                                        <option value="@trainingType.TrainingTypeCode" class="box_select_option">@trainingType.TrainingTypeName</option>
+                                    }
+                                </select>
+                                <i class="fa fa-caret-down select_arrow" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row_form row">
+                        <div class="day_select">
+                            <label class="label" for="viernes">Viernes:</label>
+                            <div class="box_select">
+                                <select id="viernes" name="viernes" class="select">
+                                    <option class="box_select_option box_select_option_disabled" disabled selected hidden>Elige una opción ...</option>
+                                    @foreach (TrainingTypeObject trainingType in Model.trainingTypes)
+                                    {
+                                        <option value="@trainingType.TrainingTypeCode" class="box_select_option">@trainingType.TrainingTypeName</option>
+                                    }
+                                </select>
+                                <i class="fa fa-caret-down select_arrow" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row_form row">
+                        <div class="day_select">
+                            <label class="label" for="sabado">Sábado:</label>
+                            <div class="box_select">
+                                <select id="sabado" name="sabado" class="select">
+                                    <option class="box_select_option box_select_option_disabled" disabled selected hidden>Elige una opción ...</option>
+                                    @foreach (TrainingTypeObject trainingType in Model.trainingTypes)
+                                    {
+                                        <option value="@trainingType.TrainingTypeCode" class="box_select_option">@trainingType.TrainingTypeName</option>
+                                    }
+                                </select>
+                                <i class="fa fa-caret-down select_arrow" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row_form row">
+                        <div class="day_select">
+                            <label class="label" for="domingo">Domingo:</label>
+                            <div class="box_select">
+                                <select id="domingo" name="domingo" class="select">
+                                    <option class="box_select_option box_select_option_disabled" disabled selected hidden>Elige una opción ...</option>
+                                    @foreach (TrainingTypeObject trainingType in Model.trainingTypes)
+                                    {
+                                        <option value="@trainingType.TrainingTypeCode" class="box_select_option">@trainingType.TrainingTypeName</option>
+                                    }
+                                </select>
+                                <i class="fa fa-caret-down select_arrow" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column_form column_2 column">
+                <h3 class="subtitle">Restricciones para generar un entrenamiento</h3>
+                <div class="row row_form">
+                    <p class="basic_text">La fecha de inicio del plan tiene que ser un lunes</p>
+                </div>
+                <div class="row row_form">
+                    <p class="basic_text">Son obligatorios los tres entrenamientos principales</p>
+                </div>
+                <div class="row row_form">
+                    <p class="basic_text">Son obligatorios al menos dos entrenamientos cruzados semanales</p>
+                </div>
+                <div class="row row_form">
+                    <p class="basic_text">No se pueden realizar dos entrenamientos principales en dias consecutivos</p>
+                </div>
+            </div>
+        </div>
+        <div class="row_form row">
+            <div class="column_form column">
+
+            </div>
             <div class="column_form column">
 
             </div>

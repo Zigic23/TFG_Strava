@@ -25,7 +25,8 @@ namespace StoneMVCCore
                 .AddJsonFile($"keyssettings.json", optional: false, reloadOnChange: true)
                 .AddJsonFile($"keyssettings.{ctx.HostingEnvironment.EnvironmentName}.json", optional: true, reloadOnChange: true)
                 .AddJsonFile($"mailsettings.json", optional: false, reloadOnChange: true)
-                .AddJsonFile($"mailsettings.{ctx.HostingEnvironment.EnvironmentName}.json", optional: true, reloadOnChange: true);
+                .AddJsonFile($"mailsettings.{ctx.HostingEnvironment.EnvironmentName}.json", optional: true, reloadOnChange: true)
+                .AddUserSecrets<Program>();
 
         }
     }

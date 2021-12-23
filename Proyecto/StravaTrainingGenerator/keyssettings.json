@@ -3,9 +3,6 @@
     "key1": "value1",
     "key2": "value2"
   },
-  "ConnectionStrings": {
-    "BBDDConnection": "connectionProduction"
-  },
   "StravaSettings": {
     "strava_url": "https://www.strava.com",
     "client_id": "57741",

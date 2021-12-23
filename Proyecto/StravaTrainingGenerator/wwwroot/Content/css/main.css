@@ -2415,6 +2415,11 @@ p {
   max-width: 23.5%;
   margin-bottom: 1rem;
 }
+.form .row_form .column_form.column_2 {
+  -webkit-flex: 2 0 49%;
+  flex: 2 0 49%;
+  max-width: 49%;
+}
 .form .row_form .column_form:nth-of-type(4n + 1) {
   margin-left: 0;
 }
@@ -4675,6 +4680,14 @@ p {
 .create_training {
   width: 75%;
 }
+.create_training .row_form .column_form .item_form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.create_training .row_form .column_form .item_form .item_time {
+  flex: 1;
+}
 .create_training .row_form .column_form .item_form .item_time .item_time_mins,
 .create_training .row_form .column_form .item_form .item_time .item_time_secs {
   font-size: 0.85rem;
@@ -4698,8 +4711,29 @@ p {
   font-size: 0.87rem;
   font-weight: 600;
 }
+.create_training .row_form .column_form .item_form .box_select {
+  flex: 1;
+  display: flex;
+}
+.create_training .row_form .column_form .item_form .box_select .select {
+  border-radius: 0.4em;
+  flex: 1;
+}
 .create_training .row_form .column_form .btn_width {
   width: 100%;
+}
+.create_training .row_form .day_select {
+  width: 285px;
+  display: flex;
+  align-items: center;
+}
+.create_training .row_form .day_select .label {
+  margin: 0;
+  margin-right: 15px;
+  flex: 1;
+}
+.create_training .row_form .day_select .box_select .select {
+  border-radius: 0.4em;
 }
 .training_plans .top_row .strava_icon {
   height: 18px;

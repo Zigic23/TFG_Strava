@@ -5,6 +5,7 @@ using DatabaseAccessLayer.Managers;
 using DatabaseAccessLayer.Objects;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace BussinessLogicLayer.Managers
@@ -21,6 +22,18 @@ namespace BussinessLogicLayer.Managers
         {
             TrainingDbObject trainingDbObject = trainingDbManager.postTraining(requestObject.getDbObject());
             return new TrainingObject(trainingDbObject);
+        }
+
+        public List<TrainingObject> GetTrainingsByUserId(long userId)
+        {
+            List<TrainingDbObject> trainings = trainingDbManager.GetTrainingsByUserId(userId);
+            return trainings.Select(t => new TrainingObject(t)).ToList();
+        }
+
+        public TrainingObject GetTrainingById(int code, long userId)
+        {
+            TrainingDbObject training = trainingDbManager.GetTrainingById(code, userId);
+            return new TrainingObject(training);
         }
     }
 }

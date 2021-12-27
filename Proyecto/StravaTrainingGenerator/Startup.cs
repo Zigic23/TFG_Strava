@@ -52,7 +52,7 @@ namespace StoneMVCCore
             services.Configure<StravaSettings>(options => Configuration.GetSection("StravaSettings").Bind(options));
 
 
-            services.AddControllersWithViews().AddRazorRuntimeCompilation();
+            services.AddControllersWithViews().AddRazorRuntimeCompilation().AddJsonOptions(opts => opts.JsonSerializerOptions.PropertyNamingPolicy = null);
 
             services.AddSingleton(Configuration);
            

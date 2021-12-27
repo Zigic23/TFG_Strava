@@ -782,6 +782,12 @@ p {
 .col_center {
     .f1;
     padding: 1.5rem 2rem;
+    max-width: 84%;
+}
+
+.col_center_100 {
+    .f1;
+    padding: 1.5rem 2rem;
 }
 
 // Columna Derecha
@@ -4982,6 +4988,8 @@ p {
         .weeks_list {
             .flex;
             .flex_h;
+            .flex_nowrap;
+            overflow-x: auto;
 
             .week {
                 color: @color_1;

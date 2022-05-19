@@ -1073,7 +1073,7 @@ p {
   display: none;
 }
 .col_left {
-  width: 300px;
+  width: 16%;
   border-right: 2px solid #f0f2f7;
   display: -webkit-box;
   display: -moz-box;
@@ -1235,6 +1235,13 @@ p {
   padding: 10px 10px;
 }
 .col_center {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 1.5rem 2rem;
+  max-width: 84%;
+}
+.col_center_100 {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -4861,6 +4868,9 @@ p {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  overflow-x: auto;
 }
 .weeks .weeks_tabs_div .weeks_list .week {
   color: #8190A5;

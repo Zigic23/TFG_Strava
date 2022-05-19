@@ -7,6 +7,7 @@
     <script src="~/Content/Viewsjs/TrainingPlans.js"></script>
     <script type="text/javascript">
         var detailUrl = "@(Html.Raw(Url.Action("Detail", "Trainings", new { code = "-1" })))";
+        var urlGetTrainings = "@(Html.Raw(Url.Action("GetGridTrainings", "Trainings")))"
     </script>
 }
 

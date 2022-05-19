@@ -55,6 +55,68 @@ namespace DatabaseAccessLayer.Managers
             }
         }
 
+        public List<TrainingDbObject> GetTrainingsByUserId(long userId)
+        {
+            try
+            {
+                Database db = GetDatabase();
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STRA_TRAINING_SelByUserId"))
+                {
+                    db.AddInParameter(dbCommand, "@CD_USER", DbType.Int64, userId);
+
+                    using (DataSet ds = db.ExecuteDataSet(dbCommand))
+                    {
+                        List<TrainingDbObject> result = new List<TrainingDbObject>();
+
+                        if (ds != null && ds.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+                        {
+                            foreach(DataRow row in ds.Tables[0].Rows)
+                            {
+                                result.Add(new TrainingDbObject(row));
+                            }
+                        }
+
+                        return result;
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                throw new DatabaseException(e);
+            }
+        }
+        
+        public TrainingDbObject GetTrainingById(int code, long userId)
+        {
+            try
+            {
+                Database db = GetDatabase();
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STRA_TRAINING_SelById"))
+                {
+                    db.AddInParameter(dbCommand, "@CD_TRAINING", DbType.Int32, code);
+                    db.AddInParameter(dbCommand, "@CD_USER", DbType.Int64, userId);
+
+                    using (DataSet ds = db.ExecuteDataSet(dbCommand))
+                    {
+                        TrainingDbObject result = null;
+
+                        if (ds != null && ds.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+                        {
+                            result = new TrainingDbObject(ds.Tables[0].Rows[0]);
+                        }
+                        else
+                            throw new Exception("No se ha encontrado el entrenamiento.");
+
+                        return result;
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                throw new DatabaseException(e);
+            }
+        }
+
         public override bool Delete(object id)
         {
             throw new NotImplementedException();

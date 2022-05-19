@@ -1,4 +1,4 @@
-﻿@model int
+﻿@model StravaTrainingGenerator.Models.ViewModels.DetailTrainingModelView
 @{
     ViewBag.Title = "Detalle del entrenamiento";
     Layout = "~/Views/Shared/Master.cshtml";
@@ -7,7 +7,8 @@
 @section js {
     <script src="~/Content/Viewsjs/DetailTraining.js"></script>
     <script type="text/javascript">
-        var seeResultsUrl = "@(Html.Raw(Url.Action("SeeResults", "Trainings", new { code = Model, trainingCode = "-1" })))";
+        var seeResultsUrl = "@(Html.Raw(Url.Action("SeeResults", "Trainings", new { DayTrainingCode = "-1" })))";
+        var urlGetDayTrainings = "@(Html.Raw(Url.Action("GetGridDayTrainingWeek", "Trainings", new { trainingId = Model.training.TrainingCode, week = "-1" })))";
     </script>
 }
 
@@ -18,18 +19,18 @@
     <div class="top_details form">
         <div class="row_form">
             <div class="column_form">
-                <p class="basic_text">Fecha inicio plan: 07/12/2020</p>
+                <p class="basic_text">Fecha inicio plan: @Model.training.StartDate.ToString("dd/MM/yyyy")</p>
             </div>
             <div class="column_form">
-                <p class="basic_text">Fecha fin plan: 28/02/2021</p>
+                <p class="basic_text">Fecha fin plan: @Model.training.EndDate.ToString("dd/MM/yyyy")</p>
             </div>
         </div>
         <div class="row_form">
             <div class="column_form">
-                <p class="basic_text">Tipo de plan: 10km (12 semanas)</p>
+                <p class="basic_text">Tipo de plan: @Model.training.PlanTypeName</p>
             </div>
             <div class="column_form">
-                <p class="basic_text">Marca inicial 5km: 21 min. 5 seg.</p>
+                <p class="basic_text">Marca inicial 5km: @Model.training.Start5kmMark</p>
             </div>
         </div>
     </div>
@@ -38,13 +39,13 @@
 
         <div class="weeks_tabs_div">
             <ul class="weeks_list">
-                @for (int i = 1; i <= 12; i++)
+                @for (int i = 1; i <= Model.training.PlanTypeWeeks; i++)
                 {
-                    <li class="week @(i == 1 ? "active" : "")" data-tab="@i">Semana @i</li>
+                    <li class="week @(i == 1 ? "active" : "")" onclick="showWeek(@i)" id="week_@i" >Semana @i</li>
                 }
             </ul>
         </div>
-
+            
         <div class="content-wrapper" id="detail_week">
             <div class="date_start"><h2 class="basic_text">Fecha inicio de la semana: 07/12/2020</h2></div>
             <div class="grid_div">

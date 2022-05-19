@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BusinessLogicLayer.Base
+namespace BussinessLogicLayer.Base
 {
     public class MObject
     {
@@ -18,7 +18,7 @@ namespace BusinessLogicLayer.Base
         {
             /* Todos los objetos del manager deberan tener un constructor que les 
              * permita construirse a partir de un DbObject
-             */ 
+             */
         }
     }
 }

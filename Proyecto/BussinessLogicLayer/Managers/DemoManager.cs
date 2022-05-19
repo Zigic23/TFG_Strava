@@ -1,4 +1,4 @@
-﻿using BusinessLogicLayer.Base;
+﻿using BussinessLogicLayer.Base;
 using DatabaseAccessLayer.Managers;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BusinessLogicLayer.Managers
+namespace BussinessLogicLayer.Managers
 {
     public class DemoManager : Manager
     {
@@ -16,7 +16,7 @@ namespace BusinessLogicLayer.Managers
         public DemoManager(string dbConnectionString) : base(dbConnectionString)
         {
             // Todos los manager deberan instanciar su DbManager en el constructor
-            this.dbManager = new DemoDbManager(dbConnectionString);
+            dbManager = new DemoDbManager(dbConnectionString);
         }
     }
 }

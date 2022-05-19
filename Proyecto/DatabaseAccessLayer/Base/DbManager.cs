@@ -1,4 +1,5 @@
 ﻿using Microsoft.Practices.EnterpriseLibrary.Data;
+using Microsoft.Practices.EnterpriseLibrary.Data.Sql;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,9 +26,9 @@ namespace DatabaseAccessLayer.Base
         /// Recupera el objeto de base de datos para la cadena de conexión proporcionada en su construcción
         /// </summary>
         /// <returns>Database object</returns>
-        protected Database GetDatabase()
+        protected SqlDatabase GetDatabase()
         {
-            return new Microsoft.Practices.EnterpriseLibrary.Data.Sql.SqlDatabase(this.dbConnectionString);
+            return new SqlDatabase(this.dbConnectionString);
         }
 
         /// <summary>

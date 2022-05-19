@@ -7,7 +7,8 @@
 @section js {
     <script src="~/Content/Viewsjs/DetailTraining.js"></script>
     <script type="text/javascript">
-        var seeResultsUrl = "@(Html.Raw(Url.Action("SeeResults", "Trainings", new { code = Model, trainingCode = "-1" })))";
+        var seeResultsUrl = "@(Html.Raw(Url.Action("SeeResults", "Trainings", new { DayTrainingCode = "-1" })))";
+        var urlGetDayTrainings = "@(Html.Raw(Url.Action("GetGridDayTrainingWeek", "Trainings", new { trainingId = Model.training.TrainingCode, week = "-1" })))";
     </script>
 }
 
@@ -40,11 +41,11 @@
             <ul class="weeks_list">
                 @for (int i = 1; i <= Model.training.PlanTypeWeeks; i++)
                 {
-                    <li class="week @(i == 1 ? "active" : "")" >Semana @i</li>
+                    <li class="week @(i == 1 ? "active" : "")" onclick="showWeek(@i)" id="week_@i" >Semana @i</li>
                 }
             </ul>
         </div>
-
+            
         <div class="content-wrapper" id="detail_week">
             <div class="date_start"><h2 class="basic_text">Fecha inicio de la semana: 07/12/2020</h2></div>
             <div class="grid_div">

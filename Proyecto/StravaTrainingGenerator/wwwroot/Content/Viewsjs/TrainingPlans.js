@@ -22,9 +22,9 @@
                         for (let i = 0; i < response.length; i++) {
                             let itemResponse = response[i];
                             let StartDate = new Date(itemResponse.StartDate)
-                            itemResponse.StartDateStr = `${StartDate.getDate()}/${StartDate.getMonth()}/${StartDate.getFullYear()}`;
+                            itemResponse.StartDateStr = `${StartDate.getDate()}/${StartDate.getMonth() + 1}/${StartDate.getFullYear()}`;
                             let EndDate = new Date(itemResponse.EndDate)
-                            itemResponse.EndDateStr = `${EndDate.getDate()}/${EndDate.getMonth()}/${EndDate.getFullYear()}`;
+                            itemResponse.EndDateStr = `${EndDate.getDate()}/${EndDate.getMonth() + 1}/${EndDate.getFullYear()}`;
                             response[i] = itemResponse;
                         }
                         d.resolve(response);

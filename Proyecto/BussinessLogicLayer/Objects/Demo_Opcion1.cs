@@ -1,4 +1,4 @@
-﻿using BusinessLogicLayer.Base;
+﻿using BussinessLogicLayer.Base;
 using DatabaseAccessLayer.Base;
 using DatabaseAccessLayer.Objects;
 using System;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BusinessLogicLayer.Objects
+namespace BussinessLogicLayer.Objects
 {
     /// <summary>
     /// Equivalente a la Opcion 2, lo usaremos cuando el contenido del objeto de
@@ -49,7 +49,7 @@ namespace BusinessLogicLayer.Objects
 
         public Demo_Opcion1()
         {
-            this.dbObject = new DemoDbObject();
+            dbObject = new DemoDbObject();
         }
 
         public Demo_Opcion1(DbObject dbObject) : base(dbObject)
@@ -57,6 +57,6 @@ namespace BusinessLogicLayer.Objects
             // hacemos el cast son tipos compatibles por herencia
             this.dbObject = (DemoDbObject)dbObject;
         }
-        
+
     }
 }

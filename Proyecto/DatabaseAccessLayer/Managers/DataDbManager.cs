@@ -71,6 +71,42 @@ namespace DatabaseAccessLayer.Managers
             }
         }
 
+        public SeriesTimesAndRunInfoDbObject SelTimesSeriesAndRunInfo(int TrainingCode)
+        {
+            try
+            {
+                Database db = GetDatabase();
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STRA_C_SERIES_RUN_SelAll"))
+                {
+                    db.AddInParameter(dbCommand, "@CD_TRAINING", DbType.Int32, TrainingCode);
+
+                    using (DataSet ds = db.ExecuteDataSet(dbCommand))
+                    {
+                        List<RunInfoDbObject> runs = new List<RunInfoDbObject>();
+                        List<SeriesInfoDbObject> series = new List<SeriesInfoDbObject>();
+                        TimesInfoDbObject timesInfo = null;
+
+                        if (ds != null && ds.Tables.Count > 2)
+                        {
+                            foreach (DataRow row in ds.Tables[0].Rows)
+                                runs.Add(new RunInfoDbObject(row));
+
+                            foreach (DataRow row in ds.Tables[1].Rows)
+                                series.Add(new SeriesInfoDbObject(row));
+
+                            timesInfo = new TimesInfoDbObject(ds.Tables[2].Rows[0]);
+                        }
+
+                        return new SeriesTimesAndRunInfoDbObject(runs, series, timesInfo);
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                throw new DatabaseException(e);
+            }
+        }
+
         public override bool Delete(object id)
         {
             throw new NotImplementedException();

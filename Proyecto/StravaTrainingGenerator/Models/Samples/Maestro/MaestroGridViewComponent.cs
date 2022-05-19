@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BussinessLogicLayer.Objects;
+using Microsoft.AspNetCore.Mvc;
 using StoneMVCCore.Models.Samples.Maestro;
 using System;
 using System.Collections.Generic;
@@ -25,11 +26,11 @@ namespace StoneMVCCore.Models.Samples.Maestro
         public Task<Partial_DataGrid> GetItemsAsync()
         {
             Partial_DataGrid model = new Partial_DataGrid();
-            model.datasource = new List<BusinessLogicLayer.Objects.Demo_Opcion1>();
+            model.datasource = new List<Demo_Opcion1>();
 
             for (int i = 1; i <= 10; i++)
             {
-                BusinessLogicLayer.Objects.Demo_Opcion1 item = new BusinessLogicLayer.Objects.Demo_Opcion1();
+                Demo_Opcion1 item = new Demo_Opcion1();
 
                 item.id = i;
                 item.param1 = "Param1_" + i;

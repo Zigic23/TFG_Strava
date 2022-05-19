@@ -1,48 +1,13 @@
 ﻿$(document).ready(function () {
-    var trainings = [
-        {
-            numSerie: 1,
-            objective: "1 min 31 seg",
-            timeDone: "1 min 30 seg",
-            difference: "1 seg"
-        },
-        {
-            numSerie: 2,
-            objective: "1 min 31 seg",
-            timeDone: "1 min 30 seg",
-            difference: "1 seg"
-        },
-        {
-            numSerie: 3,
-            objective: "1 min 31 seg",
-            timeDone: "1 min 15 seg",
-            difference: "16 seg"
-        },
-        {
-            numSerie: 4,
-            objective: "1 min 31 seg",
-            timeDone: "1 min 20 seg",
-            difference: "11 seg"
-        },
-        {
-            numSerie: 5,
-            objective: "1 min 31 seg",
-            timeDone: "1 min 30 seg",
-            difference: "1 seg"
-        },
-        {
-            numSerie: 6,
-            objective: "1 min 31 seg",
-            timeDone: "1 min 20 seg",
-            difference: "11 seg"
-        },
-        {
-            numSerie: 7,
-            objective: "1 min 31 seg",
-            timeDone: "1 min 30 seg",
-            difference: "1 seg"
-        }
-    ];
+
+    for (let i = 0; i < DayTraining.ResultsDay.length; i++) {
+        let tempResult = DayTraining.ResultsDay[i];
+
+        if (tempResult.RithmDone)
+            tempResult.Difference = tempResult.RithmDone - tempResult.RithmObjective;
+
+        DayTraining.ResultsDay[i] = tempResult;
+    }
 
     $("#detail_grid").jsGrid({
         width: "100%",
@@ -50,13 +15,16 @@
         sorting: true,
         paging: true,
 
-        data: trainings,
+        data: DayTraining.ResultsDay,
 
         fields: [
-            { name: "numSerie", title: "Nº Serie", type: "number" },
-            { name: "objective", title: "Objetivo", type: "text" },
-            { name: "timeDone", title: "Tiempo Realizado", type: "text" },
-            { name: "difference", title: "Diferencia", type: "text" }
+            { name: "SerieName", title: "Parcial", type: "text" },
+            { name: "DistObjective", title: "Dist", type: "number" },
+            { name: "Desnivel", title: "Desnivel", type: "number" },
+            { name: "MaxFrecuency", title: "FCMx", type: "number" },
+            { name: "RithmObjectiveStr", title: "Rit. Objetivo", type: "text",  },
+            { name: "RithmDoneStr", title: "Rit. Realizado", type: "text" },
+            { name: "Difference", title: "Diferencia", type: "number" }
         ]
     });
 });

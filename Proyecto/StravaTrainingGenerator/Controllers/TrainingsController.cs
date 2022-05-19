@@ -20,9 +20,11 @@ namespace StravaTrainingGenerator.Controllers
     public class TrainingsController : BaseController
     {
         private TrainingManager trainingManager;
+        private DayTrainingManager dayTrainingManager;
         public TrainingsController(ILogger<BaseController> logger, IOptions<ConnectionStrings> connectionStrings, IOptions<KeysSettings> keysSettings, IConfiguration configuration) : base(logger, connectionStrings, keysSettings, configuration)
         {
             this.trainingManager = new TrainingManager(connectionStrings.Value["CadenaConexion"]);
+            this.dayTrainingManager = new DayTrainingManager(connectionStrings.Value["CadenaConexion"]);
         }
 
         public IActionResult Index()
@@ -63,9 +65,32 @@ namespace StravaTrainingGenerator.Controllers
             }
         }
 
-        public ActionResult SeeResults(int code, int trainingCode)
+        public ActionResult GetGridDayTrainingWeek(int trainingId, int week)
         {
-            return View(code);
+            Athlete user = HttpContext.Session.Get<Athlete>(SessionKeys.UserKey);
+            try
+            {
+                List<DayTrainingObject> trainings = dayTrainingManager.GetByTrainingWeek(trainingId, week, user.id);
+                return Json(trainings.ToArray());
+            }
+            catch
+            {
+                return Json(new { errorMsg = "Ha ocurrido un error al recoger los entrenamientos" });
+            }
+        }
+
+        public ActionResult SeeResults(Guid DayTrainingCode)
+        {
+            Athlete user = HttpContext.Session.Get<Athlete>(SessionKeys.UserKey);
+            try
+            {
+                DayTrainingObject dayTraining = dayTrainingManager.GetDayTraining(DayTrainingCode, user.id);
+                return View(dayTraining);
+            }
+            catch
+            {
+                return RedirectToAction("Index", "Errores");
+            }
         }
     }
 }

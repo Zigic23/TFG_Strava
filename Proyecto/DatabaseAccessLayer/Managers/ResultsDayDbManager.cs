@@ -51,6 +51,41 @@ namespace DatabaseAccessLayer.Managers
             }
         }
 
+        public List<ResultsDayDbObject> postStravaValues(long userCode, DateTimeOffset lastSyncDate, List<LapResultDbObject> resultsDay)
+        {
+            try
+            {
+                SqlDatabase db = GetDatabase();
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STRA_pr_RESULTS_DAY_InsLaps"))
+                {
+                    DataTable resultsTable = CreateLapResultsTable(resultsDay);
+
+                    db.AddInParameter(dbCommand, "@RESULTS", SqlDbType.Structured, resultsTable);
+                    db.AddInParameter(dbCommand, "@CD_USER", SqlDbType.BigInt, userCode);
+                    db.AddInParameter(dbCommand, "@FC_LAST_SYNC", SqlDbType.DateTimeOffset, lastSyncDate);
+
+                    using (DataSet ds = db.ExecuteDataSet(dbCommand))
+                    {
+                        List<ResultsDayDbObject> result = new List<ResultsDayDbObject>();
+
+                        if (ds != null && ds.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+                        {
+                            foreach (DataRow row in ds.Tables[0].Rows)
+                            {
+                                result.Add(new ResultsDayDbObject(row));
+                            }
+                        }
+
+                        return result;
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                throw new DatabaseException(e);
+            }
+        }
+
         private DataTable CreateResultsTable(List<ResultsDayDbObject> resultsDay)
         {
             DataTable table = new DataTable();
@@ -72,6 +107,35 @@ namespace DatabaseAccessLayer.Managers
                     resultDay.SerieName,
                     resultDay.DistType,
                     resultDay.RithmObjective
+                );
+            }
+
+            return table;
+        }
+
+        private DataTable CreateLapResultsTable(List<LapResultDbObject> resultsDay)
+        {
+            DataTable table = new DataTable();
+
+            table.Columns.Add("FC_DATE", typeof(DateTime));
+            table.Columns.Add("NM_SERIE", typeof(int));
+            table.Columns.Add("NM_SEC_TIME_DONE", typeof(int));
+            table.Columns.Add("NM_DESNIVEL", typeof(int));
+            table.Columns.Add("NM_FCMX", typeof(string));
+            table.Columns.Add("NM_RITHM_DONE", typeof(int));
+            table.Columns.Add("NM_DIST_DONE", typeof(int));
+
+            foreach(LapResultDbObject resultDay in resultsDay)
+            {
+                table.Rows.Add
+                (
+                    resultDay.Date,
+                    resultDay.NumSerie,
+                    resultDay.TimeDone,
+                    resultDay.Desnivel,
+                    resultDay.AverageFrecuency,
+                    resultDay.RithmDone,
+                    resultDay.DistanceDone
                 );
             }
 

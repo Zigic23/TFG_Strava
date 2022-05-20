@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DatabaseAccessLayer\DatabaseAccessLayer.csproj" />
+    <ProjectReference Include="..\StravaConnector\StravaConnector.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

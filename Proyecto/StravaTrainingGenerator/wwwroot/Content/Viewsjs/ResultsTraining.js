@@ -19,12 +19,17 @@
 
         fields: [
             { name: "SerieName", title: "Parcial", type: "text" },
-            { name: "DistObjective", title: "Dist", type: "number" },
+            { name: "DistObjective", title: "Dist", type: "number", itemTemplate: DistObjectiveFunc },
+            { name: "DistDone", title: "Dist hecha", type: "number", itemTemplate: DistObjectiveFunc },
             { name: "Desnivel", title: "Desnivel", type: "number" },
-            { name: "MaxFrecuency", title: "FCMx", type: "number" },
+            { name: "AverageFrecuency", title: "Frecuencia media", type: "number" },
             { name: "RithmObjectiveStr", title: "Rit. Objetivo", type: "text",  },
             { name: "RithmDoneStr", title: "Rit. Realizado", type: "text" },
             { name: "Difference", title: "Diferencia", type: "number" }
         ]
     });
 });
+
+function DistObjectiveFunc(value, item) {
+    return value != null ? value + " " + item.DistType : "";
+}

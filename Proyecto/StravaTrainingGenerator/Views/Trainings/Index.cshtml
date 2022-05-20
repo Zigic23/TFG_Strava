@@ -7,14 +7,15 @@
     <script src="~/Content/Viewsjs/TrainingPlans.js"></script>
     <script type="text/javascript">
         var detailUrl = "@(Html.Raw(Url.Action("Detail", "Trainings", new { code = "-1" })))";
-        var urlGetTrainings = "@(Html.Raw(Url.Action("GetGridTrainings", "Trainings")))"
+        var urlGetTrainings = "@(Html.Raw(Url.Action("GetGridTrainings", "Trainings")))";
+        var updateFromStravaUrl = "@(Html.Raw(Url.Action("UpdateStravaValues", "Trainings")))"
     </script>
 }
 
 <section class="components training_plans">
     <div class="top_row flex flex_h flex_aic">
         <h2 class="title f1">Planes de Entrenamiento</h2>
-        <button class="btn">
+        <button class="btn" onclick="updateFromStrava()">
             Actualizar desde
             <img class="strava_icon" src="~/Content/images/logos/Strava_Orange.png" />
         </button>

@@ -98,10 +98,9 @@ namespace BussinessLogicLayer.Managers
 
                 } 
                 //Carreras
-                else if(dayTraining.TrainingTypeCode == 2 || dayTraining.TrainingTypeCode == 3)
+                else if(dayTraining.TrainingTypeCode == 2)
                 {
-                    List<RunInfoDbObject> runs = seriesTimesAndRuns.Runs.FindAll(s => s.GroupCode == dayTraining.RunGroupCode 
-                        && ((dayTraining.TrainingTypeCode == 2 && s.IsShortRun) || (dayTraining.TrainingTypeCode == 3 && !s.IsShortRun)));
+                    List<RunInfoDbObject> runs = seriesTimesAndRuns.Runs.FindAll(s => s.GroupCode == dayTraining.RunGroupCode && s.IsShortRun);
 
                     runs = runs.OrderBy(s => s.Order).ToList();
                     int currentRun = 1;
@@ -143,6 +142,29 @@ namespace BussinessLogicLayer.Managers
                         SerieName = "ENF",
                         RithmObjective = null
                     });
+                } 
+                else if(dayTraining.TrainingTypeCode == 3)
+                {
+                    List<RunInfoDbObject> runs = seriesTimesAndRuns.Runs.FindAll(s => s.GroupCode == dayTraining.RunGroupCode && !s.IsShortRun);
+
+                    runs = runs.OrderBy(s => s.Order).ToList();
+                    int currentRun = 1;
+
+                    //Para cada carrera tendremos que añadir un objeto resultDayObject por cada elemento
+                    foreach (RunInfoDbObject run in runs)
+                    {
+                        //Añadimos la carrera
+                        results.Add(new ResultsDayObject()
+                        {
+                            DayTrainingCode = dayTraining.DayTrainingCode,
+                            NumSerie = currentRun,
+                            DistObjective = run.Distance,
+                            DistType = "m",
+                            SerieName = "S" + (currentRun - 1),
+                            RithmObjective = seriesTimesAndRuns.Times.GetRithmObjective(run.Distance, run.IsShortRun ? "short" : "long")
+                        });
+                        currentRun += 1;
+                    }
                 }
             }
 

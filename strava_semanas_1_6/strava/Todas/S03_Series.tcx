@@ -2,8 +2,8 @@
 <TrainingCenterDatabase xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd" xmlns:ns5="http://www.garmin.com/xmlschemas/ActivityGoals/v1" xmlns:ns3="http://www.garmin.com/xmlschemas/ActivityExtension/v2" xmlns:ns2="http://www.garmin.com/xmlschemas/UserProfile/v2" xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
  <Activities>
   <Activity Sport="Running">
-   <Id>2017-01-18T17:55:02Z</Id>
-   <Lap StartTime="2017-01-18T17:55:02Z">
+   <Id>2017-01-06T17:55:02Z</Id>
+   <Lap StartTime="2017-01-06T17:55:02Z">
     <TotalTimeSeconds>600</TotalTimeSeconds>
     <DistanceMeters>1608.18</DistanceMeters>
     <MaximumSpeed>13320.0</MaximumSpeed>
@@ -19,7 +19,7 @@
     <TriggerMethod>Manual</TriggerMethod>
     <Track>
      <Trackpoint>
-      <Time>2017-01-18T17:55:02Z</Time>
+      <Time>2017-01-06T17:55:02Z</Time>
       <Position>
        <LatitudeDegrees>40.2896670</LatitudeDegrees>
        <LongitudeDegrees>-3.8045080</LongitudeDegrees>
@@ -37,7 +37,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:55:03Z</Time>
+      <Time>2017-01-06T17:55:03Z</Time>
       <Position>
        <LatitudeDegrees>40.2896540</LatitudeDegrees>
        <LongitudeDegrees>-3.8045320</LongitudeDegrees>
@@ -55,7 +55,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:55:10Z</Time>
+      <Time>2017-01-06T17:55:10Z</Time>
       <Position>
        <LatitudeDegrees>40.2895390</LatitudeDegrees>
        <LongitudeDegrees>-3.8047390</LongitudeDegrees>
@@ -73,7 +73,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:55:16Z</Time>
+      <Time>2017-01-06T17:55:16Z</Time>
       <Position>
        <LatitudeDegrees>40.2894390</LatitudeDegrees>
        <LongitudeDegrees>-3.8049420</LongitudeDegrees>
@@ -91,7 +91,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:55:20Z</Time>
+      <Time>2017-01-06T17:55:20Z</Time>
       <Position>
        <LatitudeDegrees>40.2893810</LatitudeDegrees>
        <LongitudeDegrees>-3.8050560</LongitudeDegrees>
@@ -109,7 +109,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:55:25Z</Time>
+      <Time>2017-01-06T17:55:25Z</Time>
       <Position>
        <LatitudeDegrees>40.2893200</LatitudeDegrees>
        <LongitudeDegrees>-3.8051860</LongitudeDegrees>
@@ -127,7 +127,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:55:32Z</Time>
+      <Time>2017-01-06T17:55:32Z</Time>
       <Position>
        <LatitudeDegrees>40.2892080</LatitudeDegrees>
        <LongitudeDegrees>-3.8054020</LongitudeDegrees>
@@ -145,7 +145,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:55:40Z</Time>
+      <Time>2017-01-06T17:55:40Z</Time>
       <Position>
        <LatitudeDegrees>40.2890840</LatitudeDegrees>
        <LongitudeDegrees>-3.8056210</LongitudeDegrees>
@@ -163,7 +163,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:55:47Z</Time>
+      <Time>2017-01-06T17:55:47Z</Time>
       <Position>
        <LatitudeDegrees>40.2889650</LatitudeDegrees>
        <LongitudeDegrees>-3.8058210</LongitudeDegrees>
@@ -181,7 +181,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:55:49Z</Time>
+      <Time>2017-01-06T17:55:49Z</Time>
       <Position>
        <LatitudeDegrees>40.2889300</LatitudeDegrees>
        <LongitudeDegrees>-3.8058650</LongitudeDegrees>
@@ -199,7 +199,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:55:51Z</Time>
+      <Time>2017-01-06T17:55:51Z</Time>
       <Position>
        <LatitudeDegrees>40.2888960</LatitudeDegrees>
        <LongitudeDegrees>-3.8059120</LongitudeDegrees>
@@ -217,7 +217,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:55:54Z</Time>
+      <Time>2017-01-06T17:55:54Z</Time>
       <Position>
        <LatitudeDegrees>40.2888490</LatitudeDegrees>
        <LongitudeDegrees>-3.8059820</LongitudeDegrees>
@@ -235,7 +235,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:55:57Z</Time>
+      <Time>2017-01-06T17:55:57Z</Time>
       <Position>
        <LatitudeDegrees>40.2888020</LatitudeDegrees>
        <LongitudeDegrees>-3.8060520</LongitudeDegrees>
@@ -253,7 +253,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:56:06Z</Time>
+      <Time>2017-01-06T17:56:06Z</Time>
       <Position>
        <LatitudeDegrees>40.2887180</LatitudeDegrees>
        <LongitudeDegrees>-3.8062570</LongitudeDegrees>
@@ -271,7 +271,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:56:14Z</Time>
+      <Time>2017-01-06T17:56:14Z</Time>
       <Position>
        <LatitudeDegrees>40.2886180</LatitudeDegrees>
        <LongitudeDegrees>-3.8064590</LongitudeDegrees>
@@ -289,7 +289,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:56:20Z</Time>
+      <Time>2017-01-06T17:56:20Z</Time>
       <Position>
        <LatitudeDegrees>40.2885340</LatitudeDegrees>
        <LongitudeDegrees>-3.8066030</LongitudeDegrees>
@@ -307,7 +307,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:56:26Z</Time>
+      <Time>2017-01-06T17:56:26Z</Time>
       <Position>
        <LatitudeDegrees>40.2884620</LatitudeDegrees>
        <LongitudeDegrees>-3.8067540</LongitudeDegrees>
@@ -325,7 +325,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:56:30Z</Time>
+      <Time>2017-01-06T17:56:30Z</Time>
       <Position>
        <LatitudeDegrees>40.2884290</LatitudeDegrees>
        <LongitudeDegrees>-3.8068450</LongitudeDegrees>
@@ -343,7 +343,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:56:40Z</Time>
+      <Time>2017-01-06T17:56:40Z</Time>
       <Position>
        <LatitudeDegrees>40.2883460</LatitudeDegrees>
        <LongitudeDegrees>-3.8070760</LongitudeDegrees>
@@ -361,7 +361,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:56:41Z</Time>
+      <Time>2017-01-06T17:56:41Z</Time>
       <Position>
        <LatitudeDegrees>40.2883360</LatitudeDegrees>
        <LongitudeDegrees>-3.8071030</LongitudeDegrees>
@@ -379,7 +379,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:56:49Z</Time>
+      <Time>2017-01-06T17:56:49Z</Time>
       <Position>
        <LatitudeDegrees>40.2882300</LatitudeDegrees>
        <LongitudeDegrees>-3.8072990</LongitudeDegrees>
@@ -397,7 +397,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:56:57Z</Time>
+      <Time>2017-01-06T17:56:57Z</Time>
       <Position>
        <LatitudeDegrees>40.2881170</LatitudeDegrees>
        <LongitudeDegrees>-3.8074840</LongitudeDegrees>
@@ -415,7 +415,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:57:05Z</Time>
+      <Time>2017-01-06T17:57:05Z</Time>
       <Position>
        <LatitudeDegrees>40.2880350</LatitudeDegrees>
        <LongitudeDegrees>-3.8077060</LongitudeDegrees>
@@ -433,7 +433,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:57:11Z</Time>
+      <Time>2017-01-06T17:57:11Z</Time>
       <Position>
        <LatitudeDegrees>40.2879930</LatitudeDegrees>
        <LongitudeDegrees>-3.8078620</LongitudeDegrees>
@@ -451,7 +451,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:57:18Z</Time>
+      <Time>2017-01-06T17:57:18Z</Time>
       <Position>
        <LatitudeDegrees>40.2879680</LatitudeDegrees>
        <LongitudeDegrees>-3.8080920</LongitudeDegrees>
@@ -469,7 +469,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:57:24Z</Time>
+      <Time>2017-01-06T17:57:24Z</Time>
       <Position>
        <LatitudeDegrees>40.2879410</LatitudeDegrees>
        <LongitudeDegrees>-3.8082850</LongitudeDegrees>
@@ -487,7 +487,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:57:27Z</Time>
+      <Time>2017-01-06T17:57:27Z</Time>
       <Position>
        <LatitudeDegrees>40.2879230</LatitudeDegrees>
        <LongitudeDegrees>-3.8083630</LongitudeDegrees>
@@ -505,7 +505,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:57:35Z</Time>
+      <Time>2017-01-06T17:57:35Z</Time>
       <Position>
        <LatitudeDegrees>40.2878460</LatitudeDegrees>
        <LongitudeDegrees>-3.8085640</LongitudeDegrees>
@@ -523,7 +523,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:57:43Z</Time>
+      <Time>2017-01-06T17:57:43Z</Time>
       <Position>
        <LatitudeDegrees>40.2877030</LatitudeDegrees>
        <LongitudeDegrees>-3.8087190</LongitudeDegrees>
@@ -541,7 +541,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:57:44Z</Time>
+      <Time>2017-01-06T17:57:44Z</Time>
       <Position>
        <LatitudeDegrees>40.2876820</LatitudeDegrees>
        <LongitudeDegrees>-3.8087360</LongitudeDegrees>
@@ -559,7 +559,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:57:47Z</Time>
+      <Time>2017-01-06T17:57:47Z</Time>
       <Position>
        <LatitudeDegrees>40.2876270</LatitudeDegrees>
        <LongitudeDegrees>-3.8087830</LongitudeDegrees>
@@ -577,7 +577,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:57:54Z</Time>
+      <Time>2017-01-06T17:57:54Z</Time>
       <Position>
        <LatitudeDegrees>40.2875230</LatitudeDegrees>
        <LongitudeDegrees>-3.8088960</LongitudeDegrees>
@@ -595,7 +595,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:58:02Z</Time>
+      <Time>2017-01-06T17:58:02Z</Time>
       <Position>
        <LatitudeDegrees>40.2873880</LatitudeDegrees>
        <LongitudeDegrees>-3.8090310</LongitudeDegrees>
@@ -613,7 +613,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:58:13Z</Time>
+      <Time>2017-01-06T17:58:13Z</Time>
       <Position>
        <LatitudeDegrees>40.2872280</LatitudeDegrees>
        <LongitudeDegrees>-3.8091770</LongitudeDegrees>
@@ -631,7 +631,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:58:22Z</Time>
+      <Time>2017-01-06T17:58:22Z</Time>
       <Position>
        <LatitudeDegrees>40.2871430</LatitudeDegrees>
        <LongitudeDegrees>-3.8092810</LongitudeDegrees>
@@ -649,7 +649,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:58:28Z</Time>
+      <Time>2017-01-06T17:58:28Z</Time>
       <Position>
        <LatitudeDegrees>40.2871390</LatitudeDegrees>
        <LongitudeDegrees>-3.8094350</LongitudeDegrees>
@@ -667,7 +667,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:58:34Z</Time>
+      <Time>2017-01-06T17:58:34Z</Time>
       <Position>
        <LatitudeDegrees>40.2870880</LatitudeDegrees>
        <LongitudeDegrees>-3.8095490</LongitudeDegrees>
@@ -685,7 +685,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:58:48Z</Time>
+      <Time>2017-01-06T17:58:48Z</Time>
       <Position>
        <LatitudeDegrees>40.2870190</LatitudeDegrees>
        <LongitudeDegrees>-3.8097340</LongitudeDegrees>
@@ -703,7 +703,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:58:51Z</Time>
+      <Time>2017-01-06T17:58:51Z</Time>
       <Position>
        <LatitudeDegrees>40.2869910</LatitudeDegrees>
        <LongitudeDegrees>-3.8098140</LongitudeDegrees>
@@ -721,7 +721,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:58:53Z</Time>
+      <Time>2017-01-06T17:58:53Z</Time>
       <Position>
        <LatitudeDegrees>40.2869850</LatitudeDegrees>
        <LongitudeDegrees>-3.8098640</LongitudeDegrees>
@@ -739,7 +739,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:58:56Z</Time>
+      <Time>2017-01-06T17:58:56Z</Time>
       <Position>
        <LatitudeDegrees>40.2869810</LatitudeDegrees>
        <LongitudeDegrees>-3.8099450</LongitudeDegrees>
@@ -757,7 +757,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:59:06Z</Time>
+      <Time>2017-01-06T17:59:06Z</Time>
       <Position>
        <LatitudeDegrees>40.2869820</LatitudeDegrees>
        <LongitudeDegrees>-3.8102160</LongitudeDegrees>
@@ -775,7 +775,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:59:09Z</Time>
+      <Time>2017-01-06T17:59:09Z</Time>
       <Position>
        <LatitudeDegrees>40.2869780</LatitudeDegrees>
        <LongitudeDegrees>-3.8103420</LongitudeDegrees>
@@ -793,7 +793,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:59:13Z</Time>
+      <Time>2017-01-06T17:59:13Z</Time>
       <Position>
        <LatitudeDegrees>40.2869760</LatitudeDegrees>
        <LongitudeDegrees>-3.8104830</LongitudeDegrees>
@@ -811,7 +811,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:59:15Z</Time>
+      <Time>2017-01-06T17:59:15Z</Time>
       <Position>
        <LatitudeDegrees>40.2869750</LatitudeDegrees>
        <LongitudeDegrees>-3.8105540</LongitudeDegrees>
@@ -829,7 +829,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:59:21Z</Time>
+      <Time>2017-01-06T17:59:21Z</Time>
       <Position>
        <LatitudeDegrees>40.2869770</LatitudeDegrees>
        <LongitudeDegrees>-3.8107530</LongitudeDegrees>
@@ -847,7 +847,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:59:29Z</Time>
+      <Time>2017-01-06T17:59:29Z</Time>
       <Position>
        <LatitudeDegrees>40.2869660</LatitudeDegrees>
        <LongitudeDegrees>-3.8110190</LongitudeDegrees>
@@ -865,7 +865,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:59:37Z</Time>
+      <Time>2017-01-06T17:59:37Z</Time>
       <Position>
        <LatitudeDegrees>40.2869710</LatitudeDegrees>
        <LongitudeDegrees>-3.8112690</LongitudeDegrees>
@@ -883,7 +883,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:59:41Z</Time>
+      <Time>2017-01-06T17:59:41Z</Time>
       <Position>
        <LatitudeDegrees>40.2869610</LatitudeDegrees>
        <LongitudeDegrees>-3.8114090</LongitudeDegrees>
@@ -901,7 +901,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:59:46Z</Time>
+      <Time>2017-01-06T17:59:46Z</Time>
       <Position>
        <LatitudeDegrees>40.2869420</LatitudeDegrees>
        <LongitudeDegrees>-3.8116210</LongitudeDegrees>
@@ -919,7 +919,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:59:47Z</Time>
+      <Time>2017-01-06T17:59:47Z</Time>
       <Position>
        <LatitudeDegrees>40.2869390</LatitudeDegrees>
        <LongitudeDegrees>-3.8116600</LongitudeDegrees>
@@ -937,7 +937,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T17:59:54Z</Time>
+      <Time>2017-01-06T17:59:54Z</Time>
       <Position>
        <LatitudeDegrees>40.2869200</LatitudeDegrees>
        <LongitudeDegrees>-3.8118970</LongitudeDegrees>
@@ -955,7 +955,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:00:02Z</Time>
+      <Time>2017-01-06T18:00:02Z</Time>
       <Position>
        <LatitudeDegrees>40.2868140</LatitudeDegrees>
        <LongitudeDegrees>-3.8120810</LongitudeDegrees>
@@ -973,7 +973,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:00:10Z</Time>
+      <Time>2017-01-06T18:00:10Z</Time>
       <Position>
        <LatitudeDegrees>40.2866250</LatitudeDegrees>
        <LongitudeDegrees>-3.8120120</LongitudeDegrees>
@@ -991,7 +991,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:00:16Z</Time>
+      <Time>2017-01-06T18:00:16Z</Time>
       <Position>
        <LatitudeDegrees>40.2864950</LatitudeDegrees>
        <LongitudeDegrees>-3.8119590</LongitudeDegrees>
@@ -1009,7 +1009,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:00:24Z</Time>
+      <Time>2017-01-06T18:00:24Z</Time>
       <Position>
        <LatitudeDegrees>40.2863030</LatitudeDegrees>
        <LongitudeDegrees>-3.8118670</LongitudeDegrees>
@@ -1027,7 +1027,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:00:31Z</Time>
+      <Time>2017-01-06T18:00:31Z</Time>
       <Position>
        <LatitudeDegrees>40.2861190</LatitudeDegrees>
        <LongitudeDegrees>-3.8118080</LongitudeDegrees>
@@ -1045,7 +1045,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:00:36Z</Time>
+      <Time>2017-01-06T18:00:36Z</Time>
       <Position>
        <LatitudeDegrees>40.2859770</LatitudeDegrees>
        <LongitudeDegrees>-3.8117960</LongitudeDegrees>
@@ -1063,7 +1063,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:00:38Z</Time>
+      <Time>2017-01-06T18:00:38Z</Time>
       <Position>
        <LatitudeDegrees>40.2859250</LatitudeDegrees>
        <LongitudeDegrees>-3.8118320</LongitudeDegrees>
@@ -1081,7 +1081,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:00:39Z</Time>
+      <Time>2017-01-06T18:00:39Z</Time>
       <Position>
        <LatitudeDegrees>40.2859040</LatitudeDegrees>
        <LongitudeDegrees>-3.8118600</LongitudeDegrees>
@@ -1099,7 +1099,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:00:40Z</Time>
+      <Time>2017-01-06T18:00:40Z</Time>
       <Position>
        <LatitudeDegrees>40.2858810</LatitudeDegrees>
        <LongitudeDegrees>-3.8118850</LongitudeDegrees>
@@ -1117,7 +1117,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:00:44Z</Time>
+      <Time>2017-01-06T18:00:44Z</Time>
       <Position>
        <LatitudeDegrees>40.2857800</LatitudeDegrees>
        <LongitudeDegrees>-3.8119410</LongitudeDegrees>
@@ -1135,7 +1135,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:00:50Z</Time>
+      <Time>2017-01-06T18:00:50Z</Time>
       <Position>
        <LatitudeDegrees>40.2856230</LatitudeDegrees>
        <LongitudeDegrees>-3.8119500</LongitudeDegrees>
@@ -1153,7 +1153,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:00:58Z</Time>
+      <Time>2017-01-06T18:00:58Z</Time>
       <Position>
        <LatitudeDegrees>40.2854930</LatitudeDegrees>
        <LongitudeDegrees>-3.8118600</LongitudeDegrees>
@@ -1171,7 +1171,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:01:01Z</Time>
+      <Time>2017-01-06T18:01:01Z</Time>
       <Position>
        <LatitudeDegrees>40.2854550</LatitudeDegrees>
        <LongitudeDegrees>-3.8119260</LongitudeDegrees>
@@ -1189,7 +1189,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:01:03Z</Time>
+      <Time>2017-01-06T18:01:03Z</Time>
       <Position>
        <LatitudeDegrees>40.2854590</LatitudeDegrees>
        <LongitudeDegrees>-3.8119820</LongitudeDegrees>
@@ -1207,7 +1207,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:01:09Z</Time>
+      <Time>2017-01-06T18:01:09Z</Time>
       <Position>
        <LatitudeDegrees>40.2854820</LatitudeDegrees>
        <LongitudeDegrees>-3.8122020</LongitudeDegrees>
@@ -1225,7 +1225,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:01:10Z</Time>
+      <Time>2017-01-06T18:01:10Z</Time>
       <Position>
        <LatitudeDegrees>40.2854840</LatitudeDegrees>
        <LongitudeDegrees>-3.8122390</LongitudeDegrees>
@@ -1243,7 +1243,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:01:16Z</Time>
+      <Time>2017-01-06T18:01:16Z</Time>
       <Position>
        <LatitudeDegrees>40.2854290</LatitudeDegrees>
        <LongitudeDegrees>-3.8124890</LongitudeDegrees>
@@ -1261,7 +1261,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:01:17Z</Time>
+      <Time>2017-01-06T18:01:17Z</Time>
       <Position>
        <LatitudeDegrees>40.2854290</LatitudeDegrees>
        <LongitudeDegrees>-3.8125260</LongitudeDegrees>
@@ -1279,7 +1279,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:01:24Z</Time>
+      <Time>2017-01-06T18:01:24Z</Time>
       <Position>
        <LatitudeDegrees>40.2854870</LatitudeDegrees>
        <LongitudeDegrees>-3.8127490</LongitudeDegrees>
@@ -1297,7 +1297,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:01:25Z</Time>
+      <Time>2017-01-06T18:01:25Z</Time>
       <Position>
        <LatitudeDegrees>40.2854850</LatitudeDegrees>
        <LongitudeDegrees>-3.8127840</LongitudeDegrees>
@@ -1315,7 +1315,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:01:32Z</Time>
+      <Time>2017-01-06T18:01:32Z</Time>
       <Position>
        <LatitudeDegrees>40.2854970</LatitudeDegrees>
        <LongitudeDegrees>-3.8130280</LongitudeDegrees>
@@ -1333,7 +1333,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:01:39Z</Time>
+      <Time>2017-01-06T18:01:39Z</Time>
       <Position>
        <LatitudeDegrees>40.2854800</LatitudeDegrees>
        <LongitudeDegrees>-3.8132850</LongitudeDegrees>
@@ -1351,7 +1351,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:01:46Z</Time>
+      <Time>2017-01-06T18:01:46Z</Time>
       <Position>
        <LatitudeDegrees>40.2854300</LatitudeDegrees>
        <LongitudeDegrees>-3.8135240</LongitudeDegrees>
@@ -1369,7 +1369,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:01:47Z</Time>
+      <Time>2017-01-06T18:01:47Z</Time>
       <Position>
        <LatitudeDegrees>40.2854240</LatitudeDegrees>
        <LongitudeDegrees>-3.8135560</LongitudeDegrees>
@@ -1387,7 +1387,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:01:48Z</Time>
+      <Time>2017-01-06T18:01:48Z</Time>
       <Position>
        <LatitudeDegrees>40.2854170</LatitudeDegrees>
        <LongitudeDegrees>-3.8135860</LongitudeDegrees>
@@ -1405,7 +1405,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:01:54Z</Time>
+      <Time>2017-01-06T18:01:54Z</Time>
       <Position>
        <LatitudeDegrees>40.2853030</LatitudeDegrees>
        <LongitudeDegrees>-3.8136810</LongitudeDegrees>
@@ -1423,7 +1423,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:01:57Z</Time>
+      <Time>2017-01-06T18:01:57Z</Time>
       <Position>
        <LatitudeDegrees>40.2852220</LatitudeDegrees>
        <LongitudeDegrees>-3.8136870</LongitudeDegrees>
@@ -1441,7 +1441,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:02:02Z</Time>
+      <Time>2017-01-06T18:02:02Z</Time>
       <Position>
        <LatitudeDegrees>40.2852070</LatitudeDegrees>
        <LongitudeDegrees>-3.8138470</LongitudeDegrees>
@@ -1459,7 +1459,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:02:04Z</Time>
+      <Time>2017-01-06T18:02:04Z</Time>
       <Position>
        <LatitudeDegrees>40.2852190</LatitudeDegrees>
        <LongitudeDegrees>-3.8139200</LongitudeDegrees>
@@ -1477,7 +1477,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:02:09Z</Time>
+      <Time>2017-01-06T18:02:09Z</Time>
       <Position>
        <LatitudeDegrees>40.2852210</LatitudeDegrees>
        <LongitudeDegrees>-3.8140780</LongitudeDegrees>
@@ -1495,7 +1495,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:02:18Z</Time>
+      <Time>2017-01-06T18:02:18Z</Time>
       <Position>
        <LatitudeDegrees>40.2852370</LatitudeDegrees>
        <LongitudeDegrees>-3.8143340</LongitudeDegrees>
@@ -1513,7 +1513,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:02:26Z</Time>
+      <Time>2017-01-06T18:02:26Z</Time>
       <Position>
        <LatitudeDegrees>40.2852410</LatitudeDegrees>
        <LongitudeDegrees>-3.8146060</LongitudeDegrees>
@@ -1531,7 +1531,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:02:34Z</Time>
+      <Time>2017-01-06T18:02:34Z</Time>
       <Position>
        <LatitudeDegrees>40.2852400</LatitudeDegrees>
        <LongitudeDegrees>-3.8148690</LongitudeDegrees>
@@ -1549,7 +1549,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:02:37Z</Time>
+      <Time>2017-01-06T18:02:37Z</Time>
       <Position>
        <LatitudeDegrees>40.2852470</LatitudeDegrees>
        <LongitudeDegrees>-3.8149640</LongitudeDegrees>
@@ -1567,7 +1567,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:02:45Z</Time>
+      <Time>2017-01-06T18:02:45Z</Time>
       <Position>
        <LatitudeDegrees>40.2852590</LatitudeDegrees>
        <LongitudeDegrees>-3.8152190</LongitudeDegrees>
@@ -1585,7 +1585,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:02:50Z</Time>
+      <Time>2017-01-06T18:02:50Z</Time>
       <Position>
        <LatitudeDegrees>40.2852840</LatitudeDegrees>
        <LongitudeDegrees>-3.8153760</LongitudeDegrees>
@@ -1603,7 +1603,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:02:51Z</Time>
+      <Time>2017-01-06T18:02:51Z</Time>
       <Position>
        <LatitudeDegrees>40.2852860</LatitudeDegrees>
        <LongitudeDegrees>-3.8154060</LongitudeDegrees>
@@ -1621,7 +1621,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:02:52Z</Time>
+      <Time>2017-01-06T18:02:52Z</Time>
       <Position>
        <LatitudeDegrees>40.2852830</LatitudeDegrees>
        <LongitudeDegrees>-3.8154390</LongitudeDegrees>
@@ -1639,7 +1639,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:02:53Z</Time>
+      <Time>2017-01-06T18:02:53Z</Time>
       <Position>
        <LatitudeDegrees>40.2852840</LatitudeDegrees>
        <LongitudeDegrees>-3.8154730</LongitudeDegrees>
@@ -1657,7 +1657,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:02:54Z</Time>
+      <Time>2017-01-06T18:02:54Z</Time>
       <Position>
        <LatitudeDegrees>40.2852820</LatitudeDegrees>
        <LongitudeDegrees>-3.8155040</LongitudeDegrees>
@@ -1675,7 +1675,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:02:55Z</Time>
+      <Time>2017-01-06T18:02:55Z</Time>
       <Position>
        <LatitudeDegrees>40.2852800</LatitudeDegrees>
        <LongitudeDegrees>-3.8155310</LongitudeDegrees>
@@ -1693,7 +1693,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:02:57Z</Time>
+      <Time>2017-01-06T18:02:57Z</Time>
       <Position>
        <LatitudeDegrees>40.2852570</LatitudeDegrees>
        <LongitudeDegrees>-3.8155810</LongitudeDegrees>
@@ -1711,7 +1711,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:02:58Z</Time>
+      <Time>2017-01-06T18:02:58Z</Time>
       <Position>
        <LatitudeDegrees>40.2852480</LatitudeDegrees>
        <LongitudeDegrees>-3.8156120</LongitudeDegrees>
@@ -1729,7 +1729,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:03:01Z</Time>
+      <Time>2017-01-06T18:03:01Z</Time>
       <Position>
        <LatitudeDegrees>40.2852090</LatitudeDegrees>
        <LongitudeDegrees>-3.8157090</LongitudeDegrees>
@@ -1747,7 +1747,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:03:08Z</Time>
+      <Time>2017-01-06T18:03:08Z</Time>
       <Position>
        <LatitudeDegrees>40.2851690</LatitudeDegrees>
        <LongitudeDegrees>-3.8159560</LongitudeDegrees>
@@ -1765,7 +1765,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:03:10Z</Time>
+      <Time>2017-01-06T18:03:10Z</Time>
       <Position>
        <LatitudeDegrees>40.2851740</LatitudeDegrees>
        <LongitudeDegrees>-3.8160100</LongitudeDegrees>
@@ -1783,7 +1783,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:03:16Z</Time>
+      <Time>2017-01-06T18:03:16Z</Time>
       <Position>
        <LatitudeDegrees>40.2851450</LatitudeDegrees>
        <LongitudeDegrees>-3.8161630</LongitudeDegrees>
@@ -1801,7 +1801,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:03:22Z</Time>
+      <Time>2017-01-06T18:03:22Z</Time>
       <Position>
        <LatitudeDegrees>40.2851200</LatitudeDegrees>
        <LongitudeDegrees>-3.8163670</LongitudeDegrees>
@@ -1819,7 +1819,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:03:28Z</Time>
+      <Time>2017-01-06T18:03:28Z</Time>
       <Position>
        <LatitudeDegrees>40.2850870</LatitudeDegrees>
        <LongitudeDegrees>-3.8166030</LongitudeDegrees>
@@ -1837,7 +1837,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:03:35Z</Time>
+      <Time>2017-01-06T18:03:35Z</Time>
       <Position>
        <LatitudeDegrees>40.2850240</LatitudeDegrees>
        <LongitudeDegrees>-3.8168010</LongitudeDegrees>
@@ -1855,7 +1855,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:03:39Z</Time>
+      <Time>2017-01-06T18:03:39Z</Time>
       <Position>
        <LatitudeDegrees>40.2849580</LatitudeDegrees>
        <LongitudeDegrees>-3.8169430</LongitudeDegrees>
@@ -1873,7 +1873,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:03:46Z</Time>
+      <Time>2017-01-06T18:03:46Z</Time>
       <Position>
        <LatitudeDegrees>40.2849000</LatitudeDegrees>
        <LongitudeDegrees>-3.8171730</LongitudeDegrees>
@@ -1891,7 +1891,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:03:48Z</Time>
+      <Time>2017-01-06T18:03:48Z</Time>
       <Position>
        <LatitudeDegrees>40.2849060</LatitudeDegrees>
        <LongitudeDegrees>-3.8172430</LongitudeDegrees>
@@ -1909,7 +1909,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:03:50Z</Time>
+      <Time>2017-01-06T18:03:50Z</Time>
       <Position>
        <LatitudeDegrees>40.2849350</LatitudeDegrees>
        <LongitudeDegrees>-3.8173050</LongitudeDegrees>
@@ -1927,7 +1927,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:03:52Z</Time>
+      <Time>2017-01-06T18:03:52Z</Time>
       <Position>
        <LatitudeDegrees>40.2849470</LatitudeDegrees>
        <LongitudeDegrees>-3.8173800</LongitudeDegrees>
@@ -1945,7 +1945,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:03:58Z</Time>
+      <Time>2017-01-06T18:03:58Z</Time>
       <Position>
        <LatitudeDegrees>40.2848840</LatitudeDegrees>
        <LongitudeDegrees>-3.8176020</LongitudeDegrees>
@@ -1963,7 +1963,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:03:59Z</Time>
+      <Time>2017-01-06T18:03:59Z</Time>
       <Position>
        <LatitudeDegrees>40.2848950</LatitudeDegrees>
        <LongitudeDegrees>-3.8176390</LongitudeDegrees>
@@ -1981,7 +1981,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:04:03Z</Time>
+      <Time>2017-01-06T18:04:03Z</Time>
       <Position>
        <LatitudeDegrees>40.2849690</LatitudeDegrees>
        <LongitudeDegrees>-3.8177530</LongitudeDegrees>
@@ -1999,7 +1999,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:04:10Z</Time>
+      <Time>2017-01-06T18:04:10Z</Time>
       <Position>
        <LatitudeDegrees>40.2850560</LatitudeDegrees>
        <LongitudeDegrees>-3.8179630</LongitudeDegrees>
@@ -2017,7 +2017,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:04:18Z</Time>
+      <Time>2017-01-06T18:04:18Z</Time>
       <Position>
        <LatitudeDegrees>40.2851030</LatitudeDegrees>
        <LongitudeDegrees>-3.8182020</LongitudeDegrees>
@@ -2035,7 +2035,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:04:27Z</Time>
+      <Time>2017-01-06T18:04:27Z</Time>
       <Position>
        <LatitudeDegrees>40.2851150</LatitudeDegrees>
        <LongitudeDegrees>-3.8184560</LongitudeDegrees>
@@ -2053,7 +2053,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:04:30Z</Time>
+      <Time>2017-01-06T18:04:30Z</Time>
       <Position>
        <LatitudeDegrees>40.2851160</LatitudeDegrees>
        <LongitudeDegrees>-3.8185410</LongitudeDegrees>
@@ -2071,7 +2071,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:04:38Z</Time>
+      <Time>2017-01-06T18:04:38Z</Time>
       <Position>
        <LatitudeDegrees>40.2851230</LatitudeDegrees>
        <LongitudeDegrees>-3.8187590</LongitudeDegrees>
@@ -2089,7 +2089,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:04:46Z</Time>
+      <Time>2017-01-06T18:04:46Z</Time>
       <Position>
        <LatitudeDegrees>40.2851150</LatitudeDegrees>
        <LongitudeDegrees>-3.8190220</LongitudeDegrees>
@@ -2107,7 +2107,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:04:53Z</Time>
+      <Time>2017-01-06T18:04:53Z</Time>
       <Position>
        <LatitudeDegrees>40.2851510</LatitudeDegrees>
        <LongitudeDegrees>-3.8192760</LongitudeDegrees>
@@ -2125,7 +2125,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:04:59Z</Time>
+      <Time>2017-01-06T18:04:59Z</Time>
       <Position>
        <LatitudeDegrees>40.2851820</LatitudeDegrees>
        <LongitudeDegrees>-3.8195340</LongitudeDegrees>
@@ -2143,7 +2143,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:05:02Z</Time>
+      <Time>2017-01-06T18:05:02Z</Time>
       <Position>
        <LatitudeDegrees>40.2851730</LatitudeDegrees>
        <LongitudeDegrees>-3.8196610</LongitudeDegrees>
@@ -2162,7 +2162,7 @@
      </Trackpoint>
     </Track>
    </Lap>
-   <Lap StartTime="2017-01-18T18:05:09Z">
+   <Lap StartTime="2017-01-06T18:05:09Z">
     <TotalTimeSeconds>463</TotalTimeSeconds>
     <DistanceMeters>1600.0</DistanceMeters>
     <MaximumSpeed>13320.0</MaximumSpeed>
@@ -2178,7 +2178,7 @@
     <TriggerMethod>Manual</TriggerMethod>
     <Track>
      <Trackpoint>
-      <Time>2017-01-18T18:05:09Z</Time>
+      <Time>2017-01-06T18:05:09Z</Time>
       <Position>
        <LatitudeDegrees>40.2851450</LatitudeDegrees>
        <LongitudeDegrees>-3.8199520</LongitudeDegrees>
@@ -2196,7 +2196,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:05:15Z</Time>
+      <Time>2017-01-06T18:05:15Z</Time>
       <Position>
        <LatitudeDegrees>40.2851030</LatitudeDegrees>
        <LongitudeDegrees>-3.8202110</LongitudeDegrees>
@@ -2214,7 +2214,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:05:18Z</Time>
+      <Time>2017-01-06T18:05:18Z</Time>
       <Position>
        <LatitudeDegrees>40.2851080</LatitudeDegrees>
        <LongitudeDegrees>-3.8203400</LongitudeDegrees>
@@ -2232,7 +2232,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:05:21Z</Time>
+      <Time>2017-01-06T18:05:21Z</Time>
       <Position>
        <LatitudeDegrees>40.2851030</LatitudeDegrees>
        <LongitudeDegrees>-3.8204600</LongitudeDegrees>
@@ -2250,7 +2250,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:05:23Z</Time>
+      <Time>2017-01-06T18:05:23Z</Time>
       <Position>
        <LatitudeDegrees>40.2851050</LatitudeDegrees>
        <LongitudeDegrees>-3.8205370</LongitudeDegrees>
@@ -2268,7 +2268,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:05:30Z</Time>
+      <Time>2017-01-06T18:05:30Z</Time>
       <Position>
        <LatitudeDegrees>40.2850900</LatitudeDegrees>
        <LongitudeDegrees>-3.8207950</LongitudeDegrees>
@@ -2286,7 +2286,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:05:36Z</Time>
+      <Time>2017-01-06T18:05:36Z</Time>
       <Position>
        <LatitudeDegrees>40.2851000</LatitudeDegrees>
        <LongitudeDegrees>-3.8210420</LongitudeDegrees>
@@ -2304,7 +2304,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:05:43Z</Time>
+      <Time>2017-01-06T18:05:43Z</Time>
       <Position>
        <LatitudeDegrees>40.2851120</LatitudeDegrees>
        <LongitudeDegrees>-3.8213140</LongitudeDegrees>
@@ -2322,7 +2322,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:05:49Z</Time>
+      <Time>2017-01-06T18:05:49Z</Time>
       <Position>
        <LatitudeDegrees>40.2851050</LatitudeDegrees>
        <LongitudeDegrees>-3.8215660</LongitudeDegrees>
@@ -2340,7 +2340,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:05:55Z</Time>
+      <Time>2017-01-06T18:05:55Z</Time>
       <Position>
        <LatitudeDegrees>40.2851300</LatitudeDegrees>
        <LongitudeDegrees>-3.8218020</LongitudeDegrees>
@@ -2358,7 +2358,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:06:01Z</Time>
+      <Time>2017-01-06T18:06:01Z</Time>
       <Position>
        <LatitudeDegrees>40.2850930</LatitudeDegrees>
        <LongitudeDegrees>-3.8220540</LongitudeDegrees>
@@ -2376,7 +2376,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:06:08Z</Time>
+      <Time>2017-01-06T18:06:08Z</Time>
       <Position>
        <LatitudeDegrees>40.2850040</LatitudeDegrees>
        <LongitudeDegrees>-3.8223040</LongitudeDegrees>
@@ -2394,7 +2394,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:06:15Z</Time>
+      <Time>2017-01-06T18:06:15Z</Time>
       <Position>
        <LatitudeDegrees>40.2848610</LatitudeDegrees>
        <LongitudeDegrees>-3.8224960</LongitudeDegrees>
@@ -2412,7 +2412,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:06:22Z</Time>
+      <Time>2017-01-06T18:06:22Z</Time>
       <Position>
        <LatitudeDegrees>40.2846820</LatitudeDegrees>
        <LongitudeDegrees>-3.8226120</LongitudeDegrees>
@@ -2430,7 +2430,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:06:28Z</Time>
+      <Time>2017-01-06T18:06:28Z</Time>
       <Position>
        <LatitudeDegrees>40.2845040</LatitudeDegrees>
        <LongitudeDegrees>-3.8226520</LongitudeDegrees>
@@ -2448,7 +2448,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:06:35Z</Time>
+      <Time>2017-01-06T18:06:35Z</Time>
       <Position>
        <LatitudeDegrees>40.2842980</LatitudeDegrees>
        <LongitudeDegrees>-3.8226560</LongitudeDegrees>
@@ -2466,7 +2466,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:06:41Z</Time>
+      <Time>2017-01-06T18:06:41Z</Time>
       <Position>
        <LatitudeDegrees>40.2841080</LatitudeDegrees>
        <LongitudeDegrees>-3.8226530</LongitudeDegrees>
@@ -2484,7 +2484,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:06:47Z</Time>
+      <Time>2017-01-06T18:06:47Z</Time>
       <Position>
        <LatitudeDegrees>40.2839110</LatitudeDegrees>
        <LongitudeDegrees>-3.8226490</LongitudeDegrees>
@@ -2502,7 +2502,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:06:53Z</Time>
+      <Time>2017-01-06T18:06:53Z</Time>
       <Position>
        <LatitudeDegrees>40.2837190</LatitudeDegrees>
        <LongitudeDegrees>-3.8226540</LongitudeDegrees>
@@ -2520,7 +2520,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:06:59Z</Time>
+      <Time>2017-01-06T18:06:59Z</Time>
       <Position>
        <LatitudeDegrees>40.2835260</LatitudeDegrees>
        <LongitudeDegrees>-3.8226640</LongitudeDegrees>
@@ -2538,7 +2538,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:07:05Z</Time>
+      <Time>2017-01-06T18:07:05Z</Time>
       <Position>
        <LatitudeDegrees>40.2833310</LatitudeDegrees>
        <LongitudeDegrees>-3.8226680</LongitudeDegrees>
@@ -2556,7 +2556,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:07:11Z</Time>
+      <Time>2017-01-06T18:07:11Z</Time>
       <Position>
        <LatitudeDegrees>40.2831430</LatitudeDegrees>
        <LongitudeDegrees>-3.8226800</LongitudeDegrees>
@@ -2574,7 +2574,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:07:14Z</Time>
+      <Time>2017-01-06T18:07:14Z</Time>
       <Position>
        <LatitudeDegrees>40.2830550</LatitudeDegrees>
        <LongitudeDegrees>-3.8227110</LongitudeDegrees>
@@ -2592,7 +2592,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:07:20Z</Time>
+      <Time>2017-01-06T18:07:20Z</Time>
       <Position>
        <LatitudeDegrees>40.2828940</LatitudeDegrees>
        <LongitudeDegrees>-3.8228620</LongitudeDegrees>
@@ -2610,7 +2610,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:07:26Z</Time>
+      <Time>2017-01-06T18:07:26Z</Time>
       <Position>
        <LatitudeDegrees>40.2827190</LatitudeDegrees>
        <LongitudeDegrees>-3.8228120</LongitudeDegrees>
@@ -2628,7 +2628,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:07:32Z</Time>
+      <Time>2017-01-06T18:07:32Z</Time>
       <Position>
        <LatitudeDegrees>40.2825560</LatitudeDegrees>
        <LongitudeDegrees>-3.8226940</LongitudeDegrees>
@@ -2646,7 +2646,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:07:34Z</Time>
+      <Time>2017-01-06T18:07:34Z</Time>
       <Position>
        <LatitudeDegrees>40.2824950</LatitudeDegrees>
        <LongitudeDegrees>-3.8226950</LongitudeDegrees>
@@ -2664,7 +2664,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:07:40Z</Time>
+      <Time>2017-01-06T18:07:40Z</Time>
       <Position>
        <LatitudeDegrees>40.2823110</LatitudeDegrees>
        <LongitudeDegrees>-3.8226870</LongitudeDegrees>
@@ -2682,7 +2682,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:07:46Z</Time>
+      <Time>2017-01-06T18:07:46Z</Time>
       <Position>
        <LatitudeDegrees>40.2821260</LatitudeDegrees>
        <LongitudeDegrees>-3.8226850</LongitudeDegrees>
@@ -2700,7 +2700,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:07:52Z</Time>
+      <Time>2017-01-06T18:07:52Z</Time>
       <Position>
        <LatitudeDegrees>40.2819410</LatitudeDegrees>
        <LongitudeDegrees>-3.8227130</LongitudeDegrees>
@@ -2718,7 +2718,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:07:58Z</Time>
+      <Time>2017-01-06T18:07:58Z</Time>
       <Position>
        <LatitudeDegrees>40.2817540</LatitudeDegrees>
        <LongitudeDegrees>-3.8227220</LongitudeDegrees>
@@ -2736,7 +2736,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:08:04Z</Time>
+      <Time>2017-01-06T18:08:04Z</Time>
       <Position>
        <LatitudeDegrees>40.2815630</LatitudeDegrees>
        <LongitudeDegrees>-3.8227260</LongitudeDegrees>
@@ -2754,7 +2754,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:08:10Z</Time>
+      <Time>2017-01-06T18:08:10Z</Time>
       <Position>
        <LatitudeDegrees>40.2813740</LatitudeDegrees>
        <LongitudeDegrees>-3.8227380</LongitudeDegrees>
@@ -2772,7 +2772,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:08:17Z</Time>
+      <Time>2017-01-06T18:08:17Z</Time>
       <Position>
        <LatitudeDegrees>40.2811650</LatitudeDegrees>
        <LongitudeDegrees>-3.8227490</LongitudeDegrees>
@@ -2790,7 +2790,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:08:23Z</Time>
+      <Time>2017-01-06T18:08:23Z</Time>
       <Position>
        <LatitudeDegrees>40.2809810</LatitudeDegrees>
        <LongitudeDegrees>-3.8227290</LongitudeDegrees>
@@ -2808,7 +2808,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:08:29Z</Time>
+      <Time>2017-01-06T18:08:29Z</Time>
       <Position>
        <LatitudeDegrees>40.2807970</LatitudeDegrees>
        <LongitudeDegrees>-3.8226830</LongitudeDegrees>
@@ -2826,7 +2826,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:08:35Z</Time>
+      <Time>2017-01-06T18:08:35Z</Time>
       <Position>
        <LatitudeDegrees>40.2806080</LatitudeDegrees>
        <LongitudeDegrees>-3.8226130</LongitudeDegrees>
@@ -2844,7 +2844,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:08:41Z</Time>
+      <Time>2017-01-06T18:08:41Z</Time>
       <Position>
        <LatitudeDegrees>40.2804340</LatitudeDegrees>
        <LongitudeDegrees>-3.8225260</LongitudeDegrees>
@@ -2862,7 +2862,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:08:47Z</Time>
+      <Time>2017-01-06T18:08:47Z</Time>
       <Position>
        <LatitudeDegrees>40.2802540</LatitudeDegrees>
        <LongitudeDegrees>-3.8224200</LongitudeDegrees>
@@ -2880,7 +2880,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:08:53Z</Time>
+      <Time>2017-01-06T18:08:53Z</Time>
       <Position>
        <LatitudeDegrees>40.2800840</LatitudeDegrees>
        <LongitudeDegrees>-3.8223000</LongitudeDegrees>
@@ -2898,7 +2898,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:08:59Z</Time>
+      <Time>2017-01-06T18:08:59Z</Time>
       <Position>
        <LatitudeDegrees>40.2799200</LatitudeDegrees>
        <LongitudeDegrees>-3.8221500</LongitudeDegrees>
@@ -2916,7 +2916,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:09:05Z</Time>
+      <Time>2017-01-06T18:09:05Z</Time>
       <Position>
        <LatitudeDegrees>40.2797650</LatitudeDegrees>
        <LongitudeDegrees>-3.8220030</LongitudeDegrees>
@@ -2934,7 +2934,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:09:12Z</Time>
+      <Time>2017-01-06T18:09:12Z</Time>
       <Position>
        <LatitudeDegrees>40.2796070</LatitudeDegrees>
        <LongitudeDegrees>-3.8218120</LongitudeDegrees>
@@ -2952,7 +2952,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:09:18Z</Time>
+      <Time>2017-01-06T18:09:18Z</Time>
       <Position>
        <LatitudeDegrees>40.2794810</LatitudeDegrees>
        <LongitudeDegrees>-3.8216370</LongitudeDegrees>
@@ -2970,7 +2970,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:09:25Z</Time>
+      <Time>2017-01-06T18:09:25Z</Time>
       <Position>
        <LatitudeDegrees>40.2793660</LatitudeDegrees>
        <LongitudeDegrees>-3.8214210</LongitudeDegrees>
@@ -2988,7 +2988,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:09:31Z</Time>
+      <Time>2017-01-06T18:09:31Z</Time>
       <Position>
        <LatitudeDegrees>40.2792630</LatitudeDegrees>
        <LongitudeDegrees>-3.8212060</LongitudeDegrees>
@@ -3006,7 +3006,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:09:37Z</Time>
+      <Time>2017-01-06T18:09:37Z</Time>
       <Position>
        <LatitudeDegrees>40.2791800</LatitudeDegrees>
        <LongitudeDegrees>-3.8209810</LongitudeDegrees>
@@ -3024,7 +3024,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:09:44Z</Time>
+      <Time>2017-01-06T18:09:44Z</Time>
       <Position>
        <LatitudeDegrees>40.2791270</LatitudeDegrees>
        <LongitudeDegrees>-3.8207490</LongitudeDegrees>
@@ -3042,7 +3042,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:09:51Z</Time>
+      <Time>2017-01-06T18:09:51Z</Time>
       <Position>
        <LatitudeDegrees>40.2790770</LatitudeDegrees>
        <LongitudeDegrees>-3.8204990</LongitudeDegrees>
@@ -3060,7 +3060,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:09:57Z</Time>
+      <Time>2017-01-06T18:09:57Z</Time>
       <Position>
        <LatitudeDegrees>40.2790470</LatitudeDegrees>
        <LongitudeDegrees>-3.8202520</LongitudeDegrees>
@@ -3078,7 +3078,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:10:03Z</Time>
+      <Time>2017-01-06T18:10:03Z</Time>
       <Position>
        <LatitudeDegrees>40.2790290</LatitudeDegrees>
        <LongitudeDegrees>-3.8200090</LongitudeDegrees>
@@ -3096,7 +3096,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:10:09Z</Time>
+      <Time>2017-01-06T18:10:09Z</Time>
       <Position>
        <LatitudeDegrees>40.2790230</LatitudeDegrees>
        <LongitudeDegrees>-3.8197610</LongitudeDegrees>
@@ -3114,7 +3114,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:10:16Z</Time>
+      <Time>2017-01-06T18:10:16Z</Time>
       <Position>
        <LatitudeDegrees>40.2790230</LatitudeDegrees>
        <LongitudeDegrees>-3.8194700</LongitudeDegrees>
@@ -3132,7 +3132,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:10:22Z</Time>
+      <Time>2017-01-06T18:10:22Z</Time>
       <Position>
        <LatitudeDegrees>40.2790150</LatitudeDegrees>
        <LongitudeDegrees>-3.8192220</LongitudeDegrees>
@@ -3150,7 +3150,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:10:28Z</Time>
+      <Time>2017-01-06T18:10:28Z</Time>
       <Position>
        <LatitudeDegrees>40.2789430</LatitudeDegrees>
        <LongitudeDegrees>-3.8189830</LongitudeDegrees>
@@ -3168,7 +3168,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:10:34Z</Time>
+      <Time>2017-01-06T18:10:34Z</Time>
       <Position>
        <LatitudeDegrees>40.2788700</LatitudeDegrees>
        <LongitudeDegrees>-3.8187720</LongitudeDegrees>
@@ -3186,7 +3186,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:10:41Z</Time>
+      <Time>2017-01-06T18:10:41Z</Time>
       <Position>
        <LatitudeDegrees>40.2789770</LatitudeDegrees>
        <LongitudeDegrees>-3.8185560</LongitudeDegrees>
@@ -3204,7 +3204,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:10:47Z</Time>
+      <Time>2017-01-06T18:10:47Z</Time>
       <Position>
        <LatitudeDegrees>40.2790050</LatitudeDegrees>
        <LongitudeDegrees>-3.8183070</LongitudeDegrees>
@@ -3222,7 +3222,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:10:53Z</Time>
+      <Time>2017-01-06T18:10:53Z</Time>
       <Position>
        <LatitudeDegrees>40.2789910</LatitudeDegrees>
        <LongitudeDegrees>-3.8180460</LongitudeDegrees>
@@ -3240,7 +3240,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:10:59Z</Time>
+      <Time>2017-01-06T18:10:59Z</Time>
       <Position>
        <LatitudeDegrees>40.2789880</LatitudeDegrees>
        <LongitudeDegrees>-3.8177960</LongitudeDegrees>
@@ -3258,7 +3258,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:11:05Z</Time>
+      <Time>2017-01-06T18:11:05Z</Time>
       <Position>
        <LatitudeDegrees>40.2790010</LatitudeDegrees>
        <LongitudeDegrees>-3.8175540</LongitudeDegrees>
@@ -3276,7 +3276,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:11:11Z</Time>
+      <Time>2017-01-06T18:11:11Z</Time>
       <Position>
        <LatitudeDegrees>40.2790010</LatitudeDegrees>
        <LongitudeDegrees>-3.8173040</LongitudeDegrees>
@@ -3294,7 +3294,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:11:17Z</Time>
+      <Time>2017-01-06T18:11:17Z</Time>
       <Position>
        <LatitudeDegrees>40.2790130</LatitudeDegrees>
        <LongitudeDegrees>-3.8170530</LongitudeDegrees>
@@ -3312,7 +3312,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:11:23Z</Time>
+      <Time>2017-01-06T18:11:23Z</Time>
       <Position>
        <LatitudeDegrees>40.2790090</LatitudeDegrees>
        <LongitudeDegrees>-3.8168000</LongitudeDegrees>
@@ -3330,7 +3330,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:11:29Z</Time>
+      <Time>2017-01-06T18:11:29Z</Time>
       <Position>
        <LatitudeDegrees>40.2790230</LatitudeDegrees>
        <LongitudeDegrees>-3.8165520</LongitudeDegrees>
@@ -3348,7 +3348,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:11:35Z</Time>
+      <Time>2017-01-06T18:11:35Z</Time>
       <Position>
        <LatitudeDegrees>40.2790640</LatitudeDegrees>
        <LongitudeDegrees>-3.8163100</LongitudeDegrees>
@@ -3366,7 +3366,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:11:41Z</Time>
+      <Time>2017-01-06T18:11:41Z</Time>
       <Position>
        <LatitudeDegrees>40.2791390</LatitudeDegrees>
        <LongitudeDegrees>-3.8160780</LongitudeDegrees>
@@ -3384,7 +3384,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:11:47Z</Time>
+      <Time>2017-01-06T18:11:47Z</Time>
       <Position>
        <LatitudeDegrees>40.2792260</LatitudeDegrees>
        <LongitudeDegrees>-3.8158630</LongitudeDegrees>
@@ -3402,7 +3402,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:11:53Z</Time>
+      <Time>2017-01-06T18:11:53Z</Time>
       <Position>
        <LatitudeDegrees>40.2793350</LatitudeDegrees>
        <LongitudeDegrees>-3.8156580</LongitudeDegrees>
@@ -3420,7 +3420,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:12:00Z</Time>
+      <Time>2017-01-06T18:12:00Z</Time>
       <Position>
        <LatitudeDegrees>40.2794790</LatitudeDegrees>
        <LongitudeDegrees>-3.8154680</LongitudeDegrees>
@@ -3438,7 +3438,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:12:07Z</Time>
+      <Time>2017-01-06T18:12:07Z</Time>
       <Position>
        <LatitudeDegrees>40.2796460</LatitudeDegrees>
        <LongitudeDegrees>-3.8153060</LongitudeDegrees>
@@ -3456,7 +3456,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:12:13Z</Time>
+      <Time>2017-01-06T18:12:13Z</Time>
       <Position>
        <LatitudeDegrees>40.2798080</LatitudeDegrees>
        <LongitudeDegrees>-3.8151880</LongitudeDegrees>
@@ -3474,7 +3474,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:12:19Z</Time>
+      <Time>2017-01-06T18:12:19Z</Time>
       <Position>
        <LatitudeDegrees>40.2799940</LatitudeDegrees>
        <LongitudeDegrees>-3.8151180</LongitudeDegrees>
@@ -3492,7 +3492,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:12:25Z</Time>
+      <Time>2017-01-06T18:12:25Z</Time>
       <Position>
        <LatitudeDegrees>40.2801880</LatitudeDegrees>
        <LongitudeDegrees>-3.8150800</LongitudeDegrees>
@@ -3510,7 +3510,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:12:31Z</Time>
+      <Time>2017-01-06T18:12:31Z</Time>
       <Position>
        <LatitudeDegrees>40.2803840</LatitudeDegrees>
        <LongitudeDegrees>-3.8150740</LongitudeDegrees>
@@ -3528,7 +3528,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:12:37Z</Time>
+      <Time>2017-01-06T18:12:37Z</Time>
       <Position>
        <LatitudeDegrees>40.2805760</LatitudeDegrees>
        <LongitudeDegrees>-3.8150890</LongitudeDegrees>
@@ -3546,7 +3546,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:12:43Z</Time>
+      <Time>2017-01-06T18:12:43Z</Time>
       <Position>
        <LatitudeDegrees>40.2807650</LatitudeDegrees>
        <LongitudeDegrees>-3.8151570</LongitudeDegrees>
@@ -3564,7 +3564,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:12:46Z</Time>
+      <Time>2017-01-06T18:12:46Z</Time>
       <Position>
        <LatitudeDegrees>40.2808540</LatitudeDegrees>
        <LongitudeDegrees>-3.8152000</LongitudeDegrees>
@@ -3583,7 +3583,7 @@
      </Trackpoint>
     </Track>
    </Lap>
-   <Lap StartTime="2017-01-18T18:12:52Z">
+   <Lap StartTime="2017-01-06T18:12:52Z">
     <TotalTimeSeconds>206</TotalTimeSeconds>
     <DistanceMeters>400.0</DistanceMeters>
     <MaximumSpeed>11160.0</MaximumSpeed>
@@ -3599,7 +3599,7 @@
     <TriggerMethod>Manual</TriggerMethod>
     <Track>
      <Trackpoint>
-      <Time>2017-01-18T18:12:52Z</Time>
+      <Time>2017-01-06T18:12:52Z</Time>
       <Position>
        <LatitudeDegrees>40.2809860</LatitudeDegrees>
        <LongitudeDegrees>-3.8152700</LongitudeDegrees>
@@ -3617,7 +3617,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:13:03Z</Time>
+      <Time>2017-01-06T18:13:03Z</Time>
       <Position>
        <LatitudeDegrees>40.2811130</LatitudeDegrees>
        <LongitudeDegrees>-3.8153110</LongitudeDegrees>
@@ -3635,7 +3635,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:13:04Z</Time>
+      <Time>2017-01-06T18:13:04Z</Time>
       <Position>
        <LatitudeDegrees>40.2811250</LatitudeDegrees>
        <LongitudeDegrees>-3.8153210</LongitudeDegrees>
@@ -3653,7 +3653,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:13:07Z</Time>
+      <Time>2017-01-06T18:13:07Z</Time>
       <Position>
        <LatitudeDegrees>40.2811640</LatitudeDegrees>
        <LongitudeDegrees>-3.8153420</LongitudeDegrees>
@@ -3671,7 +3671,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:13:15Z</Time>
+      <Time>2017-01-06T18:13:15Z</Time>
       <Position>
        <LatitudeDegrees>40.2812400</LatitudeDegrees>
        <LongitudeDegrees>-3.8153970</LongitudeDegrees>
@@ -3689,7 +3689,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:13:18Z</Time>
+      <Time>2017-01-06T18:13:18Z</Time>
       <Position>
        <LatitudeDegrees>40.2812730</LatitudeDegrees>
        <LongitudeDegrees>-3.8154230</LongitudeDegrees>
@@ -3707,7 +3707,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:13:21Z</Time>
+      <Time>2017-01-06T18:13:21Z</Time>
       <Position>
        <LatitudeDegrees>40.2813130</LatitudeDegrees>
        <LongitudeDegrees>-3.8154400</LongitudeDegrees>
@@ -3725,7 +3725,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:13:28Z</Time>
+      <Time>2017-01-06T18:13:28Z</Time>
       <Position>
        <LatitudeDegrees>40.2813970</LatitudeDegrees>
        <LongitudeDegrees>-3.8154910</LongitudeDegrees>
@@ -3743,7 +3743,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:13:32Z</Time>
+      <Time>2017-01-06T18:13:32Z</Time>
       <Position>
        <LatitudeDegrees>40.2814470</LatitudeDegrees>
        <LongitudeDegrees>-3.8155200</LongitudeDegrees>
@@ -3761,7 +3761,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:13:35Z</Time>
+      <Time>2017-01-06T18:13:35Z</Time>
       <Position>
        <LatitudeDegrees>40.2814870</LatitudeDegrees>
        <LongitudeDegrees>-3.8155430</LongitudeDegrees>
@@ -3779,7 +3779,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:13:40Z</Time>
+      <Time>2017-01-06T18:13:40Z</Time>
       <Position>
        <LatitudeDegrees>40.2815470</LatitudeDegrees>
        <LongitudeDegrees>-3.8155790</LongitudeDegrees>
@@ -3797,7 +3797,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:13:43Z</Time>
+      <Time>2017-01-06T18:13:43Z</Time>
       <Position>
        <LatitudeDegrees>40.2815920</LatitudeDegrees>
        <LongitudeDegrees>-3.8155930</LongitudeDegrees>
@@ -3815,7 +3815,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:13:46Z</Time>
+      <Time>2017-01-06T18:13:46Z</Time>
       <Position>
        <LatitudeDegrees>40.2816290</LatitudeDegrees>
        <LongitudeDegrees>-3.8156100</LongitudeDegrees>
@@ -3833,7 +3833,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:13:56Z</Time>
+      <Time>2017-01-06T18:13:56Z</Time>
       <Position>
        <LatitudeDegrees>40.2817570</LatitudeDegrees>
        <LongitudeDegrees>-3.8156880</LongitudeDegrees>
@@ -3851,7 +3851,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:14:02Z</Time>
+      <Time>2017-01-06T18:14:02Z</Time>
       <Position>
        <LatitudeDegrees>40.2818340</LatitudeDegrees>
        <LongitudeDegrees>-3.8157280</LongitudeDegrees>
@@ -3869,7 +3869,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:14:08Z</Time>
+      <Time>2017-01-06T18:14:08Z</Time>
       <Position>
        <LatitudeDegrees>40.2819020</LatitudeDegrees>
        <LongitudeDegrees>-3.8157700</LongitudeDegrees>
@@ -3887,7 +3887,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:14:17Z</Time>
+      <Time>2017-01-06T18:14:17Z</Time>
       <Position>
        <LatitudeDegrees>40.2820080</LatitudeDegrees>
        <LongitudeDegrees>-3.8158350</LongitudeDegrees>
@@ -3905,7 +3905,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:14:23Z</Time>
+      <Time>2017-01-06T18:14:23Z</Time>
       <Position>
        <LatitudeDegrees>40.2820760</LatitudeDegrees>
        <LongitudeDegrees>-3.8158770</LongitudeDegrees>
@@ -3923,7 +3923,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:14:38Z</Time>
+      <Time>2017-01-06T18:14:38Z</Time>
       <Position>
        <LatitudeDegrees>40.2822500</LatitudeDegrees>
        <LongitudeDegrees>-3.8159790</LongitudeDegrees>
@@ -3941,7 +3941,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:14:44Z</Time>
+      <Time>2017-01-06T18:14:44Z</Time>
       <Position>
        <LatitudeDegrees>40.2823200</LatitudeDegrees>
        <LongitudeDegrees>-3.8160230</LongitudeDegrees>
@@ -3959,7 +3959,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:14:54Z</Time>
+      <Time>2017-01-06T18:14:54Z</Time>
       <Position>
        <LatitudeDegrees>40.2824370</LatitudeDegrees>
        <LongitudeDegrees>-3.8160880</LongitudeDegrees>
@@ -3977,7 +3977,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:15:03Z</Time>
+      <Time>2017-01-06T18:15:03Z</Time>
       <Position>
        <LatitudeDegrees>40.2825480</LatitudeDegrees>
        <LongitudeDegrees>-3.8161350</LongitudeDegrees>
@@ -3995,7 +3995,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:15:07Z</Time>
+      <Time>2017-01-06T18:15:07Z</Time>
       <Position>
        <LatitudeDegrees>40.2826030</LatitudeDegrees>
        <LongitudeDegrees>-3.8161540</LongitudeDegrees>
@@ -4013,7 +4013,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:15:16Z</Time>
+      <Time>2017-01-06T18:15:16Z</Time>
       <Position>
        <LatitudeDegrees>40.2827930</LatitudeDegrees>
        <LongitudeDegrees>-3.8161490</LongitudeDegrees>
@@ -4031,7 +4031,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:15:22Z</Time>
+      <Time>2017-01-06T18:15:22Z</Time>
       <Position>
        <LatitudeDegrees>40.2828940</LatitudeDegrees>
        <LongitudeDegrees>-3.8162810</LongitudeDegrees>
@@ -4049,7 +4049,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:15:24Z</Time>
+      <Time>2017-01-06T18:15:24Z</Time>
       <Position>
        <LatitudeDegrees>40.2829120</LatitudeDegrees>
        <LongitudeDegrees>-3.8163400</LongitudeDegrees>
@@ -4067,7 +4067,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:15:26Z</Time>
+      <Time>2017-01-06T18:15:26Z</Time>
       <Position>
        <LatitudeDegrees>40.2829420</LatitudeDegrees>
        <LongitudeDegrees>-3.8163970</LongitudeDegrees>
@@ -4085,7 +4085,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:15:31Z</Time>
+      <Time>2017-01-06T18:15:31Z</Time>
       <Position>
        <LatitudeDegrees>40.2830640</LatitudeDegrees>
        <LongitudeDegrees>-3.8164740</LongitudeDegrees>
@@ -4103,7 +4103,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:15:38Z</Time>
+      <Time>2017-01-06T18:15:38Z</Time>
       <Position>
        <LatitudeDegrees>40.2832520</LatitudeDegrees>
        <LongitudeDegrees>-3.8165810</LongitudeDegrees>
@@ -4121,7 +4121,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:15:46Z</Time>
+      <Time>2017-01-06T18:15:46Z</Time>
       <Position>
        <LatitudeDegrees>40.2834310</LatitudeDegrees>
        <LongitudeDegrees>-3.8166860</LongitudeDegrees>
@@ -4139,7 +4139,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:15:50Z</Time>
+      <Time>2017-01-06T18:15:50Z</Time>
       <Position>
        <LatitudeDegrees>40.2835300</LatitudeDegrees>
        <LongitudeDegrees>-3.8167350</LongitudeDegrees>
@@ -4157,7 +4157,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:15:55Z</Time>
+      <Time>2017-01-06T18:15:55Z</Time>
       <Position>
        <LatitudeDegrees>40.2836460</LatitudeDegrees>
        <LongitudeDegrees>-3.8168150</LongitudeDegrees>
@@ -4175,7 +4175,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:16:02Z</Time>
+      <Time>2017-01-06T18:16:02Z</Time>
       <Position>
        <LatitudeDegrees>40.2838040</LatitudeDegrees>
        <LongitudeDegrees>-3.8169140</LongitudeDegrees>
@@ -4193,7 +4193,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:16:09Z</Time>
+      <Time>2017-01-06T18:16:09Z</Time>
       <Position>
        <LatitudeDegrees>40.2839680</LatitudeDegrees>
        <LongitudeDegrees>-3.8170160</LongitudeDegrees>
@@ -4211,7 +4211,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:16:13Z</Time>
+      <Time>2017-01-06T18:16:13Z</Time>
       <Position>
        <LatitudeDegrees>40.2840710</LatitudeDegrees>
        <LongitudeDegrees>-3.8170800</LongitudeDegrees>
@@ -4230,7 +4230,7 @@
      </Trackpoint>
     </Track>
    </Lap>
-   <Lap StartTime="2017-01-18T18:16:19Z">
+   <Lap StartTime="2017-01-06T18:16:19Z">
     <TotalTimeSeconds>464</TotalTimeSeconds>
     <DistanceMeters>1600.0</DistanceMeters>
     <MaximumSpeed>13680.0</MaximumSpeed>
@@ -4246,7 +4246,7 @@
     <TriggerMethod>Manual</TriggerMethod>
     <Track>
      <Trackpoint>
-      <Time>2017-01-18T18:16:19Z</Time>
+      <Time>2017-01-06T18:16:19Z</Time>
       <Position>
        <LatitudeDegrees>40.2842470</LatitudeDegrees>
        <LongitudeDegrees>-3.8171900</LongitudeDegrees>
@@ -4264,7 +4264,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:16:25Z</Time>
+      <Time>2017-01-06T18:16:25Z</Time>
       <Position>
        <LatitudeDegrees>40.2844300</LatitudeDegrees>
        <LongitudeDegrees>-3.8173060</LongitudeDegrees>
@@ -4282,7 +4282,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:16:30Z</Time>
+      <Time>2017-01-06T18:16:30Z</Time>
       <Position>
        <LatitudeDegrees>40.2845750</LatitudeDegrees>
        <LongitudeDegrees>-3.8173940</LongitudeDegrees>
@@ -4300,7 +4300,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:16:32Z</Time>
+      <Time>2017-01-06T18:16:32Z</Time>
       <Position>
        <LatitudeDegrees>40.2846330</LatitudeDegrees>
        <LongitudeDegrees>-3.8174340</LongitudeDegrees>
@@ -4318,7 +4318,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:16:38Z</Time>
+      <Time>2017-01-06T18:16:38Z</Time>
       <Position>
        <LatitudeDegrees>40.2848050</LatitudeDegrees>
        <LongitudeDegrees>-3.8175380</LongitudeDegrees>
@@ -4336,7 +4336,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:16:43Z</Time>
+      <Time>2017-01-06T18:16:43Z</Time>
       <Position>
        <LatitudeDegrees>40.2849250</LatitudeDegrees>
        <LongitudeDegrees>-3.8176650</LongitudeDegrees>
@@ -4354,7 +4354,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:16:47Z</Time>
+      <Time>2017-01-06T18:16:47Z</Time>
       <Position>
        <LatitudeDegrees>40.2850090</LatitudeDegrees>
        <LongitudeDegrees>-3.8177980</LongitudeDegrees>
@@ -4372,7 +4372,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:16:53Z</Time>
+      <Time>2017-01-06T18:16:53Z</Time>
       <Position>
        <LatitudeDegrees>40.2850850</LatitudeDegrees>
        <LongitudeDegrees>-3.8180120</LongitudeDegrees>
@@ -4390,7 +4390,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:17:00Z</Time>
+      <Time>2017-01-06T18:17:00Z</Time>
       <Position>
        <LatitudeDegrees>40.2851110</LatitudeDegrees>
        <LongitudeDegrees>-3.8182850</LongitudeDegrees>
@@ -4408,7 +4408,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:17:06Z</Time>
+      <Time>2017-01-06T18:17:06Z</Time>
       <Position>
        <LatitudeDegrees>40.2851030</LatitudeDegrees>
        <LongitudeDegrees>-3.8185260</LongitudeDegrees>
@@ -4426,7 +4426,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:17:12Z</Time>
+      <Time>2017-01-06T18:17:12Z</Time>
       <Position>
        <LatitudeDegrees>40.2851040</LatitudeDegrees>
        <LongitudeDegrees>-3.8187730</LongitudeDegrees>
@@ -4444,7 +4444,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:17:18Z</Time>
+      <Time>2017-01-06T18:17:18Z</Time>
       <Position>
        <LatitudeDegrees>40.2850900</LatitudeDegrees>
        <LongitudeDegrees>-3.8190230</LongitudeDegrees>
@@ -4462,7 +4462,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:17:24Z</Time>
+      <Time>2017-01-06T18:17:24Z</Time>
       <Position>
        <LatitudeDegrees>40.2851120</LatitudeDegrees>
        <LongitudeDegrees>-3.8192760</LongitudeDegrees>
@@ -4480,7 +4480,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:17:30Z</Time>
+      <Time>2017-01-06T18:17:30Z</Time>
       <Position>
        <LatitudeDegrees>40.2851570</LatitudeDegrees>
        <LongitudeDegrees>-3.8195200</LongitudeDegrees>
@@ -4498,7 +4498,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:17:36Z</Time>
+      <Time>2017-01-06T18:17:36Z</Time>
       <Position>
        <LatitudeDegrees>40.2851740</LatitudeDegrees>
        <LongitudeDegrees>-3.8197710</LongitudeDegrees>
@@ -4516,7 +4516,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:17:42Z</Time>
+      <Time>2017-01-06T18:17:42Z</Time>
       <Position>
        <LatitudeDegrees>40.2851320</LatitudeDegrees>
        <LongitudeDegrees>-3.8200070</LongitudeDegrees>
@@ -4534,7 +4534,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:17:48Z</Time>
+      <Time>2017-01-06T18:17:48Z</Time>
       <Position>
        <LatitudeDegrees>40.2850920</LatitudeDegrees>
        <LongitudeDegrees>-3.8202550</LongitudeDegrees>
@@ -4552,7 +4552,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:17:54Z</Time>
+      <Time>2017-01-06T18:17:54Z</Time>
       <Position>
        <LatitudeDegrees>40.2850930</LatitudeDegrees>
        <LongitudeDegrees>-3.8204980</LongitudeDegrees>
@@ -4570,7 +4570,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:18:01Z</Time>
+      <Time>2017-01-06T18:18:01Z</Time>
       <Position>
        <LatitudeDegrees>40.2851140</LatitudeDegrees>
        <LongitudeDegrees>-3.8207640</LongitudeDegrees>
@@ -4588,7 +4588,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:18:08Z</Time>
+      <Time>2017-01-06T18:18:08Z</Time>
       <Position>
        <LatitudeDegrees>40.2851180</LatitudeDegrees>
        <LongitudeDegrees>-3.8210390</LongitudeDegrees>
@@ -4606,7 +4606,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:18:14Z</Time>
+      <Time>2017-01-06T18:18:14Z</Time>
       <Position>
        <LatitudeDegrees>40.2851200</LatitudeDegrees>
        <LongitudeDegrees>-3.8212780</LongitudeDegrees>
@@ -4624,7 +4624,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:18:21Z</Time>
+      <Time>2017-01-06T18:18:21Z</Time>
       <Position>
        <LatitudeDegrees>40.2851220</LatitudeDegrees>
        <LongitudeDegrees>-3.8215570</LongitudeDegrees>
@@ -4642,7 +4642,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:18:29Z</Time>
+      <Time>2017-01-06T18:18:29Z</Time>
       <Position>
        <LatitudeDegrees>40.2851320</LatitudeDegrees>
        <LongitudeDegrees>-3.8218210</LongitudeDegrees>
@@ -4660,7 +4660,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:18:35Z</Time>
+      <Time>2017-01-06T18:18:35Z</Time>
       <Position>
        <LatitudeDegrees>40.2850950</LatitudeDegrees>
        <LongitudeDegrees>-3.8220800</LongitudeDegrees>
@@ -4678,7 +4678,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:18:41Z</Time>
+      <Time>2017-01-06T18:18:41Z</Time>
       <Position>
        <LatitudeDegrees>40.2850020</LatitudeDegrees>
        <LongitudeDegrees>-3.8223070</LongitudeDegrees>
@@ -4696,7 +4696,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:18:47Z</Time>
+      <Time>2017-01-06T18:18:47Z</Time>
       <Position>
        <LatitudeDegrees>40.2848640</LatitudeDegrees>
        <LongitudeDegrees>-3.8224810</LongitudeDegrees>
@@ -4714,7 +4714,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:18:54Z</Time>
+      <Time>2017-01-06T18:18:54Z</Time>
       <Position>
        <LatitudeDegrees>40.2846760</LatitudeDegrees>
        <LongitudeDegrees>-3.8225950</LongitudeDegrees>
@@ -4732,7 +4732,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:19:01Z</Time>
+      <Time>2017-01-06T18:19:01Z</Time>
       <Position>
        <LatitudeDegrees>40.2844720</LatitudeDegrees>
        <LongitudeDegrees>-3.8226290</LongitudeDegrees>
@@ -4750,7 +4750,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:19:08Z</Time>
+      <Time>2017-01-06T18:19:08Z</Time>
       <Position>
        <LatitudeDegrees>40.2842680</LatitudeDegrees>
        <LongitudeDegrees>-3.8226330</LongitudeDegrees>
@@ -4768,7 +4768,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:19:14Z</Time>
+      <Time>2017-01-06T18:19:14Z</Time>
       <Position>
        <LatitudeDegrees>40.2840860</LatitudeDegrees>
        <LongitudeDegrees>-3.8226420</LongitudeDegrees>
@@ -4786,7 +4786,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:19:20Z</Time>
+      <Time>2017-01-06T18:19:20Z</Time>
       <Position>
        <LatitudeDegrees>40.2839040</LatitudeDegrees>
        <LongitudeDegrees>-3.8226550</LongitudeDegrees>
@@ -4804,7 +4804,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:19:27Z</Time>
+      <Time>2017-01-06T18:19:27Z</Time>
       <Position>
        <LatitudeDegrees>40.2836870</LatitudeDegrees>
        <LongitudeDegrees>-3.8226610</LongitudeDegrees>
@@ -4822,7 +4822,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:19:33Z</Time>
+      <Time>2017-01-06T18:19:33Z</Time>
       <Position>
        <LatitudeDegrees>40.2834980</LatitudeDegrees>
        <LongitudeDegrees>-3.8226660</LongitudeDegrees>
@@ -4840,7 +4840,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:19:40Z</Time>
+      <Time>2017-01-06T18:19:40Z</Time>
       <Position>
        <LatitudeDegrees>40.2832910</LatitudeDegrees>
        <LongitudeDegrees>-3.8226850</LongitudeDegrees>
@@ -4858,7 +4858,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:19:46Z</Time>
+      <Time>2017-01-06T18:19:46Z</Time>
       <Position>
        <LatitudeDegrees>40.2830960</LatitudeDegrees>
        <LongitudeDegrees>-3.8226940</LongitudeDegrees>
@@ -4876,7 +4876,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:19:47Z</Time>
+      <Time>2017-01-06T18:19:47Z</Time>
       <Position>
        <LatitudeDegrees>40.2830660</LatitudeDegrees>
        <LongitudeDegrees>-3.8227120</LongitudeDegrees>
@@ -4894,7 +4894,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:19:53Z</Time>
+      <Time>2017-01-06T18:19:53Z</Time>
       <Position>
        <LatitudeDegrees>40.2829050</LatitudeDegrees>
        <LongitudeDegrees>-3.8228630</LongitudeDegrees>
@@ -4912,7 +4912,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:19:59Z</Time>
+      <Time>2017-01-06T18:19:59Z</Time>
       <Position>
        <LatitudeDegrees>40.2827300</LatitudeDegrees>
        <LongitudeDegrees>-3.8228310</LongitudeDegrees>
@@ -4930,7 +4930,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:20:05Z</Time>
+      <Time>2017-01-06T18:20:05Z</Time>
       <Position>
        <LatitudeDegrees>40.2825710</LatitudeDegrees>
        <LongitudeDegrees>-3.8227200</LongitudeDegrees>
@@ -4948,7 +4948,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:20:11Z</Time>
+      <Time>2017-01-06T18:20:11Z</Time>
       <Position>
        <LatitudeDegrees>40.2823850</LatitudeDegrees>
        <LongitudeDegrees>-3.8227200</LongitudeDegrees>
@@ -4966,7 +4966,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:20:17Z</Time>
+      <Time>2017-01-06T18:20:17Z</Time>
       <Position>
        <LatitudeDegrees>40.2822010</LatitudeDegrees>
        <LongitudeDegrees>-3.8227270</LongitudeDegrees>
@@ -4984,7 +4984,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:20:23Z</Time>
+      <Time>2017-01-06T18:20:23Z</Time>
       <Position>
        <LatitudeDegrees>40.2820160</LatitudeDegrees>
        <LongitudeDegrees>-3.8227150</LongitudeDegrees>
@@ -5002,7 +5002,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:20:29Z</Time>
+      <Time>2017-01-06T18:20:29Z</Time>
       <Position>
        <LatitudeDegrees>40.2818240</LatitudeDegrees>
        <LongitudeDegrees>-3.8227200</LongitudeDegrees>
@@ -5020,7 +5020,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:20:35Z</Time>
+      <Time>2017-01-06T18:20:35Z</Time>
       <Position>
        <LatitudeDegrees>40.2816420</LatitudeDegrees>
        <LongitudeDegrees>-3.8227350</LongitudeDegrees>
@@ -5038,7 +5038,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:20:41Z</Time>
+      <Time>2017-01-06T18:20:41Z</Time>
       <Position>
        <LatitudeDegrees>40.2814560</LatitudeDegrees>
        <LongitudeDegrees>-3.8227390</LongitudeDegrees>
@@ -5056,7 +5056,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:20:47Z</Time>
+      <Time>2017-01-06T18:20:47Z</Time>
       <Position>
        <LatitudeDegrees>40.2812700</LatitudeDegrees>
        <LongitudeDegrees>-3.8227380</LongitudeDegrees>
@@ -5074,7 +5074,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:20:53Z</Time>
+      <Time>2017-01-06T18:20:53Z</Time>
       <Position>
        <LatitudeDegrees>40.2810810</LatitudeDegrees>
        <LongitudeDegrees>-3.8227310</LongitudeDegrees>
@@ -5092,7 +5092,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:20:59Z</Time>
+      <Time>2017-01-06T18:20:59Z</Time>
       <Position>
        <LatitudeDegrees>40.2808940</LatitudeDegrees>
        <LongitudeDegrees>-3.8226900</LongitudeDegrees>
@@ -5110,7 +5110,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:21:05Z</Time>
+      <Time>2017-01-06T18:21:05Z</Time>
       <Position>
        <LatitudeDegrees>40.2807110</LatitudeDegrees>
        <LongitudeDegrees>-3.8226330</LongitudeDegrees>
@@ -5128,7 +5128,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:21:11Z</Time>
+      <Time>2017-01-06T18:21:11Z</Time>
       <Position>
        <LatitudeDegrees>40.2805240</LatitudeDegrees>
        <LongitudeDegrees>-3.8225630</LongitudeDegrees>
@@ -5146,7 +5146,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:21:17Z</Time>
+      <Time>2017-01-06T18:21:17Z</Time>
       <Position>
        <LatitudeDegrees>40.2803480</LatitudeDegrees>
        <LongitudeDegrees>-3.8224570</LongitudeDegrees>
@@ -5164,7 +5164,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:21:23Z</Time>
+      <Time>2017-01-06T18:21:23Z</Time>
       <Position>
        <LatitudeDegrees>40.2801810</LatitudeDegrees>
        <LongitudeDegrees>-3.8223490</LongitudeDegrees>
@@ -5182,7 +5182,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:21:29Z</Time>
+      <Time>2017-01-06T18:21:29Z</Time>
       <Position>
        <LatitudeDegrees>40.2800140</LatitudeDegrees>
        <LongitudeDegrees>-3.8222300</LongitudeDegrees>
@@ -5200,7 +5200,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:21:35Z</Time>
+      <Time>2017-01-06T18:21:35Z</Time>
       <Position>
        <LatitudeDegrees>40.2798550</LatitudeDegrees>
        <LongitudeDegrees>-3.8220810</LongitudeDegrees>
@@ -5218,7 +5218,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:21:41Z</Time>
+      <Time>2017-01-06T18:21:41Z</Time>
       <Position>
        <LatitudeDegrees>40.2797030</LatitudeDegrees>
        <LongitudeDegrees>-3.8219260</LongitudeDegrees>
@@ -5236,7 +5236,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:21:47Z</Time>
+      <Time>2017-01-06T18:21:47Z</Time>
       <Position>
        <LatitudeDegrees>40.2795660</LatitudeDegrees>
        <LongitudeDegrees>-3.8217500</LongitudeDegrees>
@@ -5254,7 +5254,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:21:53Z</Time>
+      <Time>2017-01-06T18:21:53Z</Time>
       <Position>
        <LatitudeDegrees>40.2794370</LatitudeDegrees>
        <LongitudeDegrees>-3.8215720</LongitudeDegrees>
@@ -5272,7 +5272,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:21:59Z</Time>
+      <Time>2017-01-06T18:21:59Z</Time>
       <Position>
        <LatitudeDegrees>40.2793260</LatitudeDegrees>
        <LongitudeDegrees>-3.8213750</LongitudeDegrees>
@@ -5290,7 +5290,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:22:06Z</Time>
+      <Time>2017-01-06T18:22:06Z</Time>
       <Position>
        <LatitudeDegrees>40.2792300</LatitudeDegrees>
        <LongitudeDegrees>-3.8211490</LongitudeDegrees>
@@ -5308,7 +5308,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:22:13Z</Time>
+      <Time>2017-01-06T18:22:13Z</Time>
       <Position>
        <LatitudeDegrees>40.2791450</LatitudeDegrees>
        <LongitudeDegrees>-3.8208990</LongitudeDegrees>
@@ -5326,7 +5326,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:22:20Z</Time>
+      <Time>2017-01-06T18:22:20Z</Time>
       <Position>
        <LatitudeDegrees>40.2791020</LatitudeDegrees>
        <LongitudeDegrees>-3.8206480</LongitudeDegrees>
@@ -5344,7 +5344,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:22:27Z</Time>
+      <Time>2017-01-06T18:22:27Z</Time>
       <Position>
        <LatitudeDegrees>40.2790600</LatitudeDegrees>
        <LongitudeDegrees>-3.8203900</LongitudeDegrees>
@@ -5362,7 +5362,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:22:33Z</Time>
+      <Time>2017-01-06T18:22:33Z</Time>
       <Position>
        <LatitudeDegrees>40.2790370</LatitudeDegrees>
        <LongitudeDegrees>-3.8201540</LongitudeDegrees>
@@ -5380,7 +5380,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:22:39Z</Time>
+      <Time>2017-01-06T18:22:39Z</Time>
       <Position>
        <LatitudeDegrees>40.2790240</LatitudeDegrees>
        <LongitudeDegrees>-3.8199160</LongitudeDegrees>
@@ -5398,7 +5398,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:22:46Z</Time>
+      <Time>2017-01-06T18:22:46Z</Time>
       <Position>
        <LatitudeDegrees>40.2790320</LatitudeDegrees>
        <LongitudeDegrees>-3.8196400</LongitudeDegrees>
@@ -5416,7 +5416,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:22:52Z</Time>
+      <Time>2017-01-06T18:22:52Z</Time>
       <Position>
        <LatitudeDegrees>40.2790160</LatitudeDegrees>
        <LongitudeDegrees>-3.8193950</LongitudeDegrees>
@@ -5434,7 +5434,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:22:58Z</Time>
+      <Time>2017-01-06T18:22:58Z</Time>
       <Position>
        <LatitudeDegrees>40.2790060</LatitudeDegrees>
        <LongitudeDegrees>-3.8191320</LongitudeDegrees>
@@ -5452,7 +5452,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:23:00Z</Time>
+      <Time>2017-01-06T18:23:00Z</Time>
       <Position>
        <LatitudeDegrees>40.2789810</LatitudeDegrees>
        <LongitudeDegrees>-3.8190490</LongitudeDegrees>
@@ -5470,7 +5470,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:23:06Z</Time>
+      <Time>2017-01-06T18:23:06Z</Time>
       <Position>
        <LatitudeDegrees>40.2788550</LatitudeDegrees>
        <LongitudeDegrees>-3.8188410</LongitudeDegrees>
@@ -5488,7 +5488,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:23:08Z</Time>
+      <Time>2017-01-06T18:23:08Z</Time>
       <Position>
        <LatitudeDegrees>40.2788560</LatitudeDegrees>
        <LongitudeDegrees>-3.8187660</LongitudeDegrees>
@@ -5506,7 +5506,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:23:14Z</Time>
+      <Time>2017-01-06T18:23:14Z</Time>
       <Position>
        <LatitudeDegrees>40.2789580</LatitudeDegrees>
        <LongitudeDegrees>-3.8185680</LongitudeDegrees>
@@ -5524,7 +5524,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:23:20Z</Time>
+      <Time>2017-01-06T18:23:20Z</Time>
       <Position>
        <LatitudeDegrees>40.2789810</LatitudeDegrees>
        <LongitudeDegrees>-3.8183230</LongitudeDegrees>
@@ -5542,7 +5542,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:23:26Z</Time>
+      <Time>2017-01-06T18:23:26Z</Time>
       <Position>
        <LatitudeDegrees>40.2789810</LatitudeDegrees>
        <LongitudeDegrees>-3.8180650</LongitudeDegrees>
@@ -5560,7 +5560,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:23:32Z</Time>
+      <Time>2017-01-06T18:23:32Z</Time>
       <Position>
        <LatitudeDegrees>40.2789860</LatitudeDegrees>
        <LongitudeDegrees>-3.8178140</LongitudeDegrees>
@@ -5578,7 +5578,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:23:38Z</Time>
+      <Time>2017-01-06T18:23:38Z</Time>
       <Position>
        <LatitudeDegrees>40.2789900</LatitudeDegrees>
        <LongitudeDegrees>-3.8175620</LongitudeDegrees>
@@ -5596,7 +5596,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:23:44Z</Time>
+      <Time>2017-01-06T18:23:44Z</Time>
       <Position>
        <LatitudeDegrees>40.2790010</LatitudeDegrees>
        <LongitudeDegrees>-3.8173140</LongitudeDegrees>
@@ -5614,7 +5614,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:23:50Z</Time>
+      <Time>2017-01-06T18:23:50Z</Time>
       <Position>
        <LatitudeDegrees>40.2789950</LatitudeDegrees>
        <LongitudeDegrees>-3.8170650</LongitudeDegrees>
@@ -5632,7 +5632,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:23:56Z</Time>
+      <Time>2017-01-06T18:23:56Z</Time>
       <Position>
        <LatitudeDegrees>40.2789950</LatitudeDegrees>
        <LongitudeDegrees>-3.8168020</LongitudeDegrees>
@@ -5650,7 +5650,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:23:58Z</Time>
+      <Time>2017-01-06T18:23:58Z</Time>
       <Position>
        <LatitudeDegrees>40.2790010</LatitudeDegrees>
        <LongitudeDegrees>-3.8167190</LongitudeDegrees>
@@ -5669,7 +5669,7 @@
      </Trackpoint>
     </Track>
    </Lap>
-   <Lap StartTime="2017-01-18T18:24:06Z">
+   <Lap StartTime="2017-01-06T18:24:06Z">
     <TotalTimeSeconds>215</TotalTimeSeconds>
     <DistanceMeters>400.0</DistanceMeters>
     <MaximumSpeed>10080.0</MaximumSpeed>
@@ -5685,7 +5685,7 @@
     <TriggerMethod>Manual</TriggerMethod>
     <Track>
      <Trackpoint>
-      <Time>2017-01-18T18:24:06Z</Time>
+      <Time>2017-01-06T18:24:06Z</Time>
       <Position>
        <LatitudeDegrees>40.2790020</LatitudeDegrees>
        <LongitudeDegrees>-3.8164800</LongitudeDegrees>
@@ -5703,7 +5703,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:24:08Z</Time>
+      <Time>2017-01-06T18:24:08Z</Time>
       <Position>
        <LatitudeDegrees>40.2789970</LatitudeDegrees>
        <LongitudeDegrees>-3.8164660</LongitudeDegrees>
@@ -5721,7 +5721,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:24:14Z</Time>
+      <Time>2017-01-06T18:24:14Z</Time>
       <Position>
        <LatitudeDegrees>40.2790070</LatitudeDegrees>
        <LongitudeDegrees>-3.8163760</LongitudeDegrees>
@@ -5739,7 +5739,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:24:16Z</Time>
+      <Time>2017-01-06T18:24:16Z</Time>
       <Position>
        <LatitudeDegrees>40.2790060</LatitudeDegrees>
        <LongitudeDegrees>-3.8163410</LongitudeDegrees>
@@ -5757,7 +5757,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:24:24Z</Time>
+      <Time>2017-01-06T18:24:24Z</Time>
       <Position>
        <LatitudeDegrees>40.2790220</LatitudeDegrees>
        <LongitudeDegrees>-3.8162170</LongitudeDegrees>
@@ -5775,7 +5775,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:24:29Z</Time>
+      <Time>2017-01-06T18:24:29Z</Time>
       <Position>
        <LatitudeDegrees>40.2790420</LatitudeDegrees>
        <LongitudeDegrees>-3.8161400</LongitudeDegrees>
@@ -5793,7 +5793,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:24:34Z</Time>
+      <Time>2017-01-06T18:24:34Z</Time>
       <Position>
        <LatitudeDegrees>40.2790630</LatitudeDegrees>
        <LongitudeDegrees>-3.8160620</LongitudeDegrees>
@@ -5811,7 +5811,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:24:40Z</Time>
+      <Time>2017-01-06T18:24:40Z</Time>
       <Position>
        <LatitudeDegrees>40.2791040</LatitudeDegrees>
        <LongitudeDegrees>-3.8159760</LongitudeDegrees>
@@ -5829,7 +5829,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:24:42Z</Time>
+      <Time>2017-01-06T18:24:42Z</Time>
       <Position>
        <LatitudeDegrees>40.2791180</LatitudeDegrees>
        <LongitudeDegrees>-3.8159460</LongitudeDegrees>
@@ -5847,7 +5847,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:24:45Z</Time>
+      <Time>2017-01-06T18:24:45Z</Time>
       <Position>
        <LatitudeDegrees>40.2791400</LatitudeDegrees>
        <LongitudeDegrees>-3.8159030</LongitudeDegrees>
@@ -5865,7 +5865,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:24:48Z</Time>
+      <Time>2017-01-06T18:24:48Z</Time>
       <Position>
        <LatitudeDegrees>40.2791650</LatitudeDegrees>
        <LongitudeDegrees>-3.8158610</LongitudeDegrees>
@@ -5883,7 +5883,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:24:53Z</Time>
+      <Time>2017-01-06T18:24:53Z</Time>
       <Position>
        <LatitudeDegrees>40.2792030</LatitudeDegrees>
        <LongitudeDegrees>-3.8157860</LongitudeDegrees>
@@ -5901,7 +5901,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:25:05Z</Time>
+      <Time>2017-01-06T18:25:05Z</Time>
       <Position>
        <LatitudeDegrees>40.2793080</LatitudeDegrees>
        <LongitudeDegrees>-3.8156190</LongitudeDegrees>
@@ -5919,7 +5919,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:25:08Z</Time>
+      <Time>2017-01-06T18:25:08Z</Time>
       <Position>
        <LatitudeDegrees>40.2793290</LatitudeDegrees>
        <LongitudeDegrees>-3.8155880</LongitudeDegrees>
@@ -5937,7 +5937,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:25:19Z</Time>
+      <Time>2017-01-06T18:25:19Z</Time>
       <Position>
        <LatitudeDegrees>40.2794400</LatitudeDegrees>
        <LongitudeDegrees>-3.8154460</LongitudeDegrees>
@@ -5955,7 +5955,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:25:33Z</Time>
+      <Time>2017-01-06T18:25:33Z</Time>
       <Position>
        <LatitudeDegrees>40.2795880</LatitudeDegrees>
        <LongitudeDegrees>-3.8152890</LongitudeDegrees>
@@ -5973,7 +5973,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:25:47Z</Time>
+      <Time>2017-01-06T18:25:47Z</Time>
       <Position>
        <LatitudeDegrees>40.2797460</LatitudeDegrees>
        <LongitudeDegrees>-3.8151750</LongitudeDegrees>
@@ -5991,7 +5991,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:25:53Z</Time>
+      <Time>2017-01-06T18:25:53Z</Time>
       <Position>
        <LatitudeDegrees>40.2798290</LatitudeDegrees>
        <LongitudeDegrees>-3.8151440</LongitudeDegrees>
@@ -6009,7 +6009,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:26:04Z</Time>
+      <Time>2017-01-06T18:26:04Z</Time>
       <Position>
        <LatitudeDegrees>40.2799820</LatitudeDegrees>
        <LongitudeDegrees>-3.8150750</LongitudeDegrees>
@@ -6027,7 +6027,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:26:18Z</Time>
+      <Time>2017-01-06T18:26:18Z</Time>
       <Position>
        <LatitudeDegrees>40.2801750</LatitudeDegrees>
        <LongitudeDegrees>-3.8150690</LongitudeDegrees>
@@ -6045,7 +6045,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:26:19Z</Time>
+      <Time>2017-01-06T18:26:19Z</Time>
       <Position>
        <LatitudeDegrees>40.2801880</LatitudeDegrees>
        <LongitudeDegrees>-3.8150700</LongitudeDegrees>
@@ -6063,7 +6063,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:26:29Z</Time>
+      <Time>2017-01-06T18:26:29Z</Time>
       <Position>
        <LatitudeDegrees>40.2803800</LatitudeDegrees>
        <LongitudeDegrees>-3.8150620</LongitudeDegrees>
@@ -6081,7 +6081,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:26:37Z</Time>
+      <Time>2017-01-06T18:26:37Z</Time>
       <Position>
        <LatitudeDegrees>40.2805700</LatitudeDegrees>
        <LongitudeDegrees>-3.8150790</LongitudeDegrees>
@@ -6099,7 +6099,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:26:45Z</Time>
+      <Time>2017-01-06T18:26:45Z</Time>
       <Position>
        <LatitudeDegrees>40.2807420</LatitudeDegrees>
        <LongitudeDegrees>-3.8151180</LongitudeDegrees>
@@ -6117,7 +6117,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:26:53Z</Time>
+      <Time>2017-01-06T18:26:53Z</Time>
       <Position>
        <LatitudeDegrees>40.2809160</LatitudeDegrees>
        <LongitudeDegrees>-3.8151940</LongitudeDegrees>
@@ -6135,7 +6135,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:27:03Z</Time>
+      <Time>2017-01-06T18:27:03Z</Time>
       <Position>
        <LatitudeDegrees>40.2811000</LatitudeDegrees>
        <LongitudeDegrees>-3.8153000</LongitudeDegrees>
@@ -6153,7 +6153,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:27:12Z</Time>
+      <Time>2017-01-06T18:27:12Z</Time>
       <Position>
        <LatitudeDegrees>40.2812740</LatitudeDegrees>
        <LongitudeDegrees>-3.8154090</LongitudeDegrees>
@@ -6171,7 +6171,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:27:21Z</Time>
+      <Time>2017-01-06T18:27:21Z</Time>
       <Position>
        <LatitudeDegrees>40.2814510</LatitudeDegrees>
        <LongitudeDegrees>-3.8155150</LongitudeDegrees>
@@ -6189,7 +6189,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:27:28Z</Time>
+      <Time>2017-01-06T18:27:28Z</Time>
       <Position>
        <LatitudeDegrees>40.2816000</LatitudeDegrees>
        <LongitudeDegrees>-3.8156080</LongitudeDegrees>
@@ -6207,7 +6207,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:27:32Z</Time>
+      <Time>2017-01-06T18:27:32Z</Time>
       <Position>
        <LatitudeDegrees>40.2816860</LatitudeDegrees>
        <LongitudeDegrees>-3.8156650</LongitudeDegrees>
@@ -6225,7 +6225,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:27:34Z</Time>
+      <Time>2017-01-06T18:27:34Z</Time>
       <Position>
        <LatitudeDegrees>40.2817370</LatitudeDegrees>
        <LongitudeDegrees>-3.8156870</LongitudeDegrees>
@@ -6244,7 +6244,7 @@
      </Trackpoint>
     </Track>
    </Lap>
-   <Lap StartTime="2017-01-18T18:27:41Z">
+   <Lap StartTime="2017-01-06T18:27:41Z">
     <TotalTimeSeconds>213</TotalTimeSeconds>
     <DistanceMeters>800.0</DistanceMeters>
     <MaximumSpeed>15480.0</MaximumSpeed>
@@ -6260,7 +6260,7 @@
     <TriggerMethod>Manual</TriggerMethod>
     <Track>
      <Trackpoint>
-      <Time>2017-01-18T18:27:41Z</Time>
+      <Time>2017-01-06T18:27:41Z</Time>
       <Position>
        <LatitudeDegrees>40.2819230</LatitudeDegrees>
        <LongitudeDegrees>-3.8158090</LongitudeDegrees>
@@ -6278,7 +6278,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:27:47Z</Time>
+      <Time>2017-01-06T18:27:47Z</Time>
       <Position>
        <LatitudeDegrees>40.2821000</LatitudeDegrees>
        <LongitudeDegrees>-3.8159280</LongitudeDegrees>
@@ -6296,7 +6296,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:27:53Z</Time>
+      <Time>2017-01-06T18:27:53Z</Time>
       <Position>
        <LatitudeDegrees>40.2822780</LatitudeDegrees>
        <LongitudeDegrees>-3.8160390</LongitudeDegrees>
@@ -6314,7 +6314,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:27:59Z</Time>
+      <Time>2017-01-06T18:27:59Z</Time>
       <Position>
        <LatitudeDegrees>40.2824600</LatitudeDegrees>
        <LongitudeDegrees>-3.8161560</LongitudeDegrees>
@@ -6332,7 +6332,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:28:05Z</Time>
+      <Time>2017-01-06T18:28:05Z</Time>
       <Position>
        <LatitudeDegrees>40.2826530</LatitudeDegrees>
        <LongitudeDegrees>-3.8162320</LongitudeDegrees>
@@ -6350,7 +6350,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:28:11Z</Time>
+      <Time>2017-01-06T18:28:11Z</Time>
       <Position>
        <LatitudeDegrees>40.2828490</LatitudeDegrees>
        <LongitudeDegrees>-3.8162720</LongitudeDegrees>
@@ -6368,7 +6368,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:28:14Z</Time>
+      <Time>2017-01-06T18:28:14Z</Time>
       <Position>
        <LatitudeDegrees>40.2829030</LatitudeDegrees>
        <LongitudeDegrees>-3.8163680</LongitudeDegrees>
@@ -6386,7 +6386,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:28:20Z</Time>
+      <Time>2017-01-06T18:28:20Z</Time>
       <Position>
        <LatitudeDegrees>40.2830240</LatitudeDegrees>
        <LongitudeDegrees>-3.8165290</LongitudeDegrees>
@@ -6404,7 +6404,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:28:26Z</Time>
+      <Time>2017-01-06T18:28:26Z</Time>
       <Position>
        <LatitudeDegrees>40.2832100</LatitudeDegrees>
        <LongitudeDegrees>-3.8166360</LongitudeDegrees>
@@ -6422,7 +6422,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:28:32Z</Time>
+      <Time>2017-01-06T18:28:32Z</Time>
       <Position>
        <LatitudeDegrees>40.2833980</LatitudeDegrees>
        <LongitudeDegrees>-3.8167500</LongitudeDegrees>
@@ -6440,7 +6440,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:28:34Z</Time>
+      <Time>2017-01-06T18:28:34Z</Time>
       <Position>
        <LatitudeDegrees>40.2834640</LatitudeDegrees>
        <LongitudeDegrees>-3.8167860</LongitudeDegrees>
@@ -6458,7 +6458,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:28:40Z</Time>
+      <Time>2017-01-06T18:28:40Z</Time>
       <Position>
        <LatitudeDegrees>40.2836490</LatitudeDegrees>
        <LongitudeDegrees>-3.8168850</LongitudeDegrees>
@@ -6476,7 +6476,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:28:46Z</Time>
+      <Time>2017-01-06T18:28:46Z</Time>
       <Position>
        <LatitudeDegrees>40.2838340</LatitudeDegrees>
        <LongitudeDegrees>-3.8169910</LongitudeDegrees>
@@ -6494,7 +6494,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:28:52Z</Time>
+      <Time>2017-01-06T18:28:52Z</Time>
       <Position>
        <LatitudeDegrees>40.2840210</LatitudeDegrees>
        <LongitudeDegrees>-3.8170970</LongitudeDegrees>
@@ -6512,7 +6512,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:28:58Z</Time>
+      <Time>2017-01-06T18:28:58Z</Time>
       <Position>
        <LatitudeDegrees>40.2842070</LatitudeDegrees>
        <LongitudeDegrees>-3.8172000</LongitudeDegrees>
@@ -6530,7 +6530,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:29:04Z</Time>
+      <Time>2017-01-06T18:29:04Z</Time>
       <Position>
        <LatitudeDegrees>40.2843780</LatitudeDegrees>
        <LongitudeDegrees>-3.8173120</LongitudeDegrees>
@@ -6548,7 +6548,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:29:06Z</Time>
+      <Time>2017-01-06T18:29:06Z</Time>
       <Position>
        <LatitudeDegrees>40.2844270</LatitudeDegrees>
        <LongitudeDegrees>-3.8173520</LongitudeDegrees>
@@ -6566,7 +6566,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:29:13Z</Time>
+      <Time>2017-01-06T18:29:13Z</Time>
       <Position>
        <LatitudeDegrees>40.2843220</LatitudeDegrees>
        <LongitudeDegrees>-3.8174520</LongitudeDegrees>
@@ -6584,7 +6584,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:29:18Z</Time>
+      <Time>2017-01-06T18:29:18Z</Time>
       <Position>
        <LatitudeDegrees>40.2841630</LatitudeDegrees>
        <LongitudeDegrees>-3.8173110</LongitudeDegrees>
@@ -6602,7 +6602,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:29:19Z</Time>
+      <Time>2017-01-06T18:29:19Z</Time>
       <Position>
        <LatitudeDegrees>40.2841300</LatitudeDegrees>
        <LongitudeDegrees>-3.8172860</LongitudeDegrees>
@@ -6620,7 +6620,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:29:24Z</Time>
+      <Time>2017-01-06T18:29:24Z</Time>
       <Position>
        <LatitudeDegrees>40.2839720</LatitudeDegrees>
        <LongitudeDegrees>-3.8171720</LongitudeDegrees>
@@ -6638,7 +6638,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:29:29Z</Time>
+      <Time>2017-01-06T18:29:29Z</Time>
       <Position>
        <LatitudeDegrees>40.2838130</LatitudeDegrees>
        <LongitudeDegrees>-3.8170500</LongitudeDegrees>
@@ -6656,7 +6656,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:29:35Z</Time>
+      <Time>2017-01-06T18:29:35Z</Time>
       <Position>
        <LatitudeDegrees>40.2836160</LatitudeDegrees>
        <LongitudeDegrees>-3.8169080</LongitudeDegrees>
@@ -6674,7 +6674,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:29:41Z</Time>
+      <Time>2017-01-06T18:29:41Z</Time>
       <Position>
        <LatitudeDegrees>40.2834330</LatitudeDegrees>
        <LongitudeDegrees>-3.8167900</LongitudeDegrees>
@@ -6692,7 +6692,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:29:46Z</Time>
+      <Time>2017-01-06T18:29:46Z</Time>
       <Position>
        <LatitudeDegrees>40.2832650</LatitudeDegrees>
        <LongitudeDegrees>-3.8166840</LongitudeDegrees>
@@ -6710,7 +6710,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:29:51Z</Time>
+      <Time>2017-01-06T18:29:51Z</Time>
       <Position>
        <LatitudeDegrees>40.2830990</LatitudeDegrees>
        <LongitudeDegrees>-3.8165880</LongitudeDegrees>
@@ -6728,7 +6728,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:29:57Z</Time>
+      <Time>2017-01-06T18:29:57Z</Time>
       <Position>
        <LatitudeDegrees>40.2829010</LatitudeDegrees>
        <LongitudeDegrees>-3.8164780</LongitudeDegrees>
@@ -6746,7 +6746,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:30:02Z</Time>
+      <Time>2017-01-06T18:30:02Z</Time>
       <Position>
        <LatitudeDegrees>40.2827200</LatitudeDegrees>
        <LongitudeDegrees>-3.8164620</LongitudeDegrees>
@@ -6764,7 +6764,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:30:08Z</Time>
+      <Time>2017-01-06T18:30:08Z</Time>
       <Position>
        <LatitudeDegrees>40.2825360</LatitudeDegrees>
        <LongitudeDegrees>-3.8163500</LongitudeDegrees>
@@ -6782,7 +6782,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:30:14Z</Time>
+      <Time>2017-01-06T18:30:14Z</Time>
       <Position>
        <LatitudeDegrees>40.2823830</LatitudeDegrees>
        <LongitudeDegrees>-3.8161790</LongitudeDegrees>
@@ -6800,7 +6800,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:30:19Z</Time>
+      <Time>2017-01-06T18:30:19Z</Time>
       <Position>
        <LatitudeDegrees>40.2822130</LatitudeDegrees>
        <LongitudeDegrees>-3.8160780</LongitudeDegrees>
@@ -6818,7 +6818,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:30:25Z</Time>
+      <Time>2017-01-06T18:30:25Z</Time>
       <Position>
        <LatitudeDegrees>40.2820210</LatitudeDegrees>
        <LongitudeDegrees>-3.8159610</LongitudeDegrees>
@@ -6836,7 +6836,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:30:31Z</Time>
+      <Time>2017-01-06T18:30:31Z</Time>
       <Position>
        <LatitudeDegrees>40.2818280</LatitudeDegrees>
        <LongitudeDegrees>-3.8158640</LongitudeDegrees>
@@ -6854,7 +6854,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:30:37Z</Time>
+      <Time>2017-01-06T18:30:37Z</Time>
       <Position>
        <LatitudeDegrees>40.2816410</LatitudeDegrees>
        <LongitudeDegrees>-3.8157470</LongitudeDegrees>
@@ -6872,7 +6872,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:30:43Z</Time>
+      <Time>2017-01-06T18:30:43Z</Time>
       <Position>
        <LatitudeDegrees>40.2814530</LatitudeDegrees>
        <LongitudeDegrees>-3.8156200</LongitudeDegrees>
@@ -6890,7 +6890,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:30:49Z</Time>
+      <Time>2017-01-06T18:30:49Z</Time>
       <Position>
        <LatitudeDegrees>40.2812710</LatitudeDegrees>
        <LongitudeDegrees>-3.8155020</LongitudeDegrees>
@@ -6908,7 +6908,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:30:55Z</Time>
+      <Time>2017-01-06T18:30:55Z</Time>
       <Position>
        <LatitudeDegrees>40.2810940</LatitudeDegrees>
        <LongitudeDegrees>-3.8154120</LongitudeDegrees>
@@ -6926,7 +6926,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:31:01Z</Time>
+      <Time>2017-01-06T18:31:01Z</Time>
       <Position>
        <LatitudeDegrees>40.2809200</LatitudeDegrees>
        <LongitudeDegrees>-3.8153160</LongitudeDegrees>
@@ -6944,7 +6944,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:31:07Z</Time>
+      <Time>2017-01-06T18:31:07Z</Time>
       <Position>
        <LatitudeDegrees>40.2807370</LatitudeDegrees>
        <LongitudeDegrees>-3.8152150</LongitudeDegrees>
@@ -6963,7 +6963,7 @@
      </Trackpoint>
     </Track>
    </Lap>
-   <Lap StartTime="2017-01-18T18:31:12Z">
+   <Lap StartTime="2017-01-06T18:31:12Z">
     <TotalTimeSeconds>179</TotalTimeSeconds>
     <DistanceMeters>400.0</DistanceMeters>
     <MaximumSpeed>11520.0</MaximumSpeed>
@@ -6979,7 +6979,7 @@
     <TriggerMethod>Manual</TriggerMethod>
     <Track>
      <Trackpoint>
-      <Time>2017-01-18T18:31:12Z</Time>
+      <Time>2017-01-06T18:31:12Z</Time>
       <Position>
        <LatitudeDegrees>40.2806580</LatitudeDegrees>
        <LongitudeDegrees>-3.8151480</LongitudeDegrees>
@@ -6997,7 +6997,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:31:19Z</Time>
+      <Time>2017-01-06T18:31:19Z</Time>
       <Position>
        <LatitudeDegrees>40.2807010</LatitudeDegrees>
        <LongitudeDegrees>-3.8150570</LongitudeDegrees>
@@ -7015,7 +7015,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:31:25Z</Time>
+      <Time>2017-01-06T18:31:25Z</Time>
       <Position>
        <LatitudeDegrees>40.2807580</LatitudeDegrees>
        <LongitudeDegrees>-3.8150710</LongitudeDegrees>
@@ -7033,7 +7033,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:31:30Z</Time>
+      <Time>2017-01-06T18:31:30Z</Time>
       <Position>
        <LatitudeDegrees>40.2808160</LatitudeDegrees>
        <LongitudeDegrees>-3.8151050</LongitudeDegrees>
@@ -7051,7 +7051,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:31:33Z</Time>
+      <Time>2017-01-06T18:31:33Z</Time>
       <Position>
        <LatitudeDegrees>40.2808550</LatitudeDegrees>
        <LongitudeDegrees>-3.8151290</LongitudeDegrees>
@@ -7069,7 +7069,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:31:36Z</Time>
+      <Time>2017-01-06T18:31:36Z</Time>
       <Position>
        <LatitudeDegrees>40.2808940</LatitudeDegrees>
        <LongitudeDegrees>-3.8151550</LongitudeDegrees>
@@ -7087,7 +7087,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:31:40Z</Time>
+      <Time>2017-01-06T18:31:40Z</Time>
       <Position>
        <LatitudeDegrees>40.2809470</LatitudeDegrees>
        <LongitudeDegrees>-3.8151880</LongitudeDegrees>
@@ -7105,7 +7105,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:31:47Z</Time>
+      <Time>2017-01-06T18:31:47Z</Time>
       <Position>
        <LatitudeDegrees>40.2810300</LatitudeDegrees>
        <LongitudeDegrees>-3.8152440</LongitudeDegrees>
@@ -7123,7 +7123,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:31:50Z</Time>
+      <Time>2017-01-06T18:31:50Z</Time>
       <Position>
        <LatitudeDegrees>40.2810670</LatitudeDegrees>
        <LongitudeDegrees>-3.8152660</LongitudeDegrees>
@@ -7141,7 +7141,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:31:53Z</Time>
+      <Time>2017-01-06T18:31:53Z</Time>
       <Position>
        <LatitudeDegrees>40.2811040</LatitudeDegrees>
        <LongitudeDegrees>-3.8152910</LongitudeDegrees>
@@ -7159,7 +7159,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:31:56Z</Time>
+      <Time>2017-01-06T18:31:56Z</Time>
       <Position>
        <LatitudeDegrees>40.2811440</LatitudeDegrees>
        <LongitudeDegrees>-3.8153130</LongitudeDegrees>
@@ -7177,7 +7177,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:32:00Z</Time>
+      <Time>2017-01-06T18:32:00Z</Time>
       <Position>
        <LatitudeDegrees>40.2811970</LatitudeDegrees>
        <LongitudeDegrees>-3.8153380</LongitudeDegrees>
@@ -7195,7 +7195,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:32:07Z</Time>
+      <Time>2017-01-06T18:32:07Z</Time>
       <Position>
        <LatitudeDegrees>40.2812890</LatitudeDegrees>
        <LongitudeDegrees>-3.8153910</LongitudeDegrees>
@@ -7213,7 +7213,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:32:19Z</Time>
+      <Time>2017-01-06T18:32:19Z</Time>
       <Position>
        <LatitudeDegrees>40.2814700</LatitudeDegrees>
        <LongitudeDegrees>-3.8155090</LongitudeDegrees>
@@ -7231,7 +7231,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:32:27Z</Time>
+      <Time>2017-01-06T18:32:27Z</Time>
       <Position>
        <LatitudeDegrees>40.2816360</LatitudeDegrees>
        <LongitudeDegrees>-3.8156250</LongitudeDegrees>
@@ -7249,7 +7249,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:32:35Z</Time>
+      <Time>2017-01-06T18:32:35Z</Time>
       <Position>
        <LatitudeDegrees>40.2818080</LatitudeDegrees>
        <LongitudeDegrees>-3.8157330</LongitudeDegrees>
@@ -7267,7 +7267,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:32:43Z</Time>
+      <Time>2017-01-06T18:32:43Z</Time>
       <Position>
        <LatitudeDegrees>40.2819740</LatitudeDegrees>
        <LongitudeDegrees>-3.8158370</LongitudeDegrees>
@@ -7285,7 +7285,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:32:51Z</Time>
+      <Time>2017-01-06T18:32:51Z</Time>
       <Position>
        <LatitudeDegrees>40.2821410</LatitudeDegrees>
        <LongitudeDegrees>-3.8159380</LongitudeDegrees>
@@ -7303,7 +7303,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:33:00Z</Time>
+      <Time>2017-01-06T18:33:00Z</Time>
       <Position>
        <LatitudeDegrees>40.2823240</LatitudeDegrees>
        <LongitudeDegrees>-3.8160430</LongitudeDegrees>
@@ -7321,7 +7321,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:33:08Z</Time>
+      <Time>2017-01-06T18:33:08Z</Time>
       <Position>
        <LatitudeDegrees>40.2824900</LatitudeDegrees>
        <LongitudeDegrees>-3.8161390</LongitudeDegrees>
@@ -7339,7 +7339,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:33:13Z</Time>
+      <Time>2017-01-06T18:33:13Z</Time>
       <Position>
        <LatitudeDegrees>40.2826020</LatitudeDegrees>
        <LongitudeDegrees>-3.8161840</LongitudeDegrees>
@@ -7357,7 +7357,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:33:20Z</Time>
+      <Time>2017-01-06T18:33:20Z</Time>
       <Position>
        <LatitudeDegrees>40.2827610</LatitudeDegrees>
        <LongitudeDegrees>-3.8161480</LongitudeDegrees>
@@ -7375,7 +7375,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:33:29Z</Time>
+      <Time>2017-01-06T18:33:29Z</Time>
       <Position>
        <LatitudeDegrees>40.2829020</LatitudeDegrees>
        <LongitudeDegrees>-3.8163190</LongitudeDegrees>
@@ -7393,7 +7393,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:33:32Z</Time>
+      <Time>2017-01-06T18:33:32Z</Time>
       <Position>
        <LatitudeDegrees>40.2829400</LatitudeDegrees>
        <LongitudeDegrees>-3.8164020</LongitudeDegrees>
@@ -7411,7 +7411,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:33:40Z</Time>
+      <Time>2017-01-06T18:33:40Z</Time>
       <Position>
        <LatitudeDegrees>40.2831230</LatitudeDegrees>
        <LongitudeDegrees>-3.8165180</LongitudeDegrees>
@@ -7429,7 +7429,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:33:48Z</Time>
+      <Time>2017-01-06T18:33:48Z</Time>
       <Position>
        <LatitudeDegrees>40.2832950</LatitudeDegrees>
        <LongitudeDegrees>-3.8166250</LongitudeDegrees>
@@ -7447,7 +7447,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:33:56Z</Time>
+      <Time>2017-01-06T18:33:56Z</Time>
       <Position>
        <LatitudeDegrees>40.2834730</LatitudeDegrees>
        <LongitudeDegrees>-3.8167210</LongitudeDegrees>
@@ -7465,7 +7465,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:34:04Z</Time>
+      <Time>2017-01-06T18:34:04Z</Time>
       <Position>
        <LatitudeDegrees>40.2836510</LatitudeDegrees>
        <LongitudeDegrees>-3.8168240</LongitudeDegrees>
@@ -7483,7 +7483,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:34:06Z</Time>
+      <Time>2017-01-06T18:34:06Z</Time>
       <Position>
        <LatitudeDegrees>40.2836940</LatitudeDegrees>
        <LongitudeDegrees>-3.8168480</LongitudeDegrees>
@@ -7502,7 +7502,7 @@
      </Trackpoint>
     </Track>
    </Lap>
-   <Lap StartTime="2017-01-18T18:34:14Z">
+   <Lap StartTime="2017-01-06T18:34:14Z">
     <TotalTimeSeconds>600</TotalTimeSeconds>
     <DistanceMeters>1737.19</DistanceMeters>
     <MaximumSpeed>12240.0</MaximumSpeed>
@@ -7518,7 +7518,7 @@
     <TriggerMethod>Manual</TriggerMethod>
     <Track>
      <Trackpoint>
-      <Time>2017-01-18T18:34:14Z</Time>
+      <Time>2017-01-06T18:34:14Z</Time>
       <Position>
        <LatitudeDegrees>40.2838720</LatitudeDegrees>
        <LongitudeDegrees>-3.8169440</LongitudeDegrees>
@@ -7536,7 +7536,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:34:18Z</Time>
+      <Time>2017-01-06T18:34:18Z</Time>
       <Position>
        <LatitudeDegrees>40.2839630</LatitudeDegrees>
        <LongitudeDegrees>-3.8169920</LongitudeDegrees>
@@ -7554,7 +7554,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:34:26Z</Time>
+      <Time>2017-01-06T18:34:26Z</Time>
       <Position>
        <LatitudeDegrees>40.2841460</LatitudeDegrees>
        <LongitudeDegrees>-3.8171030</LongitudeDegrees>
@@ -7572,7 +7572,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:34:34Z</Time>
+      <Time>2017-01-06T18:34:34Z</Time>
       <Position>
        <LatitudeDegrees>40.2843270</LatitudeDegrees>
        <LongitudeDegrees>-3.8172170</LongitudeDegrees>
@@ -7590,7 +7590,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:34:42Z</Time>
+      <Time>2017-01-06T18:34:42Z</Time>
       <Position>
        <LatitudeDegrees>40.2845070</LatitudeDegrees>
        <LongitudeDegrees>-3.8173150</LongitudeDegrees>
@@ -7608,7 +7608,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:34:50Z</Time>
+      <Time>2017-01-06T18:34:50Z</Time>
       <Position>
        <LatitudeDegrees>40.2846830</LatitudeDegrees>
        <LongitudeDegrees>-3.8174280</LongitudeDegrees>
@@ -7626,7 +7626,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:34:58Z</Time>
+      <Time>2017-01-06T18:34:58Z</Time>
       <Position>
        <LatitudeDegrees>40.2848560</LatitudeDegrees>
        <LongitudeDegrees>-3.8174920</LongitudeDegrees>
@@ -7644,7 +7644,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:35:06Z</Time>
+      <Time>2017-01-06T18:35:06Z</Time>
       <Position>
        <LatitudeDegrees>40.2849930</LatitudeDegrees>
        <LongitudeDegrees>-3.8173470</LongitudeDegrees>
@@ -7662,7 +7662,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:35:14Z</Time>
+      <Time>2017-01-06T18:35:14Z</Time>
       <Position>
        <LatitudeDegrees>40.2849740</LatitudeDegrees>
        <LongitudeDegrees>-3.8171110</LongitudeDegrees>
@@ -7680,7 +7680,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:35:21Z</Time>
+      <Time>2017-01-06T18:35:21Z</Time>
       <Position>
        <LatitudeDegrees>40.2850710</LatitudeDegrees>
        <LongitudeDegrees>-3.8169020</LongitudeDegrees>
@@ -7698,7 +7698,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:35:28Z</Time>
+      <Time>2017-01-06T18:35:28Z</Time>
       <Position>
        <LatitudeDegrees>40.2851900</LatitudeDegrees>
        <LongitudeDegrees>-3.8166980</LongitudeDegrees>
@@ -7716,7 +7716,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:35:36Z</Time>
+      <Time>2017-01-06T18:35:36Z</Time>
       <Position>
        <LatitudeDegrees>40.2852430</LatitudeDegrees>
        <LongitudeDegrees>-3.8164550</LongitudeDegrees>
@@ -7734,7 +7734,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:35:43Z</Time>
+      <Time>2017-01-06T18:35:43Z</Time>
       <Position>
        <LatitudeDegrees>40.2852850</LatitudeDegrees>
        <LongitudeDegrees>-3.8162180</LongitudeDegrees>
@@ -7752,7 +7752,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:35:51Z</Time>
+      <Time>2017-01-06T18:35:51Z</Time>
       <Position>
        <LatitudeDegrees>40.2852930</LatitudeDegrees>
        <LongitudeDegrees>-3.8159490</LongitudeDegrees>
@@ -7770,7 +7770,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:35:59Z</Time>
+      <Time>2017-01-06T18:35:59Z</Time>
       <Position>
        <LatitudeDegrees>40.2853220</LatitudeDegrees>
        <LongitudeDegrees>-3.8157010</LongitudeDegrees>
@@ -7788,7 +7788,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:36:07Z</Time>
+      <Time>2017-01-06T18:36:07Z</Time>
       <Position>
        <LatitudeDegrees>40.2854030</LatitudeDegrees>
        <LongitudeDegrees>-3.8154760</LongitudeDegrees>
@@ -7806,7 +7806,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:36:15Z</Time>
+      <Time>2017-01-06T18:36:15Z</Time>
       <Position>
        <LatitudeDegrees>40.2853880</LatitudeDegrees>
        <LongitudeDegrees>-3.8152140</LongitudeDegrees>
@@ -7824,7 +7824,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:36:23Z</Time>
+      <Time>2017-01-06T18:36:23Z</Time>
       <Position>
        <LatitudeDegrees>40.2853880</LatitudeDegrees>
        <LongitudeDegrees>-3.8149620</LongitudeDegrees>
@@ -7842,7 +7842,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:36:25Z</Time>
+      <Time>2017-01-06T18:36:25Z</Time>
       <Position>
        <LatitudeDegrees>40.2854060</LatitudeDegrees>
        <LongitudeDegrees>-3.8149070</LongitudeDegrees>
@@ -7860,7 +7860,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:36:31Z</Time>
+      <Time>2017-01-06T18:36:31Z</Time>
       <Position>
        <LatitudeDegrees>40.2855340</LatitudeDegrees>
        <LongitudeDegrees>-3.8148040</LongitudeDegrees>
@@ -7878,7 +7878,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:36:37Z</Time>
+      <Time>2017-01-06T18:36:37Z</Time>
       <Position>
        <LatitudeDegrees>40.2855170</LatitudeDegrees>
        <LongitudeDegrees>-3.8145870</LongitudeDegrees>
@@ -7896,7 +7896,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:36:45Z</Time>
+      <Time>2017-01-06T18:36:45Z</Time>
       <Position>
        <LatitudeDegrees>40.2854950</LatitudeDegrees>
        <LongitudeDegrees>-3.8143250</LongitudeDegrees>
@@ -7914,7 +7914,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:36:47Z</Time>
+      <Time>2017-01-06T18:36:47Z</Time>
       <Position>
        <LatitudeDegrees>40.2854920</LatitudeDegrees>
        <LongitudeDegrees>-3.8142600</LongitudeDegrees>
@@ -7932,7 +7932,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:36:55Z</Time>
+      <Time>2017-01-06T18:36:55Z</Time>
       <Position>
        <LatitudeDegrees>40.2854650</LatitudeDegrees>
        <LongitudeDegrees>-3.8140110</LongitudeDegrees>
@@ -7950,7 +7950,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:37:03Z</Time>
+      <Time>2017-01-06T18:37:03Z</Time>
       <Position>
        <LatitudeDegrees>40.2854470</LatitudeDegrees>
        <LongitudeDegrees>-3.8137680</LongitudeDegrees>
@@ -7968,7 +7968,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:37:11Z</Time>
+      <Time>2017-01-06T18:37:11Z</Time>
       <Position>
        <LatitudeDegrees>40.2854890</LatitudeDegrees>
        <LongitudeDegrees>-3.8135220</LongitudeDegrees>
@@ -7986,7 +7986,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:37:18Z</Time>
+      <Time>2017-01-06T18:37:18Z</Time>
       <Position>
        <LatitudeDegrees>40.2855480</LatitudeDegrees>
        <LongitudeDegrees>-3.8132990</LongitudeDegrees>
@@ -8004,7 +8004,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:37:25Z</Time>
+      <Time>2017-01-06T18:37:25Z</Time>
       <Position>
        <LatitudeDegrees>40.2855730</LatitudeDegrees>
        <LongitudeDegrees>-3.8130380</LongitudeDegrees>
@@ -8022,7 +8022,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:37:33Z</Time>
+      <Time>2017-01-06T18:37:33Z</Time>
       <Position>
        <LatitudeDegrees>40.2855320</LatitudeDegrees>
        <LongitudeDegrees>-3.8128010</LongitudeDegrees>
@@ -8040,7 +8040,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:37:40Z</Time>
+      <Time>2017-01-06T18:37:40Z</Time>
       <Position>
        <LatitudeDegrees>40.2855180</LatitudeDegrees>
        <LongitudeDegrees>-3.8125940</LongitudeDegrees>
@@ -8058,7 +8058,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:37:47Z</Time>
+      <Time>2017-01-06T18:37:47Z</Time>
       <Position>
        <LatitudeDegrees>40.2854710</LatitudeDegrees>
        <LongitudeDegrees>-3.8123790</LongitudeDegrees>
@@ -8076,7 +8076,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:37:49Z</Time>
+      <Time>2017-01-06T18:37:49Z</Time>
       <Position>
        <LatitudeDegrees>40.2854740</LatitudeDegrees>
        <LongitudeDegrees>-3.8123020</LongitudeDegrees>
@@ -8094,7 +8094,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:37:56Z</Time>
+      <Time>2017-01-06T18:37:56Z</Time>
       <Position>
        <LatitudeDegrees>40.2854420</LatitudeDegrees>
        <LongitudeDegrees>-3.8120660</LongitudeDegrees>
@@ -8112,7 +8112,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:38:04Z</Time>
+      <Time>2017-01-06T18:38:04Z</Time>
       <Position>
        <LatitudeDegrees>40.2855120</LatitudeDegrees>
        <LongitudeDegrees>-3.8118420</LongitudeDegrees>
@@ -8130,7 +8130,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:38:05Z</Time>
+      <Time>2017-01-06T18:38:05Z</Time>
       <Position>
        <LatitudeDegrees>40.2855320</LatitudeDegrees>
        <LongitudeDegrees>-3.8118480</LongitudeDegrees>
@@ -8148,7 +8148,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:38:11Z</Time>
+      <Time>2017-01-06T18:38:11Z</Time>
       <Position>
        <LatitudeDegrees>40.2856310</LatitudeDegrees>
        <LongitudeDegrees>-3.8120030</LongitudeDegrees>
@@ -8166,7 +8166,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:38:18Z</Time>
+      <Time>2017-01-06T18:38:18Z</Time>
       <Position>
        <LatitudeDegrees>40.2858200</LatitudeDegrees>
        <LongitudeDegrees>-3.8119680</LongitudeDegrees>
@@ -8184,7 +8184,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:38:25Z</Time>
+      <Time>2017-01-06T18:38:25Z</Time>
       <Position>
        <LatitudeDegrees>40.2859830</LatitudeDegrees>
        <LongitudeDegrees>-3.8118220</LongitudeDegrees>
@@ -8202,7 +8202,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:38:29Z</Time>
+      <Time>2017-01-06T18:38:29Z</Time>
       <Position>
        <LatitudeDegrees>40.2860840</LatitudeDegrees>
        <LongitudeDegrees>-3.8118270</LongitudeDegrees>
@@ -8220,7 +8220,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:38:36Z</Time>
+      <Time>2017-01-06T18:38:36Z</Time>
       <Position>
        <LatitudeDegrees>40.2862810</LatitudeDegrees>
        <LongitudeDegrees>-3.8119000</LongitudeDegrees>
@@ -8238,7 +8238,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:38:43Z</Time>
+      <Time>2017-01-06T18:38:43Z</Time>
       <Position>
        <LatitudeDegrees>40.2864670</LatitudeDegrees>
        <LongitudeDegrees>-3.8120000</LongitudeDegrees>
@@ -8256,7 +8256,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:38:49Z</Time>
+      <Time>2017-01-06T18:38:49Z</Time>
       <Position>
        <LatitudeDegrees>40.2866310</LatitudeDegrees>
        <LongitudeDegrees>-3.8120760</LongitudeDegrees>
@@ -8274,7 +8274,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:38:56Z</Time>
+      <Time>2017-01-06T18:38:56Z</Time>
       <Position>
        <LatitudeDegrees>40.2868120</LatitudeDegrees>
        <LongitudeDegrees>-3.8121670</LongitudeDegrees>
@@ -8292,7 +8292,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:38:58Z</Time>
+      <Time>2017-01-06T18:38:58Z</Time>
       <Position>
        <LatitudeDegrees>40.2868620</LatitudeDegrees>
        <LongitudeDegrees>-3.8121580</LongitudeDegrees>
@@ -8310,7 +8310,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:39:05Z</Time>
+      <Time>2017-01-06T18:39:05Z</Time>
       <Position>
        <LatitudeDegrees>40.2869650</LatitudeDegrees>
        <LongitudeDegrees>-3.8119340</LongitudeDegrees>
@@ -8328,7 +8328,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:39:12Z</Time>
+      <Time>2017-01-06T18:39:12Z</Time>
       <Position>
        <LatitudeDegrees>40.2869820</LatitudeDegrees>
        <LongitudeDegrees>-3.8116600</LongitudeDegrees>
@@ -8346,7 +8346,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:39:19Z</Time>
+      <Time>2017-01-06T18:39:19Z</Time>
       <Position>
        <LatitudeDegrees>40.2869790</LatitudeDegrees>
        <LongitudeDegrees>-3.8113710</LongitudeDegrees>
@@ -8364,7 +8364,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:39:26Z</Time>
+      <Time>2017-01-06T18:39:26Z</Time>
       <Position>
        <LatitudeDegrees>40.2869930</LatitudeDegrees>
        <LongitudeDegrees>-3.8111070</LongitudeDegrees>
@@ -8382,7 +8382,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:39:28Z</Time>
+      <Time>2017-01-06T18:39:28Z</Time>
       <Position>
        <LatitudeDegrees>40.2869920</LatitudeDegrees>
        <LongitudeDegrees>-3.8110410</LongitudeDegrees>
@@ -8400,7 +8400,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:39:35Z</Time>
+      <Time>2017-01-06T18:39:35Z</Time>
       <Position>
        <LatitudeDegrees>40.2870130</LatitudeDegrees>
        <LongitudeDegrees>-3.8107950</LongitudeDegrees>
@@ -8418,7 +8418,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:39:43Z</Time>
+      <Time>2017-01-06T18:39:43Z</Time>
       <Position>
        <LatitudeDegrees>40.2870240</LatitudeDegrees>
        <LongitudeDegrees>-3.8105240</LongitudeDegrees>
@@ -8436,7 +8436,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:39:50Z</Time>
+      <Time>2017-01-06T18:39:50Z</Time>
       <Position>
        <LatitudeDegrees>40.2870160</LatitudeDegrees>
        <LongitudeDegrees>-3.8102840</LongitudeDegrees>
@@ -8454,7 +8454,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:39:57Z</Time>
+      <Time>2017-01-06T18:39:57Z</Time>
       <Position>
        <LatitudeDegrees>40.2870210</LatitudeDegrees>
        <LongitudeDegrees>-3.8100400</LongitudeDegrees>
@@ -8472,7 +8472,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:40:03Z</Time>
+      <Time>2017-01-06T18:40:03Z</Time>
       <Position>
        <LatitudeDegrees>40.2870340</LatitudeDegrees>
        <LongitudeDegrees>-3.8098750</LongitudeDegrees>
@@ -8490,7 +8490,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:40:11Z</Time>
+      <Time>2017-01-06T18:40:11Z</Time>
       <Position>
        <LatitudeDegrees>40.2872230</LatitudeDegrees>
        <LongitudeDegrees>-3.8098950</LongitudeDegrees>
@@ -8508,7 +8508,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:40:18Z</Time>
+      <Time>2017-01-06T18:40:18Z</Time>
       <Position>
        <LatitudeDegrees>40.2873880</LatitudeDegrees>
        <LongitudeDegrees>-3.8099170</LongitudeDegrees>
@@ -8526,7 +8526,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:40:24Z</Time>
+      <Time>2017-01-06T18:40:24Z</Time>
       <Position>
        <LatitudeDegrees>40.2875220</LatitudeDegrees>
        <LongitudeDegrees>-3.8098700</LongitudeDegrees>
@@ -8544,7 +8544,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:40:32Z</Time>
+      <Time>2017-01-06T18:40:32Z</Time>
       <Position>
        <LatitudeDegrees>40.2876460</LatitudeDegrees>
        <LongitudeDegrees>-3.8097540</LongitudeDegrees>
@@ -8562,7 +8562,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:40:37Z</Time>
+      <Time>2017-01-06T18:40:37Z</Time>
       <Position>
        <LatitudeDegrees>40.2875450</LatitudeDegrees>
        <LongitudeDegrees>-3.8096300</LongitudeDegrees>
@@ -8580,7 +8580,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:40:45Z</Time>
+      <Time>2017-01-06T18:40:45Z</Time>
       <Position>
        <LatitudeDegrees>40.2873630</LatitudeDegrees>
        <LongitudeDegrees>-3.8095690</LongitudeDegrees>
@@ -8598,7 +8598,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:40:51Z</Time>
+      <Time>2017-01-06T18:40:51Z</Time>
       <Position>
        <LatitudeDegrees>40.2872220</LatitudeDegrees>
        <LongitudeDegrees>-3.8095370</LongitudeDegrees>
@@ -8616,7 +8616,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:40:58Z</Time>
+      <Time>2017-01-06T18:40:58Z</Time>
       <Position>
        <LatitudeDegrees>40.2872360</LatitudeDegrees>
        <LongitudeDegrees>-3.8093190</LongitudeDegrees>
@@ -8634,7 +8634,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:41:03Z</Time>
+      <Time>2017-01-06T18:41:03Z</Time>
       <Position>
        <LatitudeDegrees>40.2873360</LatitudeDegrees>
        <LongitudeDegrees>-3.8091990</LongitudeDegrees>
@@ -8652,7 +8652,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:41:06Z</Time>
+      <Time>2017-01-06T18:41:06Z</Time>
       <Position>
        <LatitudeDegrees>40.2873950</LatitudeDegrees>
        <LongitudeDegrees>-3.8091290</LongitudeDegrees>
@@ -8670,7 +8670,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:41:13Z</Time>
+      <Time>2017-01-06T18:41:13Z</Time>
       <Position>
        <LatitudeDegrees>40.2875180</LatitudeDegrees>
        <LongitudeDegrees>-3.8089580</LongitudeDegrees>
@@ -8688,7 +8688,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:41:20Z</Time>
+      <Time>2017-01-06T18:41:20Z</Time>
       <Position>
        <LatitudeDegrees>40.2876800</LatitudeDegrees>
        <LongitudeDegrees>-3.8088030</LongitudeDegrees>
@@ -8706,7 +8706,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:41:23Z</Time>
+      <Time>2017-01-06T18:41:23Z</Time>
       <Position>
        <LatitudeDegrees>40.2877620</LatitudeDegrees>
        <LongitudeDegrees>-3.8087530</LongitudeDegrees>
@@ -8724,7 +8724,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:41:30Z</Time>
+      <Time>2017-01-06T18:41:30Z</Time>
       <Position>
        <LatitudeDegrees>40.2879030</LatitudeDegrees>
        <LongitudeDegrees>-3.8085870</LongitudeDegrees>
@@ -8742,7 +8742,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:41:37Z</Time>
+      <Time>2017-01-06T18:41:37Z</Time>
       <Position>
        <LatitudeDegrees>40.2879590</LatitudeDegrees>
        <LongitudeDegrees>-3.8083340</LongitudeDegrees>
@@ -8760,7 +8760,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:41:44Z</Time>
+      <Time>2017-01-06T18:41:44Z</Time>
       <Position>
        <LatitudeDegrees>40.2880360</LatitudeDegrees>
        <LongitudeDegrees>-3.8080970</LongitudeDegrees>
@@ -8778,7 +8778,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:41:51Z</Time>
+      <Time>2017-01-06T18:41:51Z</Time>
       <Position>
        <LatitudeDegrees>40.2881130</LatitudeDegrees>
        <LongitudeDegrees>-3.8078700</LongitudeDegrees>
@@ -8796,7 +8796,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:41:58Z</Time>
+      <Time>2017-01-06T18:41:58Z</Time>
       <Position>
        <LatitudeDegrees>40.2881810</LatitudeDegrees>
        <LongitudeDegrees>-3.8076540</LongitudeDegrees>
@@ -8814,7 +8814,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:42:03Z</Time>
+      <Time>2017-01-06T18:42:03Z</Time>
       <Position>
        <LatitudeDegrees>40.2882400</LatitudeDegrees>
        <LongitudeDegrees>-3.8074880</LongitudeDegrees>
@@ -8832,7 +8832,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:42:10Z</Time>
+      <Time>2017-01-06T18:42:10Z</Time>
       <Position>
        <LatitudeDegrees>40.2883640</LatitudeDegrees>
        <LongitudeDegrees>-3.8072850</LongitudeDegrees>
@@ -8850,7 +8850,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:42:17Z</Time>
+      <Time>2017-01-06T18:42:17Z</Time>
       <Position>
        <LatitudeDegrees>40.2884280</LatitudeDegrees>
        <LongitudeDegrees>-3.8070520</LongitudeDegrees>
@@ -8868,7 +8868,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:42:18Z</Time>
+      <Time>2017-01-06T18:42:18Z</Time>
       <Position>
        <LatitudeDegrees>40.2884360</LatitudeDegrees>
        <LongitudeDegrees>-3.8070190</LongitudeDegrees>
@@ -8886,7 +8886,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:42:23Z</Time>
+      <Time>2017-01-06T18:42:23Z</Time>
       <Position>
        <LatitudeDegrees>40.2884930</LatitudeDegrees>
        <LongitudeDegrees>-3.8068670</LongitudeDegrees>
@@ -8904,7 +8904,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:42:31Z</Time>
+      <Time>2017-01-06T18:42:31Z</Time>
       <Position>
        <LatitudeDegrees>40.2885840</LatitudeDegrees>
        <LongitudeDegrees>-3.8066590</LongitudeDegrees>
@@ -8922,7 +8922,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:42:39Z</Time>
+      <Time>2017-01-06T18:42:39Z</Time>
       <Position>
        <LatitudeDegrees>40.2886970</LatitudeDegrees>
        <LongitudeDegrees>-3.8064590</LongitudeDegrees>
@@ -8940,7 +8940,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:42:47Z</Time>
+      <Time>2017-01-06T18:42:47Z</Time>
       <Position>
        <LatitudeDegrees>40.2888270</LatitudeDegrees>
        <LongitudeDegrees>-3.8062530</LongitudeDegrees>
@@ -8958,7 +8958,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:42:51Z</Time>
+      <Time>2017-01-06T18:42:51Z</Time>
       <Position>
        <LatitudeDegrees>40.2888910</LatitudeDegrees>
        <LongitudeDegrees>-3.8061380</LongitudeDegrees>
@@ -8976,7 +8976,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:42:58Z</Time>
+      <Time>2017-01-06T18:42:58Z</Time>
       <Position>
        <LatitudeDegrees>40.2888840</LatitudeDegrees>
        <LongitudeDegrees>-3.8058660</LongitudeDegrees>
@@ -8994,7 +8994,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:43:04Z</Time>
+      <Time>2017-01-06T18:43:04Z</Time>
       <Position>
        <LatitudeDegrees>40.2889410</LatitudeDegrees>
        <LongitudeDegrees>-3.8056400</LongitudeDegrees>
@@ -9012,7 +9012,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:43:06Z</Time>
+      <Time>2017-01-06T18:43:06Z</Time>
       <Position>
        <LatitudeDegrees>40.2889230</LatitudeDegrees>
        <LongitudeDegrees>-3.8055770</LongitudeDegrees>
@@ -9030,7 +9030,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:43:14Z</Time>
+      <Time>2017-01-06T18:43:14Z</Time>
       <Position>
        <LatitudeDegrees>40.2889880</LatitudeDegrees>
        <LongitudeDegrees>-3.8053470</LongitudeDegrees>
@@ -9048,7 +9048,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:43:21Z</Time>
+      <Time>2017-01-06T18:43:21Z</Time>
       <Position>
        <LatitudeDegrees>40.2890790</LatitudeDegrees>
        <LongitudeDegrees>-3.8051340</LongitudeDegrees>
@@ -9066,7 +9066,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:43:28Z</Time>
+      <Time>2017-01-06T18:43:28Z</Time>
       <Position>
        <LatitudeDegrees>40.2892010</LatitudeDegrees>
        <LongitudeDegrees>-3.8049120</LongitudeDegrees>
@@ -9084,7 +9084,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:43:35Z</Time>
+      <Time>2017-01-06T18:43:35Z</Time>
       <Position>
        <LatitudeDegrees>40.2893120</LatitudeDegrees>
        <LongitudeDegrees>-3.8046920</LongitudeDegrees>
@@ -9102,7 +9102,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:43:42Z</Time>
+      <Time>2017-01-06T18:43:42Z</Time>
       <Position>
        <LatitudeDegrees>40.2894070</LatitudeDegrees>
        <LongitudeDegrees>-3.8044740</LongitudeDegrees>
@@ -9120,7 +9120,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:43:50Z</Time>
+      <Time>2017-01-06T18:43:50Z</Time>
       <Position>
        <LatitudeDegrees>40.2895060</LatitudeDegrees>
        <LongitudeDegrees>-3.8042540</LongitudeDegrees>
@@ -9138,7 +9138,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:43:53Z</Time>
+      <Time>2017-01-06T18:43:53Z</Time>
       <Position>
        <LatitudeDegrees>40.2895540</LatitudeDegrees>
        <LongitudeDegrees>-3.8041650</LongitudeDegrees>
@@ -9156,7 +9156,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:44:00Z</Time>
+      <Time>2017-01-06T18:44:00Z</Time>
       <Position>
        <LatitudeDegrees>40.2896410</LatitudeDegrees>
        <LongitudeDegrees>-3.8039600</LongitudeDegrees>
@@ -9174,7 +9174,7 @@
       </Extensions>
      </Trackpoint>
      <Trackpoint>
-      <Time>2017-01-18T18:44:06Z</Time>
+      <Time>2017-01-06T18:44:06Z</Time>
       <Position>
        <LatitudeDegrees>40.2896500</LatitudeDegrees>
        <LongitudeDegrees>-3.8037540</LongitudeDegrees>

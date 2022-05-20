@@ -4,11 +4,9 @@ using System.Text;
 
 namespace StravaConnector.Objects
 {
-    public class Athlete
+    public class Athlete : BaseAthlete
     {
-        public long id { get; set; }
         public string username { get; set; }
-        public int resource_state { get; set; }
         public string firstname { get; set; }
         public string lastname { get; set; }
         public string city { get; set; }

@@ -12,6 +12,7 @@ using Microsoft.Extensions.Options;
 using StoneMVCCore.Models.Configuration.Settings;
 using StravaConnector.Objects;
 using StravaTrainingGenerator.Models.Configuration.Session;
+using StravaTrainingGenerator.Models.Configuration.Settings;
 using StravaTrainingGenerator.Models.ViewModels;
 
 namespace StravaTrainingGenerator.Controllers
@@ -21,10 +22,12 @@ namespace StravaTrainingGenerator.Controllers
     {
         private TrainingManager trainingManager;
         private DayTrainingManager dayTrainingManager;
-        public TrainingsController(ILogger<BaseController> logger, IOptions<ConnectionStrings> connectionStrings, IOptions<KeysSettings> keysSettings, IConfiguration configuration) : base(logger, connectionStrings, keysSettings, configuration)
+        private SyncManager syncManager;
+        public TrainingsController(ILogger<BaseController> logger, IOptions<ConnectionStrings> connectionStrings, IOptions<KeysSettings> keysSettings, IOptions<StravaSettings> stravaSettings, IConfiguration configuration) : base(logger, connectionStrings, keysSettings, configuration)
         {
             this.trainingManager = new TrainingManager(connectionStrings.Value["CadenaConexion"]);
             this.dayTrainingManager = new DayTrainingManager(connectionStrings.Value["CadenaConexion"]);
+            this.syncManager = new SyncManager(connectionStrings.Value["CadenaConexion"], stravaSettings.Value.strava_url);
         }
 
         public IActionResult Index()
@@ -90,6 +93,20 @@ namespace StravaTrainingGenerator.Controllers
             catch
             {
                 return RedirectToAction("Index", "Errores");
+            }
+        }
+
+        public ActionResult UpdateStravaValues()
+        {
+            Athlete user = HttpContext.Session.Get<Athlete>(SessionKeys.UserKey);
+            try
+            {
+                bool result = syncManager.SyncUser(user.id, Request.Cookies["t"]);
+                return Json(new { result });
+            }
+            catch
+            {
+                return Json(new { result = false, message = "Ha ocurrido un error al procesar la sincronización" });
             }
         }
     }

@@ -52,3 +52,21 @@
         }
     });
 })
+
+function updateFromStrava() {
+    $.ajax({
+        type: "GET",
+        url: updateFromStravaUrl,
+        dataType: "json"
+    }).done(function (response) {
+        console.log(response);
+        if (response.result) {
+            alert("Se han actualizado los datos desde strava")
+        } else if (response.message)
+            alert(response.message);
+        else
+            alert("No se puede actualizar el usuario si ya se ha hecho una actualización reciente");
+    }).fail(function () {
+
+    });
+}

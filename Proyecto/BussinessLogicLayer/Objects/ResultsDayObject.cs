@@ -24,6 +24,7 @@ namespace BussinessLogicLayer.Objects
         public string RithmObjectiveStr { get; set; }
         public string SerieName { get; set; }
         public int? DistDone { get; set; }
+        public int? RateDone { get; set; }
 
         public ResultsDayObject()
         {
@@ -42,12 +43,13 @@ namespace BussinessLogicLayer.Objects
             AverageFrecuency = dbItem.AverageFrecuency;
             RithmDone = dbItem.RithmDone;
             if(dbItem.RithmDone != null)
-                RithmDoneStr = $"{dbItem.RithmDone / 60} min. {dbItem.RithmDone % 60} seg.";
+                RithmDoneStr = $"{dbItem.RithmDone / 60}:{dbItem.RithmDone % 60}";
             RithmObjective = dbItem.RithmObjective; 
             if(RithmObjective != null)
-                RithmObjectiveStr = $"{dbItem.RithmObjective / 60} min. {dbItem.RithmObjective % 60} seg.";
+                RithmObjectiveStr = $"{dbItem.RithmObjective / 60}:{dbItem.RithmObjective % 60}";
             SerieName = dbItem.SerieName;
             DistDone = dbItem.DistDone;
+            RateDone = dbItem.RateDone;
         }
 
         public ResultsDayDbObject GetDbObject()
@@ -65,7 +67,8 @@ namespace BussinessLogicLayer.Objects
                 RithmDone = this.RithmDone,
                 RithmObjective = this.RithmObjective,
                 SerieName = this.SerieName,
-                DistDone = this.DistDone
+                DistDone = this.DistDone,
+                RateDone = this.RateDone
             };
         }
     }

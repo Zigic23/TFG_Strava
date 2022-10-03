@@ -60,7 +60,8 @@ namespace BussinessLogicLayer.Managers
                             Desnivel = (int)lap.total_elevation_gain,
                             AverageFrecuency = (int)lap.average_heartrate,
                             RithmDone = (int)(lap.moving_time * 1000 / lap.distance),
-                            DistanceDone = (int)lap.distance
+                            DistanceDone = (int)lap.distance,
+                            RateDone = lap.average_cadence
                         });
                     }
 

@@ -109,5 +109,20 @@ namespace StravaTrainingGenerator.Controllers
                 return Json(new { result = false, message = "Ha ocurrido un error al procesar la sincronización" });
             }
         }
+
+        [HttpPut]
+        public ActionResult SetCompleted(Guid DayTrainingCode)
+        {
+            Athlete user = HttpContext.Session.Get<Athlete>(SessionKeys.UserKey);
+            try
+            {
+                DayTrainingObject result = dayTrainingManager.SetDayCompleted(DayTrainingCode, user.id);
+                return Json(new { result = result != null });
+            }
+            catch
+            {
+                return Json(new { result = false, message = "Ha ocurrido un error al marcar como completado el día" });
+            }
+        }
     }
 }

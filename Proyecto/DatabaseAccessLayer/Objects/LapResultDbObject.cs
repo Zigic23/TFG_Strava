@@ -13,5 +13,6 @@ namespace DatabaseAccessLayer.Objects
         public int AverageFrecuency { get; set; }
         public int RithmDone { get; set; }
         public int DistanceDone { get; set; }
+        public int? RateDone { get; set; }
     }
 }

@@ -20,6 +20,7 @@ namespace DatabaseAccessLayer.Objects
         public int? RithmObjective { get; set; }
         public string SerieName { get; set; }
         public int? DistDone { get; set; }
+        public int? RateDone { get; set; }
 
         public ResultsDayDbObject()
         {
@@ -39,6 +40,7 @@ namespace DatabaseAccessLayer.Objects
             this.RithmObjective = row["NM_RITHM_OBJ"] != DBNull.Value ? (int?)row["NM_RITHM_OBJ"] : null;
             this.SerieName = (string)row["DS_SERIE_NAME"];
             this.DistDone = row["NM_DIST_DONE"] != DBNull.Value ? (int?)row["NM_DIST_DONE"] : null;
+            this.RateDone = row["NM_RATE"] != DBNull.Value ? (int?)row["NM_RATE"] : null;
         }
     }
 }

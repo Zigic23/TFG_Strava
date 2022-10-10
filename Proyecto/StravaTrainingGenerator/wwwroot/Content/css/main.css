@@ -3496,7 +3496,6 @@ p {
   z-index: 1;
   bottom: 125%;
   left: 50%;
-  margin-left: -75px;
   /* Fade in tooltip */
   opacity: 0;
   transition: opacity 0.3s;
@@ -4852,6 +4851,9 @@ p {
 .jsgrid .jsgrid-grid-body .jsgrid-table .jsgrid-alt-row .jsgrid-cell .seeResults_minimum i {
   font-size: 0.9em;
 }
+.jsgrid .jsgrid-grid-body .jsgrid-table .darker-row > .jsgrid-cell {
+  background: #d3d3d3;
+}
 .weeks {
   width: 100%;
 }
@@ -5064,6 +5066,14 @@ p {
 }
 .item_select_next .box_select .select {
   border-radius: 5px;
+}
+.red-cell.jsgrid-cell {
+  color: #e30000;
+  font-weight: bold;
+}
+.green-cell.jsgrid-cell {
+  color: #00c90f;
+  font-weight: bold;
 }
 /* General */
 @media only screen and (max-width: 990px) {

@@ -15,21 +15,32 @@
         sorting: true,
         paging: true,
 
+        rowClass: resultsRowClass,
+
         data: DayTraining.ResultsDay,
 
         fields: [
             { name: "SerieName", title: "Parcial", type: "text" },
-            { name: "DistObjective", title: "Dist", type: "number", itemTemplate: DistObjectiveFunc },
-            { name: "DistDone", title: "Dist hecha", type: "number", itemTemplate: DistObjectiveFunc },
+            { name: "DistObjective", title: "Distancia", type: "number", itemTemplate: DistObjectiveFunc },
+            { name: "RithmObjectiveStr", title: "Rit. Objetivo", type: "text", },
+            { name: "RithmDoneStr", title: "Rit. Realizado", type: "text" },
+            { name: "Difference", title: "Diferencia", type: "number", cellRenderer: DifferenceColor },
             { name: "Desnivel", title: "Desnivel", type: "number" },
             { name: "AverageFrecuency", title: "Frecuencia media", type: "number" },
-            { name: "RithmObjectiveStr", title: "Rit. Objetivo", type: "text",  },
-            { name: "RithmDoneStr", title: "Rit. Realizado", type: "text" },
-            { name: "Difference", title: "Diferencia", type: "number" }
+            { name: "AverageRate", title: "Cadencia media", type: "number"}
         ]
     });
 });
 
+function resultsRowClass(item, itemIndex) {
+    if (item.SerieName == "Calentamiento" || item.SerieName == "Enfriamiento" || item.SerieName.startsWith("Descanso"))
+        return "darker-row";
+}
+
+function DifferenceColor(value, item) {
+    return $("<td>").text(value).addClass(value > 0 ? "green-cell" : value < 0 ? "red-cell" : "")
+}
+
 function DistObjectiveFunc(value, item) {
-    return value != null ? value + " " + item.DistType : "";
+    return (item.DistDone != undefined ? item.DistDone : item.DistObjective) + " " + item.DistType;
 }

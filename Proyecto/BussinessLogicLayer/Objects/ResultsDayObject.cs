@@ -18,12 +18,14 @@ namespace BussinessLogicLayer.Objects
         public string DistType { get; set; }
         public int? Desnivel { get; set; }
         public int? AverageFrecuency { get; set; }
+        public int? MaxFrecuency { get; set; }
         public int? RithmDone { get; set; }
         public string RithmDoneStr { get; set; }
         public int? RithmObjective { get; set; }
         public string RithmObjectiveStr { get; set; }
         public string SerieName { get; set; }
         public int? DistDone { get; set; }
+        public int? RateDone { get; set; }
 
         public ResultsDayObject()
         {
@@ -40,14 +42,16 @@ namespace BussinessLogicLayer.Objects
             DistType = dbItem.DistType;
             Desnivel = dbItem.Desnivel;
             AverageFrecuency = dbItem.AverageFrecuency;
+            MaxFrecuency = dbItem.MaxFrecuency;
             RithmDone = dbItem.RithmDone;
             if(dbItem.RithmDone != null)
-                RithmDoneStr = $"{dbItem.RithmDone / 60} min. {dbItem.RithmDone % 60} seg.";
+                RithmDoneStr = $"{dbItem.RithmDone / 60}:{(dbItem.RithmDone % 60).ToString().PadLeft(2, '0')}";
             RithmObjective = dbItem.RithmObjective; 
             if(RithmObjective != null)
-                RithmObjectiveStr = $"{dbItem.RithmObjective / 60} min. {dbItem.RithmObjective % 60} seg.";
+                RithmObjectiveStr = $"{dbItem.RithmObjective / 60}:{(dbItem.RithmObjective % 60).ToString().PadLeft(2, '0')}";
             SerieName = dbItem.SerieName;
             DistDone = dbItem.DistDone;
+            RateDone = dbItem.RateDone;
         }
 
         public ResultsDayDbObject GetDbObject()
@@ -62,10 +66,12 @@ namespace BussinessLogicLayer.Objects
                 DistType = this.DistType,
                 Desnivel = this.Desnivel,
                 AverageFrecuency = this.AverageFrecuency,
+                MaxFrecuency = this.MaxFrecuency,
                 RithmDone = this.RithmDone,
                 RithmObjective = this.RithmObjective,
                 SerieName = this.SerieName,
-                DistDone = this.DistDone
+                DistDone = this.DistDone,
+                RateDone = this.RateDone
             };
         }
     }

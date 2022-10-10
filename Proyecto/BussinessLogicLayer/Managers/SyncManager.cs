@@ -43,6 +43,7 @@ namespace BussinessLogicLayer.Managers
             if(activities.Count > 0)
             {
                 List<LapResultDbObject> lapsToSave = new List<LapResultDbObject>();
+                //TODO: Recoger un listado de sensaciones a partir de las frecuencia cardiaca máxima y media para cada día de entrenamiento y guardarlo en bbdd
                 DateTimeOffset? lastDate = null;
                 foreach (StravaActivity activity in activities)
                 {
@@ -59,8 +60,10 @@ namespace BussinessLogicLayer.Managers
                             TimeDone = lap.moving_time,
                             Desnivel = (int)lap.total_elevation_gain,
                             AverageFrecuency = (int)lap.average_heartrate,
+                            MaxFrecuency = (int)lap.max_heartrate,
                             RithmDone = (int)(lap.moving_time * 1000 / lap.distance),
-                            DistanceDone = (int)lap.distance
+                            DistanceDone = (int)lap.distance,
+                            RateDone = lap.average_cadence
                         });
                     }
 

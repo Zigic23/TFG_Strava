@@ -21,6 +21,8 @@ namespace BussinessLogicLayer.Objects
         public DateTime Date { get; set; }
         public bool ShortRun { get; set; }
         public int? WeekDay { get; set; }
+        public int? SensationCode { get; set; }
+        public string SensationName { get; set; }
 
         public List<ResultsDayObject> ResultsDay { get; set; }
 
@@ -42,6 +44,8 @@ namespace BussinessLogicLayer.Objects
             this.Date = daytrainingDbObject.Date;
             this.ShortRun = daytrainingDbObject.ShortRun;
             this.WeekDay = daytrainingDbObject.WeekDay;
+            this.SensationCode = daytrainingDbObject.SensationCode;
+            this.SensationName = daytrainingDbObject.SensationName;
             this.ResultsDay = daytrainingDbObject.ResultsDay?.Select(r => new ResultsDayObject(r)).ToList();
         }
     }

@@ -13,6 +13,7 @@ namespace StravaTrainingGenerator.Models.Requests
         public int mins { get; set; }
         public int secs { get; set; }
         public int planType { get; set; }
+        public string born_date { get; set; }
         public int lunes { get; set; }
         public int martes { get; set; }
         public int miercoles { get; set; }
@@ -24,12 +25,14 @@ namespace StravaTrainingGenerator.Models.Requests
         public CreateTrainingRequestObject getBLLObject(long UserCode, out string error)
         {
             DateTime startPlan;
-            if(DateTime.TryParseExact(start_plan, "yyyy-MM-dd", null, DateTimeStyles.None, out startPlan))
+            DateTime bornDate;
+            if(DateTime.TryParseExact(start_plan, "yyyy-MM-dd", null, DateTimeStyles.None, out startPlan) && DateTime.TryParseExact(born_date, "yyyy-MM-dd", null, DateTimeStyles.None, out bornDate))
             {
                 error = null;
                 return new CreateTrainingRequestObject()
                 {
                     StartPlanDate = startPlan,
+                    BornDate = bornDate,
                     TotalSecs = mins * 60 + secs,
                     PlanType = planType,
                     Lunes = lunes,

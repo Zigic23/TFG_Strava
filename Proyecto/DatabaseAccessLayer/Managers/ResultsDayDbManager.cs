@@ -122,8 +122,10 @@ namespace DatabaseAccessLayer.Managers
             table.Columns.Add("NM_SEC_TIME_DONE", typeof(int));
             table.Columns.Add("NM_DESNIVEL", typeof(int));
             table.Columns.Add("NM_FCMX", typeof(string));
+            table.Columns.Add("NM_FCMAX", typeof(int));
             table.Columns.Add("NM_RITHM_DONE", typeof(int));
             table.Columns.Add("NM_DIST_DONE", typeof(int));
+            table.Columns.Add("NM_RATE", typeof(int));
 
             foreach(LapResultDbObject resultDay in resultsDay)
             {
@@ -134,8 +136,10 @@ namespace DatabaseAccessLayer.Managers
                     resultDay.TimeDone,
                     resultDay.Desnivel,
                     resultDay.AverageFrecuency,
+                    resultDay.MaxFrecuency,
                     resultDay.RithmDone,
-                    resultDay.DistanceDone
+                    resultDay.DistanceDone,
+                    resultDay.RateDone
                 );
             }
 

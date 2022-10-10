@@ -3522,7 +3522,7 @@ p {
             z-index: 1;
             bottom: 125%;
             left: 50%;
-            margin-left: -@half_width_tooltip;
+            //margin-left: -@half_width_tooltip;
             /* Fade in tooltip */
             opacity: 0;
             transition: opacity 0.3s;
@@ -4977,6 +4977,10 @@ p {
                     }
                 }
             }
+
+            .darker-row > .jsgrid-cell {
+                background: #d3d3d3;
+            }
         }
     }
 }
@@ -5159,6 +5163,16 @@ p {
             border-radius: 5px;
         }
     }
+}
+
+.red-cell.jsgrid-cell {
+    color: #e30000;
+    font-weight: bold;
+}
+
+.green-cell.jsgrid-cell {
+    color: #00c90f;
+    font-weight: bold;
 }
 
 // CSS Responsive

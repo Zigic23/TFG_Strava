@@ -10,6 +10,7 @@ namespace BussinessLogicLayer.Objects.Requests
     public class CreateTrainingRequestObject : MObject
     {
         public DateTime StartPlanDate { get; set; }
+        public DateTime BornDate { get; set; }
         public int TotalSecs { get; set; }
         public int PlanType { get; set; }
         public int Lunes { get; set; }
@@ -34,6 +35,7 @@ namespace BussinessLogicLayer.Objects.Requests
             return new CreateTrainingRequestDbObject()
             {
                 StartPlanDate = StartPlanDate,
+                BornDate = BornDate,
                 TotalSecs = TotalSecs,
                 PlanType = PlanType,
                 Lunes = Lunes,

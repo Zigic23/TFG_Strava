@@ -19,6 +19,8 @@ namespace DatabaseAccessLayer.Objects
         public DateTime Date { get; set; }
         public bool ShortRun { get; set; }
         public int? WeekDay { get; set; }
+        public int? SensationCode { get; set; }
+        public string SensationName { get; set; }
 
         public List<ResultsDayDbObject> ResultsDay { get; set; }
 
@@ -39,6 +41,8 @@ namespace DatabaseAccessLayer.Objects
             this.Date = (DateTime)row["FC_DATE"];
             this.ShortRun = (bool)row["IT_SHORT_RUN"];
             this.WeekDay = row.Table.Columns.Contains("NM_WEEKDAY") && row["NM_WEEKDAY"] != DBNull.Value ? (int?)row["NM_WEEKDAY"] : null;
+            this.SensationCode = row.Table.Columns.Contains("CD_SENSATION") && row["CD_SENSATION"] != DBNull.Value ? (int?)row["CD_SENSATION"] : null;
+            this.SensationName = row.Table.Columns.Contains("DS_SENSATION") && row["DS_SENSATION"] != DBNull.Value ? (string)row["DS_SENSATION"] : null;
 
             ResultsDay = new List<ResultsDayDbObject>();
         }

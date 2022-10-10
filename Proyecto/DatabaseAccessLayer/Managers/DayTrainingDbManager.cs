@@ -114,6 +114,35 @@ namespace DatabaseAccessLayer.Managers
             }
         }
 
+        public DayTrainingDbObject SetDayCompleted(Guid DayTrainingCode, long userId)
+        {
+            try
+            {
+                Database db = GetDatabase();
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STRA_DAY_TRAINING_SetDayCompleted"))
+                {
+                    db.AddInParameter(dbCommand, "@CD_DAY_TRAINING", DbType.Guid, DayTrainingCode);
+                    db.AddInParameter(dbCommand, "@CD_USER", DbType.Int64, userId);
+
+                    using (DataSet ds = db.ExecuteDataSet(dbCommand))
+                    {
+                        DayTrainingDbObject result = new DayTrainingDbObject();
+
+                        if (ds != null && ds.Tables.Count > 1 && ds.Tables[0].Rows.Count > 0)
+                        {
+                            result = new DayTrainingDbObject(ds.Tables[0].Rows[0]);
+                        }
+
+                        return result;
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                throw new DatabaseException(e);
+            }
+        }
+
         public override bool Delete(object id)
         {
             throw new NotImplementedException();

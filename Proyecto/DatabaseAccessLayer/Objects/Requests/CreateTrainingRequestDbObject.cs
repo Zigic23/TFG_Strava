@@ -9,6 +9,7 @@ namespace DatabaseAccessLayer.Objects.Requests
     public class CreateTrainingRequestDbObject : DbObject
     {
         public DateTime StartPlanDate { get; set; }
+        public DateTime BornDate { get; set; }
         public int TotalSecs { get; set; }
         public int PlanType { get; set; }
         public int Lunes { get; set; }

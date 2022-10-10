@@ -26,6 +26,7 @@ namespace StravaConnector.Objects
         public int lap_index { get; set; }
         public int split { get; set; }
         public int pace_zone { get; set; }
+        public int? average_cadence { get; set; }
     }
 
 }

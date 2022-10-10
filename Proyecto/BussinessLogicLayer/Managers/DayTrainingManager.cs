@@ -32,5 +32,12 @@ namespace BussinessLogicLayer.Managers
             dayTrainingDb.ResultsDay = dayTrainingDb.ResultsDay.OrderBy(r => r.NumSerie).ToList();
             return new DayTrainingObject(dayTrainingDb);
         }
+
+        public DayTrainingObject SetDayCompleted(Guid DayTrainingCode, long userId)
+        {
+            DayTrainingDbObject dayTrainingDb = trainingDbManager.SetDayCompleted(DayTrainingCode, userId);
+
+            return new DayTrainingObject(dayTrainingDb);
+        }
     }
 }

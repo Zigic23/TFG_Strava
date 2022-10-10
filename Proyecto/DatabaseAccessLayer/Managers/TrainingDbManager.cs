@@ -25,6 +25,7 @@ namespace DatabaseAccessLayer.Managers
                 using (DbCommand dbCommand = db.GetStoredProcCommand("STRA_TRAINING_Create"))
                 {
                     db.AddInParameter(dbCommand, "@FC_START", DbType.DateTime, createRequest.StartPlanDate);
+                    db.AddInParameter(dbCommand, "@FC_BORN", DbType.DateTime, createRequest.BornDate);
                     db.AddInParameter(dbCommand, "@NM_TOTAL_SECS", DbType.Int32, createRequest.TotalSecs);
                     db.AddInParameter(dbCommand, "@CD_PLAN_TYPE", DbType.Int32, createRequest.PlanType);
                     db.AddInParameter(dbCommand, "@CD_TYPE_LUNES", DbType.Int32, createRequest.Lunes);

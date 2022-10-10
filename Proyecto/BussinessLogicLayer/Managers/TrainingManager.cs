@@ -53,7 +53,7 @@ namespace BussinessLogicLayer.Managers
                         DistObjective = 10,
                         DistType = "min",
                         RithmObjective = null,
-                        SerieName = "CAL"
+                        SerieName = "Calentamiento"
                     });
 
                     //Para cada serie tendremos que añadir un objeto resultDayObject por cada elemento
@@ -69,7 +69,7 @@ namespace BussinessLogicLayer.Managers
                                 NumSerie = ((2 * i) + 1) + repetitionNumber, 
                                 DistObjective = serie.Distance,
                                 DistType = "m",
-                                SerieName = "S" + (i + 1),
+                                SerieName = "Serie " + (i + 1),
                                 RithmObjective = seriesTimesAndRuns.Times.GetRithmObjective(serie.Distance, "serie")
                             });
                             results.Add(new ResultsDayObject()
@@ -78,7 +78,7 @@ namespace BussinessLogicLayer.Managers
                                 NumSerie = (2 * (i + 1)) + repetitionNumber,
                                 DistObjective = (int)serie.Recovery,
                                 DistType = serie.RecoveryType,
-                                SerieName = "D" + (i + 1),
+                                SerieName = "Descanso " + (i + 1),
                                 RithmObjective = null
                             });
                             currentSerie += 2;
@@ -92,7 +92,7 @@ namespace BussinessLogicLayer.Managers
                         NumSerie = currentSerie + 1,
                         DistObjective = 10,
                         DistType = "min",
-                        SerieName = "ENF",
+                        SerieName = "Enfriamiento",
                         RithmObjective = null
                     });
 
@@ -111,7 +111,7 @@ namespace BussinessLogicLayer.Managers
                         NumSerie = currentRun,
                         DistObjective = 1500,
                         DistType = "m",
-                        SerieName = "CAL",
+                        SerieName = "Calentamiento",
                         RithmObjective = null
                     });
                     currentRun += 1;
@@ -126,7 +126,7 @@ namespace BussinessLogicLayer.Managers
                             NumSerie = currentRun,
                             DistObjective = run.Distance,
                             DistType = "m",
-                            SerieName = "S" + (currentRun - 1),
+                            SerieName = "Serie " + (currentRun - 1),
                             RithmObjective = seriesTimesAndRuns.Times.GetRithmObjective(run.Distance, run.IsShortRun ? "short" : "long")
                         });
                         currentRun += 1;
@@ -139,7 +139,7 @@ namespace BussinessLogicLayer.Managers
                         NumSerie = currentRun,
                         DistObjective = 1500,
                         DistType = "m",
-                        SerieName = "ENF",
+                        SerieName = "Enfriamiento",
                         RithmObjective = null
                     });
                 } 
@@ -160,7 +160,7 @@ namespace BussinessLogicLayer.Managers
                             NumSerie = currentRun,
                             DistObjective = run.Distance,
                             DistType = "m",
-                            SerieName = "S" + (currentRun - 1),
+                            SerieName = "Serie " + (currentRun - 1),
                             RithmObjective = seriesTimesAndRuns.Times.GetRithmObjective(run.Distance, run.IsShortRun ? "short" : "long")
                         });
                         currentRun += 1;

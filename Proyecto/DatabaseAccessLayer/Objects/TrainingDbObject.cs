@@ -17,6 +17,7 @@ namespace DatabaseAccessLayer.Objects
         public int TempStart5Number { get; set; }
         public int TimeCode { get; set; }
         public long UserCode { get; set; }
+        public DateTimeOffset BornDate { get; set; }
 
         public TrainingDbObject()
         {
@@ -33,6 +34,7 @@ namespace DatabaseAccessLayer.Objects
             this.TempStart5Number = (int)row["NM_TEMP_START_5"];
             this.TimeCode = (int)row["CD_TIME"];
             this.UserCode = (long)row["CD_USER"];
+            this.BornDate = (DateTimeOffset)row["FC_BORN"];
         }
     }
 }

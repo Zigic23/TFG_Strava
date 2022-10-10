@@ -49,6 +49,7 @@ $(document).ready(function () {
             { name: "TrainingTypeName", title: "Entrenamiento", type: "text" },
             { name: "DateStr", title: "Fecha entrenamiento", type: "date" },
             { name: "Done", title: "Realizado", type: "text", itemTemplate: doneText },
+            { name: "SensationName", title: "Sensaciones", type: "text", type: "text" },
             { title: "Ver resultados", type: "text", itemTemplate: seeResultsButtons }
         ]
     });

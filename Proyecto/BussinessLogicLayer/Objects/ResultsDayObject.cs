@@ -18,6 +18,7 @@ namespace BussinessLogicLayer.Objects
         public string DistType { get; set; }
         public int? Desnivel { get; set; }
         public int? AverageFrecuency { get; set; }
+        public int? MaxFrecuency { get; set; }
         public int? RithmDone { get; set; }
         public string RithmDoneStr { get; set; }
         public int? RithmObjective { get; set; }
@@ -41,12 +42,13 @@ namespace BussinessLogicLayer.Objects
             DistType = dbItem.DistType;
             Desnivel = dbItem.Desnivel;
             AverageFrecuency = dbItem.AverageFrecuency;
+            MaxFrecuency = dbItem.MaxFrecuency;
             RithmDone = dbItem.RithmDone;
             if(dbItem.RithmDone != null)
-                RithmDoneStr = $"{dbItem.RithmDone / 60}:{dbItem.RithmDone % 60}";
+                RithmDoneStr = $"{dbItem.RithmDone / 60}:{(dbItem.RithmDone % 60).ToString().PadLeft(2, '0')}";
             RithmObjective = dbItem.RithmObjective; 
             if(RithmObjective != null)
-                RithmObjectiveStr = $"{dbItem.RithmObjective / 60}:{dbItem.RithmObjective % 60}";
+                RithmObjectiveStr = $"{dbItem.RithmObjective / 60}:{(dbItem.RithmObjective % 60).ToString().PadLeft(2, '0')}";
             SerieName = dbItem.SerieName;
             DistDone = dbItem.DistDone;
             RateDone = dbItem.RateDone;
@@ -64,6 +66,7 @@ namespace BussinessLogicLayer.Objects
                 DistType = this.DistType,
                 Desnivel = this.Desnivel,
                 AverageFrecuency = this.AverageFrecuency,
+                MaxFrecuency = this.MaxFrecuency,
                 RithmDone = this.RithmDone,
                 RithmObjective = this.RithmObjective,
                 SerieName = this.SerieName,

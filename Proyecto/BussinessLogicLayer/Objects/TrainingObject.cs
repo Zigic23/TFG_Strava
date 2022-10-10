@@ -19,6 +19,7 @@ namespace BussinessLogicLayer.Objects
         public string Start5kmMark { get; set; }
         public int TimeCode { get; set; }
         public long UserCode { get; set; }
+        public DateTimeOffset BornDate { get; set; }
 
         public TrainingObject()
         {
@@ -37,6 +38,7 @@ namespace BussinessLogicLayer.Objects
             this.Start5kmMark = $"{trainingDbObject.TempStart5Number / 60} min. {trainingDbObject.TempStart5Number % 60} seg.";
             this.TimeCode = trainingDbObject.TimeCode;
             this.UserCode = trainingDbObject.UserCode;
+            this.BornDate = trainingDbObject.BornDate;
         }
     }
 }

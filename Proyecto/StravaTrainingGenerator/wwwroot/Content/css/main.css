@@ -5067,6 +5067,14 @@ p {
 .item_select_next .box_select .select {
   border-radius: 5px;
 }
+.red-cell.jsgrid-cell {
+  color: #e30000;
+  font-weight: bold;
+}
+.green-cell.jsgrid-cell {
+  color: #00c90f;
+  font-weight: bold;
+}
 /* General */
 @media only screen and (max-width: 990px) {
   ul {

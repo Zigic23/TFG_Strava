@@ -24,7 +24,7 @@
             { name: "DistObjective", title: "Distancia", type: "number", itemTemplate: DistObjectiveFunc },
             { name: "RithmObjectiveStr", title: "Rit. Objetivo", type: "text", },
             { name: "RithmDoneStr", title: "Rit. Realizado", type: "text" },
-            { name: "Difference", title: "Diferencia", type: "number" },
+            { name: "Difference", title: "Diferencia", type: "number", cellRenderer: DifferenceColor },
             { name: "Desnivel", title: "Desnivel", type: "number" },
             { name: "AverageFrecuency", title: "Frecuencia media", type: "number" },
             { name: "AverageRate", title: "Cadencia media", type: "number"}
@@ -35,6 +35,10 @@
 function resultsRowClass(item, itemIndex) {
     if (item.SerieName == "Calentamiento" || item.SerieName == "Enfriamiento" || item.SerieName.startsWith("Descanso"))
         return "darker-row";
+}
+
+function DifferenceColor(value, item) {
+    return $("<td>").text(value).addClass(value > 0 ? "green-cell" : value < 0 ? "red-cell" : "")
 }
 
 function DistObjectiveFunc(value, item) {

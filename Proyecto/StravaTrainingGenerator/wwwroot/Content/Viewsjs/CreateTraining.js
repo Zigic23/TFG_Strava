@@ -27,9 +27,12 @@
     let planType = $("#planType").val();
     hasError = hasError || !planType;
 
+    let dateBorn = new Date($("#born_date").val());
+    hasError = hasError || dateBorn.getDay() !== 1;
+
     if (hasError) {
         event.preventDefault();
-        alert("No se cumplen las condiciones establecidas para crear un entrenamiento, revise los días asignados, si comienza en lunes o si esta seleccionado un tipo de entrenamiento.");
+        alert("No se cumplen las condiciones establecidas para crear un entrenamiento, revise los días asignados, si comienza en lunes, si ha puesto una fecha de nacimiento o si esta seleccionado un tipo de entrenamiento.");
     }
 }
 

@@ -17,6 +17,11 @@
     </div>
     <div class="top_result_training">
         <h2 class="basic_text f1">Tipo de entrenamiento: @Model.TrainingTypeName</h2>
+        @if(Model.Done)
+        {
+            <h2 class="basic_text f1">Frecuencia máxima: @Model.ResultsDay.Select(r => r.MaxFrecuency).Max()</h2>
+            <h2 class="basic_text f1">Kilometros totales: @Model.ResultsDay.Sum(r => r.DistDone ?? 0)</h2>
+        }
         <h2 class="basic_text">Fecha de la sesión: @Model.Date.ToString("dd/MM/yyyy")</h2>
     </div>
     <div class="columns">

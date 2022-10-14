@@ -38,9 +38,11 @@ function resultsRowClass(item, itemIndex) {
 }
 
 function DifferenceColor(value, item) {
-    return $("<td>").text(value).addClass(value > 0 ? "green-cell" : value < 0 ? "red-cell" : "")
+    if ((item.SerieName == "Calentamiento" || item.SerieName == "Enfriamiento" || item.SerieName.startsWith("Descanso"))
+        return $("<td>").text(value).addClass(value > 0 ? "green-cell" : value < 0 ? "red-cell" : "");
+    return $("<td>").text(value);
 }
 
 function DistObjectiveFunc(value, item) {
-    return (item.DistDone != undefined ? item.DistDone : item.DistObjective) + " " + item.DistType;
+    return (item.DistDone != undefined ? item.DistDone : item.DistObjective) + " " + ((item.SerieName == "Calentamiento" || item.SerieName == "Enfriamiento" || item.SerieName.startsWith("Descanso")) && item.DistDone != undefined ? "m" : item.DistType);
 }

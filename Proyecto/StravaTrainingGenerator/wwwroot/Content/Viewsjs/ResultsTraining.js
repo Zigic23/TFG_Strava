@@ -38,8 +38,9 @@ function resultsRowClass(item, itemIndex) {
 }
 
 function DifferenceColor(value, item) {
-    if ((item.SerieName == "Calentamiento" || item.SerieName == "Enfriamiento" || item.SerieName.startsWith("Descanso"))
+    if ((item.SerieName == "Calentamiento" || item.SerieName == "Enfriamiento" || item.SerieName.startsWith("Descanso")){
         return $("<td>").text(value).addClass(value > 0 ? "green-cell" : value < 0 ? "red-cell" : "");
+    }
     return $("<td>");
 }
 

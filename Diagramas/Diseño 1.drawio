@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net" modified="2023-05-22T17:15:06.517Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="_vhtGiql-7umzeCV0vox" version="21.3.2" type="device">
+  <diagram name="Página-1" id="tGasbVyNzPwbUm8kwMrS">
+    <mxGraphModel dx="1434" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZWd0pGW9QoSTtCzK0dMh-79" value="Azure" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="280" y="137.5" width="350" height="152.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWd0pGW9QoSTtCzK0dMh-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZWd0pGW9QoSTtCzK0dMh-68" target="ZWd0pGW9QoSTtCzK0dMh-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWd0pGW9QoSTtCzK0dMh-68" value="Training Generator" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWd0pGW9QoSTtCzK0dMh-69" value="Strava" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-70" width="350" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWd0pGW9QoSTtCzK0dMh-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZWd0pGW9QoSTtCzK0dMh-70" target="ZWd0pGW9QoSTtCzK0dMh-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWd0pGW9QoSTtCzK0dMh-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZWd0pGW9QoSTtCzK0dMh-70" target="ZWd0pGW9QoSTtCzK0dMh-76">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="220" />
+              <mxPoint x="180" y="-20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWd0pGW9QoSTtCzK0dMh-70" value="Usuario" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="200" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWd0pGW9QoSTtCzK0dMh-71" value="Training Generator DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="530" y="180" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWd0pGW9QoSTtCzK0dMh-76" value="Portal OAuth 2.0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWd0pGW9QoSTtCzK0dMh-77" value="Strava API Rest" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWd0pGW9QoSTtCzK0dMh-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZWd0pGW9QoSTtCzK0dMh-68" target="ZWd0pGW9QoSTtCzK0dMh-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="365" y="120" />
+              <mxPoint x="455" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

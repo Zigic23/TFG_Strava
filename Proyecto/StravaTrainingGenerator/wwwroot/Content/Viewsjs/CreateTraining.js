@@ -28,7 +28,7 @@
     hasError = hasError || !planType;
 
     let dateBorn = new Date($("#born_date").val());
-    hasError = hasError || dateBorn.getDay() !== -1;
+    hasError = hasError || dateBorn.getDay() === -1;
 
     if (hasError) {
         event.preventDefault();
